@@ -1,0 +1,6 @@
+%\version "2.18.2"
+
+\pointAndClickOff
+noTime = \override Staff.TimeSignature #'stencil = ##f
+bbar = \bar "|"
+→ = \markup { \tiny \with-color #grey → }
