@@ -9,4 +9,5 @@
 	bottom-margin = 15\mm
 	left-margin = 15\mm
 	right-margin = 15\mm
+	system-system-spacing.padding = #7
 }
