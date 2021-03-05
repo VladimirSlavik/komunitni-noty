@@ -1,9 +1,3 @@
-\include "../common-includes/macros.ly"
-\include "../common-includes/paper.ly"
-
-\include "refren.ly"
-\include "sloky.ly"
-
 jan_křtitel_spolu = \bookpart {
 	\header {
 		title = "Jan Křtitel"
