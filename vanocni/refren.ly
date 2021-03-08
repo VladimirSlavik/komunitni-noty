@@ -1,4 +1,4 @@
-melodie_ref_prava = \relative c' {
+vanocni_melodie_ref_prava = \relative c' {
 	\key d \major
 	\clef treble
 	\language "deutsch"
@@ -13,7 +13,7 @@ melodie_ref_prava = \relative c' {
 	\cadenzaOff
 }
 
-melodie_ref_leva = \absolute {
+vanocni_melodie_ref_leva = \absolute {
 	\key d \major
 	\clef bass
 	\language "deutsch"
@@ -28,7 +28,7 @@ melodie_ref_leva = \absolute {
 	\cadenzaOff
 }
 
-melodie_ref_lidi = \relative c' {
+vanocni_melodie_ref_lidi = \relative c' {
 	\key d \major
 	\clef treble
 	\language "deutsch"
@@ -43,20 +43,20 @@ melodie_ref_lidi = \relative c' {
 	\cadenzaOff
 }
 
-slova_ref = \lyricmode {
+vanocni_slova_ref = \lyricmode {
 	\set stanza = "Ref.: "
 	A8 -- le8 -- lu4 -- ja,4
 	a4 -- le4 -- lu4 -- ja,4
 	a4 -- le4 -- lu2 -- ja.2
 }
 
-ref_doprovod = \new PianoStaff <<
-	\new Staff \melodie_ref_prava
-	\new Staff \melodie_ref_leva
-	\new Lyrics \slova_ref
+vanocni_ref_doprovod = \new PianoStaff <<
+	\new Staff \vanocni_melodie_ref_prava
+	\new Staff \vanocni_melodie_ref_leva
+	\new Lyrics \vanocni_slova_ref
 >>
 
-ref_lidi = \new StaffGroup <<
-	\new Staff \melodie_ref_lidi
-	\new Lyrics \slova_ref
+vanocni_ref_lidi = \new StaffGroup <<
+	\new Staff \vanocni_melodie_ref_lidi
+	\new Lyrics \vanocni_slova_ref
 >>

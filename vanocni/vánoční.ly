@@ -3,11 +3,11 @@
 \include "include.ly"
 
 \book {
-	\vánoční_spolu
+	\vanocni_spolu
 }
 \book {
-	\vánoční_doprovod
+	\vanocni_doprovod
 }
 \book {
-	\vánoční_lidi
+	\vanocni_lidi
 }

@@ -6,7 +6,7 @@
 \include "refren.ly"
 \include "sloky.ly"
 
-vánoční_spolu = \bookpart {
+vanocni_spolu = \bookpart {
 	\header {
 		title = "Vánoční píseň"
 	}
@@ -15,10 +15,10 @@ vánoční_spolu = \bookpart {
 	  \line { \huge "Doprovod" }
 	}
 	\score {
-		\ref_doprovod
+		\vanocni_ref_doprovod
 	}
 	\score {
-		\sloka_doprovod
+		\vanocni_sloka_doprovod
 	}
 	%\markup {
 	%  \vspace #2
@@ -29,22 +29,22 @@ vánoční_spolu = \bookpart {
 	  \line { \huge Komunita }
 	}
 	\score {
-		\ref_lidi
+		\vanocni_ref_lidi
 	}
 	\score {
-		\sloka_lidi
+		\vanocni_sloka_lidi
 	}
 }
 
-vánoční_doprovod = \bookpart {
+vanocni_doprovod = \bookpart {
 	\header {
 		title = "Vánoční píseň"
 	}
 	\score {
-		\ref_doprovod
+		\vanocni_ref_doprovod
 	}
 	\score {
-		\sloka_doprovod
+		\vanocni_sloka_doprovod
 	}
 	%\markup {
 	%  \vspace #2
@@ -52,14 +52,14 @@ vánoční_doprovod = \bookpart {
 	%}
 }
 
-vánoční_lidi = \bookpart {
+vanocni_lidi = \bookpart {
 	\header {
 		title = "Vánoční píseň"
 	}
 	\score {
-		\ref_lidi
+		\vanocni_ref_lidi
 	}
 	\score {
-		\sloka_lidi
+		\vanocni_sloka_lidi
 	}
 }
