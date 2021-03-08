@@ -6,14 +6,8 @@
 \include "refren.ly"
 \include "sloky.ly"
 
-\include "include.ly"
-
 \book {
-	\krtitel_spolu
-}
-\book {
-	\krtitel_doprovod
-}
-\book {
-	\krtitel_lidi
+	\include "doprovod.ly"
+	\include "lidi.ly"
+	\include "spolu.ly"
 }
