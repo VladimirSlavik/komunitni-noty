@@ -6,7 +6,7 @@
 \include "refren.ly"
 \include "sloky.ly"
 
-láska_doprovod = \bookpart {
+laska_doprovod = \bookpart {
 	\header {
 		title = "Kde je opravdová láska"
 	}
@@ -15,16 +15,16 @@ láska_doprovod = \bookpart {
 		\vspace #1
 	}
 	\score {
-		\ref_doprovod
+		\laska_ref_doprovod
 	}
 	\markup {
 	  \vspace #3
 	}
 	\score {
-		\sloka_doprovod
+		\laska_sloka_doprovod
 	}
 }
 
 \book {
-	\láska_doprovod
+	\laska_doprovod
 }

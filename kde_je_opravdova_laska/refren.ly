@@ -1,4 +1,4 @@
-melodie_ref_prava = \relative c' {
+laska_melodie_ref_prava = \relative c' {
 	\key g \major
 	\clef treble
 	\language "deutsch"
@@ -14,7 +14,7 @@ melodie_ref_prava = \relative c' {
 	\cadenzaOff
 }
 
-melodie_ref_leva = \relative c {
+laska_melodie_ref_leva = \relative c {
 	\key g \major
 	\clef bass
 	\language "deutsch"
@@ -30,14 +30,14 @@ melodie_ref_leva = \relative c {
 	\cadenzaOff
 }
 
-slova_ref = \lyricmode {
+laska_slova_ref = \lyricmode {
 	\set stanza = "Ref.: "
 	Kde8 je8 o8 -- prav8 -- do8 -- vá8 lás4 -- ka,4 _4
 	je8 ta8 -- ké4 Bůh2
 }
 
-ref_doprovod = \new PianoStaff <<
-	\new Staff \melodie_ref_prava
-	\new Staff \melodie_ref_leva
-	\new Lyrics \slova_ref
+laska_ref_doprovod = \new PianoStaff <<
+	\new Staff \laska_melodie_ref_prava
+	\new Staff \laska_melodie_ref_leva
+	\new Lyrics \laska_slova_ref
 >>
