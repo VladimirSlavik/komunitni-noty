@@ -1,13 +1,13 @@
 \version "2.18.2"
 
-\include "include.ly"
+\include "../common-includes/macros.ly"
+\include "../common-includes/paper.ly"
+
+\include "refren.ly"
+\include "sloky.ly"
 
 \book {
-	\vanocni_spolu
-}
-\book {
-	\vanocni_doprovod
-}
-\book {
-	\vanocni_lidi
+	\include "doprovod.ly"
+	\include "lidi.ly"
+	\include "spolu.ly"
 }
