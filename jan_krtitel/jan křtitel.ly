@@ -9,11 +9,11 @@
 \include "include.ly"
 
 \book {
-	\jan_křtitel_spolu
+	\krtitel_spolu
 }
 \book {
-	\jan_křtitel_doprovod
+	\krtitel_doprovod
 }
 \book {
-	\jan_křtitel_lidi
+	\krtitel_lidi
 }

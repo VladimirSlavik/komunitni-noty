@@ -1,6 +1,6 @@
 %\version "2.18.2"
 
-melodie_ref_prava = \relative c' {
+krtitel_melodie_ref_prava = \relative c' {
 	\key c \major
 	\clef treble
 	\language "deutsch"
@@ -15,7 +15,7 @@ melodie_ref_prava = \relative c' {
 	<a f>8 <g e>4 <f d>8 <g d>4\fermata \breathe \bar "||"
 }
 
-melodie_ref_leva = \absolute {
+krtitel_melodie_ref_leva = \absolute {
 	\key c \major
 	\clef bass
 	\language "deutsch"
@@ -30,7 +30,7 @@ melodie_ref_leva = \absolute {
 	<a d>4. <a f>8 <h g>4 \bar "||"
 }
 
-melodie_ref_lidi = \relative c' {
+krtitel_melodie_ref_lidi = \relative c' {
 	\key c \major
 	\clef treble
 	\language "deutsch"
@@ -45,7 +45,7 @@ melodie_ref_lidi = \relative c' {
 	a8 g4 f8 g4\fermata \breathe \bar "||"
 }
 
-slova_ref = \lyricmode {
+krtitel_slova_ref = \lyricmode {
 	\set stanza = "Ref.: "
 	Li16 -- dé8. slyš4 -- te,4
 	vo16 -- lá8. hlas8 na8 pou4 --
@@ -56,13 +56,13 @@ slova_ref = \lyricmode {
 	o8 -- svo4 -- bo8 -- dí.4
 }
 
-ref_doprovod = \new PianoStaff <<
-	\new Staff \melodie_ref_prava
-	\new Staff \melodie_ref_leva
-	\new Lyrics \slova_ref
+krtitel_ref_doprovod = \new PianoStaff <<
+	\new Staff \krtitel_melodie_ref_prava
+	\new Staff \krtitel_melodie_ref_leva
+	\new Lyrics \krtitel_slova_ref
 >>
 
-ref_lidi = \new StaffGroup <<
-	\new Staff \melodie_ref_lidi
-	\new Lyrics \slova_ref
+krtitel_ref_lidi = \new StaffGroup <<
+	\new Staff \krtitel_melodie_ref_lidi
+	\new Lyrics \krtitel_slova_ref
 >>

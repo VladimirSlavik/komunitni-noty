@@ -1,4 +1,4 @@
-jan_křtitel_spolu = \bookpart {
+krtitel_spolu = \bookpart {
 	\header {
 		title = "Jan Křtitel"
 		subtitle = "Adventní píseň"
@@ -8,13 +8,13 @@ jan_křtitel_spolu = \bookpart {
 	  \line { \huge "Doprovod" }
 	}
 	\score {
-		\ref_doprovod
+		\krtitel_ref_doprovod
 	}
 	\markup {
 	  \vspace #2
 	}
 	\score {
-		\sloka_doprovod
+		\krtitel_sloka_doprovod
 	}
 	\pageBreak
 	\markup {
@@ -22,44 +22,44 @@ jan_křtitel_spolu = \bookpart {
 	  \line { \huge Komunita }
 	}
 	\score {
-		\ref_lidi
+		\krtitel_ref_lidi
 	}
 	\markup {
 	  \vspace #1
 	}
 	\score {
-		\sloka_lidi
+		\krtitel_sloka_lidi
 	}
 }
 
-jan_křtitel_doprovod = \bookpart {
+krtitel_doprovod = \bookpart {
 	\header {
 		title = "Jan Křtitel"
 		subtitle = "Adventní píseň"
 	}
 	\score {
-		\ref_doprovod
+		\krtitel_ref_doprovod
 	}
 	\markup {
 	  \vspace #2
 	}
 	\score {
-		\sloka_doprovod
+		\krtitel_sloka_doprovod
 	}
 }
 
-jan_křtitel_lidi = \bookpart {
+krtitel_lidi = \bookpart {
 	\header {
 		title = "Jan Křtitel"
 		subtitle = "Adventní píseň"
 	}
 	\score {
-		\ref_lidi
+		\krtitel_ref_lidi
 	}
 	\markup {
 	  \vspace #1
 	}
 	\score {
-		\sloka_lidi
+		\krtitel_sloka_lidi
 	}
 }
