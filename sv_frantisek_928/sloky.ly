@@ -77,7 +77,7 @@ frantisek_slova_sloka_d = \lyricmode {
 	Kdo8 dá8 -- vá,8 dos8 -- tá8 -- vá,8
 	mno8 -- hem8 víc8 přij4 -- me,4
 	kdo8 ztrá8 -- cí,8 na8 -- lé8 -- zá8
-	se8 -- be8 i8 ji8 -- né,8
+	se8 -- be8 i8 ji4 -- né,4
 	kdo8 bliž8 -- ním8 od8 -- pouš8 -- tí,8
 	sám8 mi8 -- lost8 poz8 -- ná,4
 	ba8 a8 -- ni8 smrt8 mu8 víc8
