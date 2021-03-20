@@ -13,7 +13,7 @@ frantisek_melodie_sloka_prava = \relative c' {
 	e8[ f8 e8] g8[ a8 a8] \bbar
 	<c a>8[ <h a>8 <g e>8 <a f>8] <g e>4 \bbar
 	c,8[ d8 c8] e8[ g8 g8] \bbar
-	[a8[ g8 e8 f8] e4 \breathe \bar "|."
+	a8[ g8 e8 f8] e4 \breathe \bar "|."
 
 	\cadenzaOff
 }
