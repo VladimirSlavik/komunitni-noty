@@ -108,6 +108,12 @@ vanocni_sloka_doprovod = \new PianoStaff <<
 	\new Staff \vanocni_melodie_sloka_leva
 	\new Lyrics \vanocni_slova_sloka_aa
 	\new Lyrics \vanocni_slova_sloka_ab
+	\new Lyrics \vanocni_slova_sloka_ba
+	\new Lyrics \vanocni_slova_sloka_bb
+	\new Lyrics \vanocni_slova_sloka_ca
+	\new Lyrics \vanocni_slova_sloka_cb
+	\new Lyrics \vanocni_slova_sloka_da
+	\new Lyrics \vanocni_slova_sloka_db
 >>
 
 vanocni_sloka_lidi = \new StaffGroup <<
