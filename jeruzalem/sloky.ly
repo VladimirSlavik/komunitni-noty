@@ -4,50 +4,44 @@ jeruzalem_melodie_sloka_prava = \relative c' {
 	\key a \major
 	\clef treble
 	\language "deutsch"
-	\noTime
-	\autoBeamOff
+	\time 4/4
 	\accidentalStyle forget
-	\cadenzaOn
 	
-	<a' e>1 \bbar
-	<gis e>1 \bbar
-	<fis d>4 <fis d>2. \breathe \bbar
+	<a' e>1 |
+	<gis e>1 |
+	<fis d>4 <fis d>2. \breathe |
 	
-	<< {fis8[ fis8] fis8[ e8 a8 gis8] fis4} \\ {d8[ d8] e8[ e8 e8 e8] cis4} >> \bbar
-	<< {fis2.} \\ {cis2.} >> \breathe r4 \bbar
+	<< {fis8[ fis8] fis8[ e8 a8 gis8] fis4} \\ {d8[ d8] e8[ e8 e8 e8] cis4} >> |
+	<< {fis2.} \\ {cis2.} >> \breathe r4 |
 	
-	<a' e>1 \bbar
-	<gis e>1 \bbar
-	<fis d>4 <fis d>2. \breathe \bbar
+	<a' e>1 |
+	<gis e>1 |
+	<fis d>4 <fis d>2. \breathe |
 	
-	<< {fis8[ fis8 fis8 e8] a8[ gis8] a8} \\ {d,8[ d8 d8 d8] e8[ e8] e8} >> \bbar
+	<< {fis8[ fis8 fis8 e8] a8 gis4 a8} \\ {d,8[ d8 d8 d8] e8 e4 e8} >> |
 	<fis cis>2. r4 \breathe \bar "|."
-	
-	\cadenzaOff
 }
 
 jeruzalem_melodie_sloka_leva = \relative c {
 	\key a \major
 	\clef bass
 	\language "deutsch"
-	\noTime
-	\autoBeamOff
+	\time 4/4
 	\accidentalStyle forget
-	\cadenzaOn
 	
-	<cis' a>1 \bbar <h e,>1 \bbar <a d,>4 <a d,>2. \bbar
+	<cis' a>1 |
+	<h e,>1 |
+	<a d,>4 <a d,>2. |
 	
-	<< {h8[ h8] gis8[ gis8 gis8 gis8] a4} \\ {h,8[ h8] cis8[ cis8 cis8 cis8] fis4} >> \bbar
-	<< {a2.} \\ {fis2.} >> r4 \bbar
+	<< {h8[ h8] gis8[ gis8 gis8 gis8] a4} \\ {h,8[ h8] cis8[ cis8 cis8 cis8] fis4} >> |
+	<< {a2.} \\ {fis2.} >> r4 |
 	
-	<cis' a>1 \bbar
-	<h e,>1 \bbar
-	<a d,>4 <a d,>2. \bbar
+	<cis' a>1 |
+	<h e,>1 |
+	<a d,>4 <a d,>2. |
 	
-	<< {h8[ h8 h8 h8] gis8[ gis8] gis8} \\ {h,8[ h8 h8 h8] cis8[ cis8] cis8} >> \bbar
+	<< {h8[ h8 h8 h8] gis8 gis4 gis8} \\ {h,8[ h8 h8 h8] cis8 cis4 cis8} >> |
 	<a' fis>2. r4 \bar "|."
-	
-	\cadenzaOff
 }
 
 jeruzalem_slova_sloka_a = \lyricmode {
@@ -63,7 +57,7 @@ jeruzalem_slova_sloka_a = \lyricmode {
 	"ze svých učed"1 --
 	ní4 -- ků,2.
 	
-	_8 a8 -- by8 mu8 při8 -- ved8 -- li8
+	_8 a8 -- by8 mu8 při8 -- ved4 -- li8
 	oslíka.2. _4
 }
 
@@ -80,7 +74,7 @@ jeruzalem_slova_sloka_b = \lyricmode {
 	"splnilo pro"1 --
 	roc4 -- tví,2.
 	
-	a8 já8 vstou8 -- pil8 do8 své8 -- ho8
+	a8 já8 vstou8 -- pil8 do8 své4 -- ho8
 	města.2. _4
 }
 
@@ -97,7 +91,7 @@ jeruzalem_slova_sloka_c = \lyricmode {
 	"a bez"1 --
 	bran4 -- ný,2.
 	
-	_8 je8 -- de8 na8 mlá8 -- dě8 -- ti8
+	_8 je8 -- de8 na8 mlá8 -- dě4 -- ti8
 	osla.2. _4
 }
 
@@ -114,7 +108,7 @@ jeruzalem_slova_sloka_d = \lyricmode {
 	"přesto ml"1 --
 	če4 -- li,2.
 	
-	_8 _8 kři8 -- če8 -- lo8 by8 ka8 --
+	_8 _8 kři8 -- če8 -- lo8 by4 ka8 --
 	mení.2. _4
 }
 
@@ -131,7 +125,7 @@ jeruzalem_slova_sloka_e = \lyricmode {
 	"tvého po"1 --
 	ko4 -- je,2.
 	
-	_8 ny8 -- ní8 jsi8 však8 za8 -- sle8 --
+	_8 ny8 -- ní8 jsi8 však8 za4 -- sle8 --
 	pený.2. _4
 }
 

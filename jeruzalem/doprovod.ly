@@ -1,6 +1,6 @@
 \bookpart {
 	\header {
-		title = "Zpěv o příchodu do Jeruzaléma"
+		title = "Hymnus vjezu do Jeruzaléma"
 		subtitle = "„Není dobré aby prorok“"
 	}
 	\markup {
