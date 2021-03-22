@@ -13,6 +13,9 @@
 \include "vanocni/refren.ly"
 \include "vanocni/sloky.ly"
 
+\include "jeruzalem/refren.ly"
+\include "jeruzalem/sloky.ly"
+
 \include "sv_frantisek_928/refren.ly"
 \include "sv_frantisek_928/sloky.ly"
 
@@ -21,5 +24,6 @@
 	\include "kde_je_opravdova_laska/doprovod.ly"
 	\include "jan_krtitel/doprovod.ly"
 	\include "vanocni/doprovod.ly"
+	\include "jeruzalem/doprovod.ly"
 	\include "sv_frantisek_928/doprovod.ly"
 }
