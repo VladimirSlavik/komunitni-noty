@@ -5,6 +5,7 @@
 	indent = 0\mm
 	ragged-last = ##f
 	ragged-bottom = ##f
+	ragged-right = ##f
 	top-margin = 15\mm
 	bottom-margin = 15\mm
 	left-margin = 15\mm
