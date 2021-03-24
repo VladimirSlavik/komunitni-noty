@@ -19,7 +19,7 @@ jeruzalem_melodie_sloka_prava = \relative c' {
 	<fis d>4 <fis d>2. \breathe |
 	
 	<< {fis8[ fis8 fis8 e8] a8 gis4 a8} \\ {d,8[ d8 d8 d8] e8 e4 e8} >> |
-	<fis cis>2. r4 \breathe \bar "|."
+	<fis cis>2. \breathe r4 \bar "|."
 }
 
 jeruzalem_melodie_sloka_leva = \relative c {
