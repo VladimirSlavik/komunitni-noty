@@ -16,6 +16,8 @@
 \include "vanocni/refren.ly"
 \include "vanocni/sloky.ly"
 
+\include "postni_hymnus/sloka.ly"
+
 \include "jeruzalem/refren.ly"
 \include "jeruzalem/sloky.ly"
 
@@ -30,6 +32,7 @@
 	\include "kde_je_opravdova_laska/doprovod.ly"
 	\include "jan_krtitel/doprovod.ly"
 	\include "vanocni/doprovod.ly"
+	\include "postni_hymnus/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
 	\include "zpev_vzkriseni/doprovod.ly"
 	\include "sv_frantisek_928/doprovod.ly"
