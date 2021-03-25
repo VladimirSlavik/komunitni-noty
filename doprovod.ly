@@ -19,6 +19,8 @@
 \include "jeruzalem/refren.ly"
 \include "jeruzalem/sloky.ly"
 
+\include "zpev_vzkriseni/sloka.ly"
+
 \include "sv_frantisek_928/refren.ly"
 \include "sv_frantisek_928/sloky.ly"
 
@@ -29,5 +31,6 @@
 	\include "jan_krtitel/doprovod.ly"
 	\include "vanocni/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
+	\include "zpev_vzkriseni/doprovod.ly"
 	\include "sv_frantisek_928/doprovod.ly"
 }
