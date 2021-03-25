@@ -84,7 +84,7 @@ jeruzalem_slova_sloka_c = \lyricmode {
 	"dcero si"1 --
 	on4 -- ská,2.
 	
-	zde8 -- k_to8 -- bě8 při8 -- chá8 -- zí8 tvůj4
+	zde8 k_to8 -- bě8 při8 -- chá8 -- zí8 tvůj4
 	král,2. _4
 	
 	trpělivý1
@@ -101,7 +101,7 @@ jeruzalem_slova_sloka_d = \lyricmode {
 	"splní pro"1 --
 	roc4 -- tví,2.
 	
-	hle8 -- k_to8 -- bě8 při8 -- chá8 -- zí8 tvůj4
+	hle8 k_to8 -- bě8 při8 -- chá8 -- zí8 tvůj4
 	Pán,2. _4
 	
 	kdybychom1
