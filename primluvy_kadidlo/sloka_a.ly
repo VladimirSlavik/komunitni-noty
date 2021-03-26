@@ -45,8 +45,8 @@ kadidlo_slova_a_a = \lyricmode {
 	kadidlo1
 	
 	"a mé ruce"1
-	ja4 -- ko4 mi4 -- lo4 -- dar4
-	večera.1
+	ja4 -- ko4 ve4 -- čer4 -- ní4
+	oběť.1
 }
 
 kadidlo_slova_a_c = \lyricmode {
