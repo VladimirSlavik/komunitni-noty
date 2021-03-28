@@ -23,6 +23,9 @@
 
 \include "zpev_vzkriseni/sloka.ly"
 
+\include "spasa_slava_sila/refren.ly"
+\include "spasa_slava_sila/sloky.ly"
+
 \include "sv_frantisek_928/refren.ly"
 \include "sv_frantisek_928/sloky.ly"
 
@@ -35,5 +38,6 @@
 	\include "postni_hymnus/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
 	\include "zpev_vzkriseni/doprovod.ly"
+	\include "spasa_slava_sila//doprovod.ly"
 	\include "sv_frantisek_928/doprovod.ly"
 }
