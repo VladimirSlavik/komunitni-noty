@@ -39,7 +39,7 @@ vanocni_melodie_ref_lidi = \relative c' {
 }
 
 vanocni_slova_ref = \lyricmode {
-	\set stanza = "Ref.: "
+	\set stanza = "Ref. "
 	_4 A8 -- le8 -- lu4 -- ja,4
 	a4 -- le4 -- lu4 -- ja,4
 	a4 -- le4 -- lu2 -- ja.2

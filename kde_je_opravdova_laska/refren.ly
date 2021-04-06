@@ -31,7 +31,7 @@ laska_melodie_ref_leva = \relative c {
 }
 
 laska_slova_ref = \lyricmode {
-	\set stanza = "Ref.: "
+	\set stanza = "Ref. "
 	Kde8 je8 o8 -- prav8 -- do8 -- vá8 lás4 -- ka,4 _4
 	je8 ta8 -- ké4 Bůh2
 }

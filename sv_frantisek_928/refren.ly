@@ -37,7 +37,7 @@ frantisek_melodie_ref_leva = \relative c {
 }
 
 frantisek_slova_ref = \lyricmode {
-	\set stanza = "Ref.: "
+	\set stanza = "Ref. "
 	 U8 -- čiň8 mě,8 Pa8 -- ne,8
 	 nás4 -- tro8 -- jem,4 ať8
 	 zá4. -- řím,4 ať8

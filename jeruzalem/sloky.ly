@@ -45,7 +45,7 @@ jeruzalem_melodie_sloka_leva = \relative c {
 }
 
 jeruzalem_slova_sloka_a = \lyricmode {
-	\set stanza = "1.: "
+	\set stanza = "1. "
 	Když8 byl8 Je8 -- žíš8 do8 -- o8 -- prav8 -- dy8
 	blíz4 -- ko,2.
 	
@@ -60,7 +60,7 @@ jeruzalem_slova_sloka_a = \lyricmode {
 }
 
 jeruzalem_slova_sloka_b = \lyricmode {
-	\set stanza = "2.: "
+	\set stanza = "2. "
 	To8 -- mu8 kdo8 se8 na8 to8 bu8 -- de8
 	tá4 -- zat,2.
 	
@@ -75,7 +75,7 @@ jeruzalem_slova_sloka_b = \lyricmode {
 }
 
 jeruzalem_slova_sloka_c = \lyricmode {
-	\set stanza = "3.: "
+	\set stanza = "3. "
 	Ne8 -- stra8 -- chuj8 se8 nic8 dce8 -- ro8 si8 --
 	on4 -- ská,2.
 	
@@ -90,7 +90,7 @@ jeruzalem_slova_sloka_c = \lyricmode {
 }
 
 jeruzalem_slova_sloka_d = \lyricmode {
-	\set stanza = "4.: "
+	\set stanza = "4. "
 	Tak8 se8 te8 -- dy8 na8 -- pl8 -- ní8 pro8 --
 	roc4 -- tví,2.
 	
@@ -105,7 +105,7 @@ jeruzalem_slova_sloka_d = \lyricmode {
 }
 
 jeruzalem_slova_sloka_e = \lyricmode {
-	\set stanza = "5.: "
+	\set stanza = "5. "
 	Je8 -- ru8 -- za8 -- lé8 -- me,8 Je8 -- ru8 -- za8 --
 	lé4 -- me,2.
 	

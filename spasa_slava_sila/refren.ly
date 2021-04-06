@@ -35,7 +35,7 @@ spasa_slava_sila_melodie_ref_leva = \relative c {
 }
 
 spasa_slava_sila_slova_ref = \lyricmode {
-	\set stanza = "Ref.: "
+	\set stanza = "Ref. "
 	Náš4 Pán4 už4 není2
 	"v hro"2 -- bě,2
 	on4 byl4 vzkří2 -- šen,2

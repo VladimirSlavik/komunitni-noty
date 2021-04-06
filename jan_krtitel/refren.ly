@@ -46,7 +46,7 @@ krtitel_melodie_ref_lidi = \relative c' {
 }
 
 krtitel_slova_ref = \lyricmode {
-	\set stanza = "Ref.: "
+	\set stanza = "Ref. "
 	Li16 -- dé8. slyš4 -- te,4
 	vo16 -- lá8. hlas8 na8 pou4 --
 	šti:4 _4 Při8 -- pra8 --

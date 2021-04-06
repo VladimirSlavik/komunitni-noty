@@ -83,7 +83,7 @@ krtitel_melodie_sloka_lidi = \relative c' {
 }
 
 krtitel_slova_sloka_a = \lyricmode {
-	\set stanza = "1.: "
+	\set stanza = "1. "
 	"Na poušti judské"1
 	"prorok Jan bývá"1
 	"vzdálen od zástupů"1
@@ -95,7 +95,7 @@ krtitel_slova_sloka_a = \lyricmode {
 }
 
 krtitel_slova_sloka_b = \lyricmode {
-	\set stanza = "2.: "
+	\set stanza = "2. "
 	"Jdou učedníci od"1
 	"Jana k Ježíši"1
 	"na rtech s otázkou snad"1
@@ -108,7 +108,7 @@ krtitel_slova_sloka_b = \lyricmode {
 }
 
 krtitel_slova_sloka_c = \lyricmode {
-	\set stanza = "3.: "
+	\set stanza = "3. "
 	"Dnes ještě lidé"1
 	"cítí samotu"1
 	"sedí na náměstí"1
