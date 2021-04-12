@@ -43,11 +43,15 @@
 
 %------------------------------------------------------------------------------
 
+book_name = "Doprovodník"
 
 \book {
+	\include "common-includes/frontpage.ly"
 	\markuplist \table-of-contents
 	\pageBreak
+	
 	\include "modlitba_aleluja/doprovod.ly"
+	
 	\include "primluvy_kadidlo/doprovod.ly"
 	\include "kde_je_opravdova_laska/doprovod.ly"
 	\include "jan_krtitel/doprovod.ly"
