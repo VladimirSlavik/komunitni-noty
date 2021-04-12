@@ -4,6 +4,9 @@
 \include "common-includes/paper.ly"
 
 
+\include "modlitba_aleluja/refren.ly"
+\include "modlitba_aleluja//sloky.ly"
+
 \include "primluvy_kadidlo/sloka_a.ly"
 \include "primluvy_kadidlo/sloka_b.ly"
 
@@ -34,6 +37,7 @@
 
 
 \book {
+	\include "modlitba_aleluja/doprovod.ly"
 	\include "primluvy_kadidlo/doprovod.ly"
 	\include "kde_je_opravdova_laska/doprovod.ly"
 	\include "jan_krtitel/doprovod.ly"
