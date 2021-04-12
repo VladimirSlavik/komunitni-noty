@@ -24,6 +24,8 @@
 \include "jeruzalem/refren.ly"
 \include "jeruzalem/sloky.ly"
 
+\include "hymnus_sv_krize/sloka.ly"
+
 \include "zpev_vzkriseni/sloka.ly"
 
 \include "spasa_slava_sila/refren.ly"
@@ -44,6 +46,7 @@
 	\include "vanocni/doprovod.ly"
 	\include "postni_hymnus/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
+	\include "hymnus_sv_krize//doprovod.ly"
 	\include "zpev_vzkriseni/doprovod.ly"
 	\include "spasa_slava_sila/doprovod.ly"
 	\include "hymnus_vzkriseni/doprovod.ly"
