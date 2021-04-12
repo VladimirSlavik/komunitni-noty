@@ -11,4 +11,9 @@
 	left-margin = 15\mm
 	right-margin = 15\mm
 	system-system-spacing.padding = #7
+	tocTitleMarkup = \markup \column {
+		\vspace #2
+		\fill-line { \null \huge \bold "Obsah" \null }
+		\vspace #1
+	}
 }

@@ -2,6 +2,7 @@
 	\header {
 		title = "Aleluja při čtení z Písma"
 	}
+	\tocItem \markup { "Aleluja při čtení z Písma" }
 	\markup {
 	  \column {
 			\vspace #2

@@ -3,9 +3,7 @@
 		title = "Hymnus svatého kříže"
 		%subtitle = ""
 	}
-	%\paper {
-	%	system-system-spacing.padding = #2.5 % tweaked to fit on one page
-	%}
+	\tocItem \markup { "Hymnus svatého kříže" }
 	\markup {
 	  \vspace #2
 	}

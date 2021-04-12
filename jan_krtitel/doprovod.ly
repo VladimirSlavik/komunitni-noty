@@ -3,6 +3,7 @@
 		title = "Jan Křtitel"
 		subtitle = "Adventní píseň"
 	}
+	\tocItem \markup { "Jan Křtitel" }
 	\score {
 		\krtitel_ref_doprovod
 	}

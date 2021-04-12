@@ -2,6 +2,7 @@
 	\header {
 		title = "Vánoční píseň"
 	}
+	\tocItem \markup { "Vánoční píseň" }
 	\score {
 		\vanocni_ref_doprovod
 	}

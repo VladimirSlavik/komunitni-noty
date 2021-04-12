@@ -2,6 +2,7 @@
 	\header {
 		title = "Hymnus vzkříšení"
 	}
+	\tocItem \markup { "Hymnus vzkříšení" }
 	\markup {
 	  \vspace #2
 	}

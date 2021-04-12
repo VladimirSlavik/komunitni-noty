@@ -4,8 +4,11 @@
 \include "common-includes/paper.ly"
 
 
+%------------------------------------------------------------------------------
+
+
 \include "modlitba_aleluja/refren.ly"
-\include "modlitba_aleluja//sloky.ly"
+\include "modlitba_aleluja/sloky.ly"
 
 \include "primluvy_kadidlo/sloka_a.ly"
 \include "primluvy_kadidlo/sloka_b.ly"
@@ -38,7 +41,12 @@
 \include "sv_frantisek_928/sloky.ly"
 
 
+%------------------------------------------------------------------------------
+
+
 \book {
+	\markuplist \table-of-contents
+	\pageBreak
 	\include "modlitba_aleluja/doprovod.ly"
 	\include "primluvy_kadidlo/doprovod.ly"
 	\include "kde_je_opravdova_laska/doprovod.ly"
@@ -46,7 +54,7 @@
 	\include "vanocni/doprovod.ly"
 	\include "postni_hymnus/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
-	\include "hymnus_sv_krize//doprovod.ly"
+	\include "hymnus_sv_krize/doprovod.ly"
 	\include "zpev_vzkriseni/doprovod.ly"
 	\include "spasa_slava_sila/doprovod.ly"
 	\include "hymnus_vzkriseni/doprovod.ly"

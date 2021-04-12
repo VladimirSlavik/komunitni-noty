@@ -2,6 +2,7 @@
 	\header {
 		title = "Kde je opravdová láska"
 	}
+	\tocItem \markup { "Kde je opravdová láska" }
 	\markup {
 		\fill-line { \center-column { "Brněnská verze frázování" } }
 		\vspace #1

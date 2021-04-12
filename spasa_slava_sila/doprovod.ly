@@ -1,8 +1,9 @@
 \bookpart {
 	\header {
-		title = "Spása, sláva a síla"
-		subtitle = "Hymnus Velikonoc"
+		title = "Hymnus Velikonoc"
+		subtitle = "Spása, sláva a síla"
 	}
+	\tocItem \markup { "Hymnus Velikonoc" }
 	\score {
 		\spasa_slava_sila_ref_doprovod
 	}

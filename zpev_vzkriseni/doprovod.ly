@@ -3,6 +3,7 @@
 		title = "Zpěv vzkříšení"
 		%subtitle = "Závěr modlitby Velikonoc"
 	}
+	\tocItem \markup "Zpěv vzkříšení"
 	\markup {
 		%\fill-line { \center-column { "Nějaký text..." } }
 		\column {
