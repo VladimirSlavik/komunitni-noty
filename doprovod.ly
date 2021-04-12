@@ -7,6 +7,8 @@
 %------------------------------------------------------------------------------
 
 
+\include "modlitba_pozvani/sloka.ly"
+
 \include "modlitba_aleluja/refren.ly"
 \include "modlitba_aleluja/sloky.ly"
 
@@ -50,6 +52,7 @@ book_name = "Doprovodník"
 	\markuplist \table-of-contents
 	\pageBreak
 	
+	\include "modlitba_pozvani/doprovod.ly"
 	\include "modlitba_aleluja/doprovod.ly"
 	
 	\include "primluvy_kadidlo/doprovod.ly"
