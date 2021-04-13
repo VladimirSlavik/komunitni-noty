@@ -16,4 +16,5 @@
 		\fill-line { \null \huge \bold "Obsah" \null }
 		\vspace #1
 	}
+	first-page-number = #0
 }

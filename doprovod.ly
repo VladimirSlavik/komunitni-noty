@@ -9,6 +9,10 @@
 
 \include "modlitba_pozvani/sloka.ly"
 
+\include "modlitba_zalm/refren.ly"
+\include "modlitba_zalm/sloka_sbor.ly"
+\include "modlitba_zalm/sloka_lid.ly"
+
 \include "modlitba_aleluja/refren.ly"
 \include "modlitba_aleluja/sloky.ly"
 
@@ -53,6 +57,7 @@ book_name = "Doprovodník"
 	\pageBreak
 	
 	\include "modlitba_pozvani/doprovod.ly"
+	\include "modlitba_zalm/doprovod.ly"
 	\include "modlitba_aleluja/doprovod.ly"
 	
 	\include "primluvy_kadidlo/doprovod.ly"
