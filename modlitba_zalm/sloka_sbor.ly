@@ -43,6 +43,21 @@ modlitba_zalm_melodie_sloka_sbor_leva = \relative c {
 	\cadenzaOff
 }
 
+modlitba_zalm_melodie_sloka_na_tri = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+	
+	d8 fis8 a\breve fis2 \breathe \bbar
+	a\breve h4 a2 \breathe \bbar
+	a\breve h8 gis8 a4 fis4 \bar "|."
+	
+	\cadenzaOff
+}
+
 
 modlitba_zalm_slova_sloka_sbor = \lyricmode {
 	

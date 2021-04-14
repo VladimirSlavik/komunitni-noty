@@ -4,7 +4,7 @@
 	}
 	\tocItem \markup { "Žalm" }
 	\markup {
-	  \column {
+		\column {
 			\vspace #2
 			\justify { Antifonu zpívá na začátku jednou předzpěvák či sbor, poté ji zopakuje celé shromáždění.
 				Na konci ji již zpívají jen jednou všichni spolu. Ve zpěvu jednotlivých slok žalmu se střídají
@@ -12,10 +12,7 @@
 			}
 			\vspace #0.75
 			\justify { %{ Texty naznačují možné frázování na příkladech konkrétních žalmů dle žaltáře. %}
-				Podle konkrétního frázování je možné vynechat či upravit nádechy. }
-			\vspace #0.75
-			\justify { Při sloce „na tři řádky“ kde první je zakončen křížkem \large "†" první řádek užije
-				první tři noty sloky (D-Fis-A) a pak se „vrací“ zpět na Fis. Druhý řádek začíná na A a pokračuje dále. }
+				Podle konkrétního frázování je možné či nutné vynechat nebo upravit nádechy. }
 			\vspace #2
 			\line { \large "Antifona" }
 		}
@@ -24,17 +21,31 @@
 		\modlitba_zalm_ref_doprovod
 	}
 	\markup {
-	  \vspace #2
+	  \vspace #1.5
 	  \line { \large "Sbor" }
 	}
 	\score {
 		\modlitba_zalm_sloka_sbor_doprovod
 	}
 	\markup {
-	  \vspace #2
+	  \vspace #1.5
 	  \line { \large "Všichni" }
 	}
 	\score {
 		\modlitba_zalm_sloka_lid_doprovod
+	}
+	\markup {
+		\column {
+			\vspace #2
+			\justify { 
+				Jeden takt sloky výše odpovídá jednomu verši, ovšem pouze pro běžné sloky o dvou verších.
+				Sloka o třech verších kde první je zakončen křížkem \large "†" se provede takto:
+				První verš užije první tři noty sloky (d-fis-a) a pak se „vrací zpět“ na fis;
+				druhý verš začíná na a a pokračuje dále. }
+			\vspace #0.75
+		}
+	}
+	\score {
+		\modlitba_zalm_melodie_sloka_na_tri
 	}
 }
