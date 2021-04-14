@@ -16,6 +16,8 @@
 \include "modlitba_aleluja/refren.ly"
 \include "modlitba_aleluja/sloky.ly"
 
+\include "modlitba_primluvy_za_chude/sloka.ly"
+
 \include "primluvy_kadidlo/sloka_a.ly"
 \include "primluvy_kadidlo/sloka_b.ly"
 
@@ -59,6 +61,7 @@ book_name = "Doprovodník"
 	\include "modlitba_pozvani/doprovod.ly"
 	\include "modlitba_zalm/doprovod.ly"
 	\include "modlitba_aleluja/doprovod.ly"
+	\include "modlitba_primluvy_za_chude/doprovod.ly"
 	
 	\include "primluvy_kadidlo/doprovod.ly"
 	\include "kde_je_opravdova_laska/doprovod.ly"
