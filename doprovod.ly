@@ -40,6 +40,8 @@
 
 \include "hymnus_sv_krize/sloka.ly"
 
+\include "zpev_marii/sloka.ly"
+
 \include "zpev_vzkriseni/sloka.ly"
 
 \include "spasa_slava_sila/refren.ly"
@@ -74,6 +76,7 @@ book_name = "Doprovodník"
 	\include "postni_hymnus/doprovod.ly"
 	\include "jeruzalem/doprovod.ly"
 	\include "hymnus_sv_krize/doprovod.ly"
+	\include "zpev_marii/doprovod.ly"
 	\include "zpev_vzkriseni/doprovod.ly"
 	\include "spasa_slava_sila/doprovod.ly"
 	\include "hymnus_vzkriseni/doprovod.ly"
