@@ -58,6 +58,19 @@ modlitba_pozvani_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_pozvani_akordy = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	d1 s2.
+	d2 g4 a4 d2
+	d2 s8 h2:m
+	g2 a4 d2.
+	d\breve
+	d8 s2 g2 a4 d2
+	d8 g8 d4 a4 d1
+}
+
+
 modlitba_pozvani_slova_sloka = \lyricmode {
 	\override LyricText.font-shape = #'italic
 	Bo8 -- že,4. přijď8 a8 spas4 nás.2.
@@ -74,6 +87,7 @@ modlitba_pozvani_slova_sloka = \lyricmode {
 
 
 modlitba_pozvani_sloka_doprovod = \new PianoStaff <<
+	\new ChordNames \modlitba_pozvani_akordy
 	\new Staff \modlitba_pozvani_melodie_sloka_prava
 	\new Staff \modlitba_pozvani_melodie_sloka_leva
 	\new Lyrics \modlitba_pozvani_slova_sloka
