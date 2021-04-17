@@ -56,6 +56,15 @@ modlitba_zalm_melodie_ref_leva = \relative c {
 	\cadenzaOff
 }
 
+
+modlitba_zalm_ref_akordy = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	fis4.:m d\breve
+	e\breve s\breve s4 fis4:m
+}
+
+
 %{
 modlitba_zalm_slova_ref_a = \lyricmode {
 	\set stanza = "1 "
@@ -98,6 +107,7 @@ modlitba_zalm_slova_ref_d = \lyricmode {
 
 
 modlitba_zalm_ref_doprovod = \new PianoStaff <<
+	\new ChordNames \modlitba_zalm_ref_akordy
 	\new Staff \modlitba_zalm_melodie_ref_prava
 	\new Staff \modlitba_zalm_melodie_ref_leva
 	%\new Lyrics \modlitba_zalm_slova_ref_a
