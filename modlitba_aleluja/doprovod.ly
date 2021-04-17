@@ -1,11 +1,12 @@
 \bookpart {
 	\header {
 		title = "Aleluja při čtení z Písma"
+		tagline = ##f
 	}
 	\tocItem \markup { "Aleluja při čtení z Písma" }
 	\markup {
 	  \column {
-			\vspace #2
+			\vspace #1.5
 			\line { Před a po čtení Písma se opakuje stejné schéma: }
 			\vspace #0.25
 			\line { \bold P: \italic Aleluja... \bold V: Aleluja...  Toto je...  Aleluja...}
@@ -14,7 +15,7 @@
 			\vspace #0.75
 			\line { V postní době se zpívá \italic { Chvála Tobě } namísto \italic { Aleluja }. }
 			\line { Velikonoční modlitba má stejný text před a po Písmu. }
-			\vspace #2
+			\vspace #1
 		}
 	}
 	\score {

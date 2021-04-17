@@ -68,6 +68,19 @@ modlitba_aleluja_melodie_ref_leva = \absolute {
 	\bar ":|."
 }
 
+
+modlitba_aleluja_ref_akordy = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	d2
+	s4 g4
+	d2
+	s2
+	a2:7
+	d2
+}
+
+
 modlitba_aleluja_slova_ref_a = \lyricmode {
 	A8 -- le8 -- lu8 -- ja,8 a8 -- le8 -- lu4 -- ja,2
 	a4 -- le4 -- lu2 -- ja.2
@@ -80,6 +93,7 @@ modlitba_aleluja_slova_ref_b = \lyricmode {
 }
 
 modlitba_aleluja_ref_doprovod = \new PianoStaff <<
+	\new ChordNames \modlitba_aleluja_ref_akordy
 	\new Staff \modlitba_aleluja_melodie_ref_prava
 	\new Staff \modlitba_aleluja_melodie_ref_leva
 	\new Lyrics \modlitba_aleluja_slova_ref_a

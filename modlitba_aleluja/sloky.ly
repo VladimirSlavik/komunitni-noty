@@ -67,6 +67,16 @@ modlitba_aleluja_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_aleluja_sloka_akordy = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	d\breve
+	h\breve s4 e4:m h2:m
+	fis\breve:m fis\breve:m
+	s4 a2.
+}
+
+
 modlitba_aleluja_slova_sloka_a = \lyricmode {
 	\set stanza = \markup \normal-text \italic "za chudé, před "
 	"Toto je radostná zvěst chudým,"\breve
@@ -110,6 +120,7 @@ modlitba_aleluja_slova_sloka_e = \lyricmode {
 
 
 modlitba_aleluja_sloka_doprovod = \new PianoStaff <<
+	\new ChordNames \modlitba_aleluja_sloka_akordy
 	\new Staff \modlitba_aleluja_melodie_sloka_prava
 	\new Staff \modlitba_aleluja_melodie_sloka_leva
 	
