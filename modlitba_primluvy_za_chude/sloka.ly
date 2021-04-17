@@ -64,6 +64,16 @@ modlitba_primluvy_chudi_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_primluvy_chudi_akordy = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	d\breve
+	d\breve h2:m e8:m a8 d2
+	d4 a4 d\breve
+	a\breve s8 h1:m
+}
+
+
 modlitba_primluvy_chudi_slova_sloka_a = \lyricmode {
 	\set stanza = "1. "
 	\override LyricText.font-shape = #'italic
@@ -156,8 +166,10 @@ modlitba_primluvy_chudi_slova_sloka_i = \lyricmode {
 
 
 modlitba_primluvy_chudi_sloka_doprovod = \new PianoStaff <<
+	\new ChordNames \modlitba_primluvy_chudi_akordy
 	\new Staff \modlitba_primluvy_chudi_melodie_sloka_prava
 	\new Staff \modlitba_primluvy_chudi_melodie_sloka_leva
+	
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_a
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_b
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_c
