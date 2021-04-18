@@ -70,6 +70,15 @@ hymnus_vzkriseni_melodie_sloka_leva = \relative c {
 	\cadenzaOff
 }
 
+hymnus_vzkriseni_akordy_sloka = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	c2 g4 a2:m
+	c2 d2:m
+	g2 c2
+	c2 f2 c1
+}
+
 hymnus_vzkriseni_slova_sloka_a = \lyricmode {
 	\set stanza = "1. "
 	"I přes těžký"2 "kámen na"4 hrobě,2
@@ -107,6 +116,7 @@ hymnus_vzkriseni_slova_sloka_d = \lyricmode {
 
 
 hymnus_vzkriseni_sloka_doprovod = \new PianoStaff <<
+	\new ChordNames \hymnus_vzkriseni_akordy_sloka
 	\new Staff \hymnus_vzkriseni_melodie_sloka_prava
 	\new Staff \hymnus_vzkriseni_melodie_sloka_leva
 	\new Lyrics \hymnus_vzkriseni_slova_sloka_a

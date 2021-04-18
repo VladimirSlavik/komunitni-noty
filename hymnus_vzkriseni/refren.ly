@@ -55,6 +55,14 @@ hymnus_vzkriseni_melodie_ref_leva = \absolute {
 	\bar "|."
 }
 
+hymnus_vzkriseni_akordy_ref = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	c1 | s4 f4 c2 |
+	s2 d2:m | g2 c2 |
+	c1 | s4 f4 c2 |
+}
+
 hymnus_vzkriseni_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
 	A8 -- le8 -- lu8 -- ja,8 a8 -- le8 -- lu8 -- ja,8
@@ -68,6 +76,7 @@ hymnus_vzkriseni_slova_ref = \lyricmode {
 }
 
 hymnus_vzkriseni_ref_doprovod = \new PianoStaff <<
+	\new ChordNames \hymnus_vzkriseni_akordy_ref
 	\new Staff \hymnus_vzkriseni_melodie_ref_prava
 	\new Staff \hymnus_vzkriseni_melodie_ref_leva
 	\new Lyrics \hymnus_vzkriseni_slova_ref
