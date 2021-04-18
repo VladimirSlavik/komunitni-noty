@@ -6,7 +6,7 @@ vanocni_melodie_sloka_prava = \relative c' {
 	\accidentalStyle forget
 	
 	r4 << {a'4} \\ {d,8[ e8]} >> | <a fis>4 <a fis>4 |
-	<< {ais?2^\markup {\small "Ais při opak."}} \\ {fis8[( e8] fis4)} >> |
+	<< {ais?2^\markup {\small "(Ais při opak.)"}} \\ {fis8[( e8] fis4)} >> |
 	<fis d>4 \afterGrace <fis d>4 <fis cis>16 \breathe | \break
 	r4 <fis h,>8[( <e a,>8] | <cis fis>4) << {g'4} \\ {d8[ e8]} >> |
 	<< {a4} \\ {d,8[ cis8]} >> <fis h,>8[ <e a,>8] |
@@ -42,6 +42,17 @@ vanocni_melodie_sloka_lidi = \relative c' {
 	d8[ cis8 h8 a8] |
 	h4 h4 \breathe \bar ":|."
 }
+
+
+vanocni_akordy_sloka = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	c2 | f2 |
+	c2 | d2:m |
+	s2 | b2 |
+	c2 | d2:m
+}
+
 
 vanocni_slova_sloka_aa = \lyricmode {
 	\set stanza = "1. "
@@ -97,8 +108,10 @@ vanocni_slova_sloka_db = \lyricmode {
 }
 
 vanocni_sloka_doprovod = \new PianoStaff <<
+	\new ChordNames \vanocni_akordy_sloka
 	\new Staff \vanocni_melodie_sloka_prava
 	\new Staff \vanocni_melodie_sloka_leva
+	
 	\new Lyrics \vanocni_slova_sloka_aa
 	\new Lyrics \vanocni_slova_sloka_ab
 	\new Lyrics \vanocni_slova_sloka_ba

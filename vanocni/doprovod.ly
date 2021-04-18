@@ -6,6 +6,9 @@
 	\score {
 		\vanocni_ref_doprovod
 	}
+	\markup {
+		\vspace #2
+	}
 	\score {
 		\vanocni_sloka_doprovod
 	}
