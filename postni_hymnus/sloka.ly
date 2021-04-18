@@ -6,20 +6,27 @@ postni_melodie_prava = \relative c' {
 	\language "deutsch"
 	\time 4/4
 	
-	\cadenzaOn
-	r4 << {fis8[ fis8] fis8[ fis8 fis8 fis8]} \\ {d8[ d8] dis8[ dis8 dis8 dis8]} >>
-	<< {\parenthesize fis8 \parenthesize fis8} \\ {\parenthesize dis8 \parenthesize dis8} >>
-	\bbar \cadenzaOff
-	<< {g4 g2.} \\ {e4 e2.} >> \breathe | \break
+	<<
 	
-	<< {g8[ g8 g8 g8] g8[ g8 g8 g8]} \\ {e8[ e8 e8 e8] e8[ e8 e8 e8]} >> |
-	<< {fis4 fis2.} \\ {d4 d2.} >> \breathe | \break
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8[ fis8] fis8[ fis8 fis8 fis8] \parenthesize fis8 \parenthesize fis8 | g4 g2. \breathe |
+	g8[ g8 g8 g8] g8[ g8 g8 g8] | fis4 fis2. \breathe |
+	a8[ a8 a8 a8] fis8[ fis8 fis8 fis8] | g4 g2. \breathe |
+	fis8[ fis8 fis8 fis8] fis8[ fis8 fis8 fis8] | e4 e2. \breathe |
+	}
 	
-	<< {a'8[ a8 a8 a8] fis8[ fis8 fis8 fis8]} \\ {e8[ e8 e8 e8] e8[ e8 dis8 dis8]} >> |
-	<< {g4 g2.} \\ {e4 e2.} >> \breathe | \break
+	\new Voice {
+	\voiceTwo
+	d8[ d8] dis8[ dis8 dis8 dis8] \parenthesize dis8 \parenthesize dis8 | e4 e2. |
+	e8[ e8 e8 e8] e8[ e8 e8 e8] | d4 d2. |
+	e8[ e8 e8 e8] e8[ e8 dis8 dis8] | e4 e2. |
+	e8[ e8 e8 e8] dis8[ dis8 dis8 dis8] | h4 h2. |
+	}
 	
-	<< {fis8[ fis8 fis8 fis8] fis8[ fis8 fis8 fis8]} \\ {e8[ e8 e8 e8] dis8[ dis8 dis8 dis8]} >> |
-	<< {e4 e2.} \\ {h4 h2.} >> \breathe \bar "|."
+	>>
+	
+	\bar "|."
 }
 
 postni_melodie_leva = \relative c {
@@ -28,23 +35,32 @@ postni_melodie_leva = \relative c {
 	\language "deutsch"
 	\time 4/4
 	
-	\cadenzaOn
-	r4 << {a'8[ a8] h8[ h8 h8 h8]} \\ {d,8[ c8] h8[ h8 h8 h8]} >>
-	{ << {\parenthesize h'8 \parenthesize h8} \\ {\parenthesize h,8 \parenthesize h8} >> }
-	\bbar \cadenzaOff
-	<< {h'4 h2.} \\ {e,4 e2.} >> |
-	<< {a8[ a8 a8 a8] a8[ a8 a8 a8]} \\ {cis,8[ cis8] cis8[ cis8] cis8[ cis8]} >> |
-	<< {a'4 a2.} \\ {d,4 d2.} >> |
+	<<
 	
-	<< {c'8[ c8 c8 c8] h8[ h8 h8 h8]} \\ {a,8[ a8 a8 a8] h8[ h8 dis8 dis8]} >> |
-	<< {h'4 h2.} \\ {e,4 e2.} >> |
-	<< {c'8[ c8 c8 c8] h8[ h8 a8 a8]} \\ {a8[ a8 a8 a8] fis8[ fis8 fis8 fis8]} >> |
-	<< {g4 g2.} \\ {e4 e2.} >> \bar "|."
+	\new Voice {
+	\voiceOne
+	a'8[ a8] h8[ h8 h8 h8] \parenthesize h8 \parenthesize h8 | h4 h2. |
+	a8[ a8 a8 a8] a8[ a8 a8 a8] | a4 a2. |
+	c8[ c8 c8 c8] h8[ h8 h8 h8] | h4 h2. |
+	c8[ c8 c8 c8] h8[ h8 a8 a8] | g4 g2. |
+	}
+	
+	\new Voice {
+	\voiceTwo
+	d8[ c8] h8[ h8 h8 h8] \parenthesize h8 \parenthesize h8 | e4 e2. |
+	cis8[ cis8] cis8[ cis8] cis8[ cis8] cis8[ cis8] | d4 d2. |
+	a8[ a8 a8 a8] h8[ h8 dis8 dis8] | e4 e2. |
+	a8[ a8 a8 a8] fis8[ fis8 fis8 fis8] | e4 e2. |
+	}
+	
+	>>
+	
+	\bar "|."
 }
 
 postni_slova_a = \lyricmode {
 	\set stanza = "1. "
-	_4 Na8 -- de8 -- šel8 čas8 o8 -- brá4. -- % 8+4
+	Na8 -- de8 -- šel8 čas8 o8 -- brá4. --
 	ce4 -- ní,2.
 	
 	na8 -- vrať8 -- te8 se8 ke8 mně8 ce8 -- lým8
@@ -59,7 +75,7 @@ postni_slova_a = \lyricmode {
 
 postni_slova_b = \lyricmode {
 	\set stanza = "2. "
-	_4 Syn8 se8 vra8 -- cí8 do8 do8 -- mu8 _8
+	Syn8 se8 vra8 -- cí8 do8 do8 -- mu8 _8
 	Ot4 -- ce:2.
 	
 	Ot8 -- če8 můj,8 zhře8 -- šil8 jsem8 pro8 -- ti8
@@ -74,7 +90,7 @@ postni_slova_b = \lyricmode {
 
 postni_slova_c = \lyricmode {
 	\set stanza = "3. "
-	_4 Na8 -- de8 -- šel8 čas8 o8 -- brá4. -- % 8+4
+	Na8 -- de8 -- šel8 čas8 o8 -- brá4. --
 	ce4 -- ní,2.
 	
 	mi8 -- lo8 -- srd8 -- ný,8 do8 -- bro8 -- ti8 -- vý8
@@ -89,7 +105,7 @@ postni_slova_c = \lyricmode {
 
 postni_slova_d = \lyricmode {
 	\set stanza = "4. "
-	_4 Že8 -- na8 plá8 -- če8 u8 no8 -- hou8 Je8 --
+	Že8 -- na8 plá8 -- če8 u8 no8 -- hou8 Je8 --
 	ží4 -- še,2.
 	
 	sl8 -- zy8 z_no8 -- hou8 svý8 -- mi8 vla8 -- sy
@@ -104,7 +120,7 @@ postni_slova_d = \lyricmode {
 
 postni_slova_e = \lyricmode {
 	\set stanza = "5. "
-	_4 Ne8 -- při8 -- po8 -- mí8 -- nej8 -- te8 vě8 -- ci8
+	Ne8 -- při8 -- po8 -- mí8 -- nej8 -- te8 vě8 -- ci8
 	dáv4 -- né,2.
 	
 	ne8 -- pře8 -- mí8 -- tej8 -- te8 o8 mi8 -- nu8 --
