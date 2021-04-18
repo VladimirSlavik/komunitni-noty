@@ -10,10 +10,10 @@ postni_melodie_prava = \relative c' {
 	
 	\new Voice = "hlavni" {
 	\voiceOne
-	fis8[ fis8] fis8[ fis8 fis8 fis8] \parenthesize fis8 \parenthesize fis8 | g4 g2. \breathe |
-	g8[ g8 g8 g8] g8[ g8 g8 g8] | fis4 fis2. \breathe |
-	a8[ a8 a8 a8] fis8[ fis8 fis8 fis8] | g4 g2. \breathe |
-	fis8[ fis8 fis8 fis8] fis8[ fis8 fis8 fis8] | e4 e2. \breathe |
+	fis8[ fis8] fis8[ fis8 fis8 fis8] \parenthesize fis8 \parenthesize fis8 | g4 g2. \breathe | %\break
+	g8[ g8 g8 g8] g8[ g8 g8 g8] | fis4 fis2. \breathe | %\break
+	a8[ a8 a8 a8] fis8[ fis8 fis8 fis8] | g4 g2. \breathe | %\break
+	fis8[ fis8 fis8 fis8] fis8[ fis8 fis8 fis8] | e4 e2. %\breathe |
 	}
 	
 	\new Voice {
@@ -57,6 +57,16 @@ postni_melodie_leva = \relative c {
 	
 	\bar "|."
 }
+
+postni_akordy_ref = \relative c' \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	d2 h2 | e1:m |
+	a1:7 | d1 |
+	a2:m h2 | e1:m |
+	a2:m6 h2:7 | e1:m |
+}
+
 
 postni_slova_a = \lyricmode {
 	\set stanza = "1. "
@@ -133,9 +143,12 @@ postni_slova_e = \lyricmode {
 	ví4 -- ce.2.
 }
 
+
 postni_doprovod = \new PianoStaff <<
+	\new ChordNames \postni_akordy_ref
 	\new Staff \postni_melodie_prava
 	\new Staff \postni_melodie_leva
+	
 	\new Lyrics \postni_slova_a
 	\new Lyrics \postni_slova_b
 	\new Lyrics \postni_slova_c
