@@ -1,0 +1,28 @@
+name: Rebuild
+on:
+  #pull_request:
+  push:
+  #workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    container:
+      image: docker://registry.fedoraproject.org/fedora:33
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Install Lilypond
+        run: |
+          sudo dnf -y install lilypond
+      - name: Build
+        run: |
+          lilypond doprovodník.ly
+      - name: Upload result
+        uses: actions/upload-artifact@v2
+        with:
+          name: 'Doprovodník'
+          path: doprovodník.pdf
