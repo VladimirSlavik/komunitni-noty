@@ -9,5 +9,4 @@
 \book {
 	\include "doprovod.ly"
 	\include "lidi.ly"
-	\include "spolu.ly"
 }
