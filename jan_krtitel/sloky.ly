@@ -23,7 +23,7 @@ krtitel_melodie_sloka_prava = \relative c' {
 		{ <f d>4 <f d>8[ <f d>8 <f d>8] <f d>2 <e d>8 <f d>2 d2 \breathe \bbar }
 		{ <f d>4 <f d>4 <f d>8 <f d>4 <e d>4 <f d>4 d2 \breathe \bbar }
 	}
-	\bar "||"
+	\bar "|."
 	
 	\cadenzaOff
 }
@@ -49,7 +49,7 @@ krtitel_melodie_sloka_leva = \relative c {
 		{ <a d,>4 <a f>4.( <a f>2 <a f>8 <a f>2) <h g>2 \bbar }
 		{ <a d,>2 <a f>4.( <a f>2) <h g>2 \bbar }
 	}
-	\bar "||"
+	\bar "|."
 	
 	\cadenzaOff
 }
@@ -77,7 +77,7 @@ krtitel_melodie_sloka_lidi = \relative c' {
 		{ f4 f8[ f8 f8] f2 e8 f2 d2 \breathe \bbar }
 		{ f4 f4 f8 f4 e4 f4 d2 \bbar }
 	}
-	\bar "||"
+	\bar "|."
 	
 	\cadenzaOff
 }
