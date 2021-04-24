@@ -170,7 +170,7 @@ krtitel_slova_sloka_c = \lyricmode {
 	"znova se zrodí"1 \skip 32
 	\skip 2 \skip 2. \skip 4. % přeskočit první variantu
 	\skip 1 \skip 1 \skip 4 % přeskočit 2. var.
-	u4 -- vnitř4 na8 - še8 -- ho4 měs8 -- ta2
+	u4 -- vnitř4 na8 - še4 -- ho4 měs4 -- ta2
 }
 
 krtitel_sloka_doprovod = \new PianoStaff <<
