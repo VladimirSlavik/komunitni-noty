@@ -9,22 +9,49 @@ krtitel_melodie_sloka_prava = \relative c' {
 	\accidentalStyle forget
 	\cadenzaOn
 	
-	<c a>1 \bbar
-	<d h>1 \bbar
-	<e c>1 \bbar
-	<f c>8 <f c>8 <g c,>8 <f c>4 r4. \breathe \bbar
-	<g c,>1 \bbar
-	<f c>1 \breathe % \bbar here gets eaten
+	<<
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	c1 \bbar
+	d1 \bbar
+	e1 \bbar
+	f8 f8 g8 f4 r4. \breathe \bbar
+	
+	g1 \bbar
+	f1 \breathe % \bbar here gets eaten
 	\once \override Score.BarLine.stencil = ##f
 	\once \override Score.SpanBar.stencil = ##f
 	\repeat volta 3 { \skip 32 \bbar }
 	\alternative {
-		{ <f d>4 <f d>8 <f d>4 <e d>4 <f d>4 d2 \breathe \bbar }
-		{ <f d>4 <f d>8[ <f d>8 <f d>8] <f d>2 <e d>8 <f d>2 d2 \breathe \bbar }
-		{ <f d>4 <f d>4 <f d>8 <f d>4 <e d>4 <f d>4 d2 \breathe \bbar }
+		{ f4 f8 f4 e4 f4 d2 \breathe \bbar }
+		{ f4 f8 f8 f8 f2 e8 f2 d2 \breathe \bbar }
+		{ f4 f4 f8 f4 e4 f4 d2 \breathe \bbar }
+	}	
 	}
-	\bar "|."
 	
+	\new Voice {
+	\voiceTwo
+	a1 \bbar
+	h1 \bbar
+	c1 \bbar
+	c8 c8 c8 c4 r4. \bbar
+	
+	c1 \bbar
+	c1 % \bbar here gets eaten
+	\once \override Score.BarLine.stencil = ##f
+	\once \override Score.SpanBar.stencil = ##f
+	\repeat volta 3 { \skip 32 \bbar }
+	\alternative {
+		{ d4 d8 d4 d4 d4 d2 \breathe \bbar }
+		{ d4 d8 d8 d8 d2 d8 d2 d2 \breathe \bbar }
+		{ d4 d4 d8 d4 d4 d4 d2 \breathe \bbar }
+	}
+	}
+	
+	>>
+	
+	\bar "|."
 	\cadenzaOff
 }
 
@@ -37,20 +64,45 @@ krtitel_melodie_sloka_leva = \relative c {
 	\accidentalStyle forget
 	\cadenzaOn
 	
-	<e a,>1 \bbar
-	<g h,>1 \bbar
-	<g c,>1 \bbar
-	<a c,>4.( <a c,>4) r4. \bbar
-	<e c>1 \bbar
-	<a c,>1 \bbar
+	<<
+	
+	\new Voice {
+	\voiceOne
+	e1 \bbar
+	g1 \bbar
+	g1 \bbar
+	a4.( a4) r4. \bbar
+	
+	e1 \bbar
+	a1 \bbar
 	\repeat volta 3 { \skip 32 }
 	\alternative {
-		{ <a d,>4 <a f>4.( <a f>2) <h g>2 \bbar }
-		{ <a d,>4 <a f>4.( <a f>2 <a f>8 <a f>2) <h g>2 \bbar }
-		{ <a d,>2 <a f>4.( <a f>2) <h g>2 \bbar }
+		{ a4 a4.( a2) h2 \bbar }
+		{ a4 a4.( a2 a8 a2) h2 \bbar }
+		{ a2 a4.( a2) h2 \bbar }
 	}
-	\bar "|."
+	}
 	
+	\new Voice {
+	\voiceTwo
+	a,1 \bbar
+	h1 \bbar
+	c1 \bbar
+	c4.( c4) r4. \bbar
+	
+	c1 \bbar
+	c1 \bbar
+	\repeat volta 3 { \skip 32 }
+	\alternative {
+		{ d4 f4.( f2) g2 \bbar }
+		{ d4 f4.( f2 f8 f2) g2 \bbar }
+		{ d2 f4.( f2) g2 \bbar }
+	}
+	}
+	
+	>>
+	
+	\bar "|."
 	\cadenzaOff
 }
 
