@@ -12,7 +12,7 @@ frantisek_melodie_ref_prava = \relative c' {
 	<c a>4. <a f>4 <f d>8 \bbar
 	<g e>4. <e c>4 \breathe c8 \bbar
 	f8[( e8]) c4. \bbar
-	c2. \bar "||"
+	c2. \dbar
 	
 	\cadenzaOff
 }
@@ -31,7 +31,7 @@ frantisek_melodie_ref_leva = \relative c {
 	<c f,>4.~ <c f,>4 <a d,>8 \bbar
 	<g c,>4.~ <g c,>4 <g e c>8 \bbar
 	<g d h>4~ <g d h>4. \bbar
-	<g e c>2. \bar "||"
+	<g e c>2. \dbar
 	
 	\cadenzaOff
 }

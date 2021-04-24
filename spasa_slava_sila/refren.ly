@@ -11,7 +11,7 @@ spasa_slava_sila_melodie_ref_prava = \relative c' {
 	<< {c'8[ h8] c4 a2 g2} \\ {a8[ a8] a4 f2 e2} >> \breathe \bbar
 	<< {e1. f2 e2} \\ {c1. c2 c2} >> \breathe \bbar
 	<< {g'4 g4 g4 g4 a4 a4 a4 a4} \\ {e4 e4 e4 e4 f4 f4 f4 f4} >> \bbar
-	<< {c'4 c4 h2 c1} \\ {g4 g4 g2 g1} >> \breathe \bar "||"
+	<< {c'4 c4 h2 c1} \\ {g4 g4 g2 g1} >> \breathe \dbar
 	
 	\cadenzaOff
 }
@@ -29,7 +29,7 @@ spasa_slava_sila_melodie_ref_leva = \relative c {
 	<< {c'8[ h8] c4 c2 c2} \\ {e,8[ e8] e4 f2 c2} >> \bbar
 	<< {a'1. a2 g2} \\ {a,1. a2 c2} >> \bbar
 	<< {c'4 \repeat unfold 7 c4} \\ {c,4 c4 c4 c4 f4 f4 f4 f4} >> \bbar
-	<< {c'4 c4 d2 e1} \\ {e,4 e4 g2 c,1} >> \bar "||"
+	<< {c'4 c4 d2 e1} \\ {e,4 e4 g2 c,1} >> \dbar
 	
 	\cadenzaOff
 }

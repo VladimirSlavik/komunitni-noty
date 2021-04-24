@@ -33,7 +33,7 @@ krtitel_melodie_ref_prava = \relative c' {
 	}
 	
 	>>
-	\bar "||"
+	\dbar
 }
 
 krtitel_melodie_ref_leva = \relative c {
@@ -69,7 +69,7 @@ krtitel_melodie_ref_leva = \relative c {
 	}
 	
 	>>
-	\bar "||"
+	\dbar
 }
 
 krtitel_melodie_ref_lidi = \relative c' {
@@ -84,7 +84,7 @@ krtitel_melodie_ref_lidi = \relative c' {
 	c4 c4 c8 a8 |
 	a8 g8 a4 g4 |
 	r4 \breathe a4 a4 |
-	a8 g4 f8 g4\fermata \breathe \bar "||"
+	a8 g4 f8 g4\fermata \breathe \dbar
 }
 
 krtitel_slova_ref = \lyricmode {

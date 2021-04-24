@@ -13,7 +13,7 @@ kadidlo_melodie_a_prava = \relative c' {
 	
 	<fis d>1 \bbar
 	<g e>4 <g e>4 <g e>4 <fis d>4 <g e>4 \bbar
-	<e cis>1 \breathe \bar "||"
+	<e cis>1 \breathe \dbar
 	
 	\cadenzaOff
 }
@@ -33,7 +33,7 @@ kadidlo_melodie_a_leva = \relative c {
 	
 	<h h,>1 \bbar
 	\repeat unfold 5 {<h e,>4} \bbar
-	<a a,>1 \bar "||"
+	<a a,>1 \dbar
 	
 	\cadenzaOff
 }

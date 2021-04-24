@@ -9,7 +9,7 @@ laska_melodie_ref_prava = \relative c' {
 
 	h8[ <e h>8] <e h>8[ <e h>8 <e h>8 <e h>8] \bbar
 	<g e>4 <g e>4 r4 \breathe \bbar
-	<fis d>8[ <d a>8] <e h>4 <e h>2 \bar "||"
+	<fis d>8[ <d a>8] <e h>4 <e h>2 \dbar
 	
 	\cadenzaOff
 }
@@ -25,7 +25,7 @@ laska_melodie_ref_leva = \relative c {
 
 	<g' e>8[ <g e>8] <g e>8[ <g e>8 <g e>8 <g e>8] \bbar
 	<c c,>4 <c c,>4 r4 \bbar
-	<a d,>8[ <fis d>8] <g e>4 <g e>2 \bar "||"
+	<a d,>8[ <fis d>8] <g e>4 <g e>2 \dbar
 	
 	\cadenzaOff
 }
