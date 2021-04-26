@@ -2,6 +2,7 @@
   
 \include "../common-includes/macros.ly"
 \include "../common-includes/paper.ly"
+\include "../common-includes/layout.ly"
 
 \include "sloka.ly"
 
