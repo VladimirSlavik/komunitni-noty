@@ -18,11 +18,21 @@ jobs:
       - name: Install Lilypond
         run: |
           sudo dnf -y install lilypond
-      - name: Build
+      - name: Build main file
         run: |
           lilypond doprovodník.ly
-      - name: Upload result
+      - name: Upload main file
         uses: actions/upload-artifact@v2
         with:
           name: 'Doprovodník'
           path: doprovodník.pdf
+      - name: Build all partial files
+        run: |
+          for file in ./**/*.ly ; do
+            lilypond "$file" || echo "Failed to build $file"
+          done
+      - name: Upload partial files
+        uses: actions/upload-artifact@v2
+        with:
+          name: 'Jednotlivé písně'
+          path: '**/*.pdf'
