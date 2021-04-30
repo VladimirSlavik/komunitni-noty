@@ -80,6 +80,7 @@ modlitba_pozvani_slova_sloka = \lyricmode {
 	Slá8 -- va8 Ot8 -- ci8 i8 Sy8 -- nu,4.
 	i8 Du8 -- chu8 sva8 -- té4 -- mu.2.
 	\override LyricText.font-shape = #'revert
+	\once \override LyricText.self-alignment-X = #LEFT
 	"Jako byla na počátku i nyní"\breve
 	i8 vždy8 -- cky8 a8 na8 vě8 -- ky8 vě8 -- ků.8 A4 -- men,2
 	A8 -- le8 -- lu__2 -- ja.1
