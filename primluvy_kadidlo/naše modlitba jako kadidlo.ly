@@ -4,9 +4,9 @@
 \include "../common-includes/paper.ily"
 \include "../common-includes/layout.ily"
 
-\include "sloka_a.ly"
-\include "sloka_b.ly"
+\include "sloka_a.ily"
+\include "sloka_b.ily"
 
 \book {
-	\include "doprovod.ly"
+	\include "doprovod.ily"
 }

@@ -4,9 +4,9 @@
 \include "../common-includes/paper.ily"
 \include "../common-includes/layout.ily"
 
-\include "refren.ly"
-\include "sloky.ly"
+\include "refren.ily"
+\include "sloky.ily"
 
 \book {
-	\include "doprovod.ly"
+	\include "doprovod.ily"
 }

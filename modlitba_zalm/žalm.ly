@@ -4,10 +4,10 @@
 \include "../common-includes/paper.ily"
 \include "../common-includes/layout.ily"
 
-\include "refren.ly"
-\include "sloka_sbor.ly"
-\include "sloka_lid.ly"
+\include "refren.ily"
+\include "sloka_sbor.ily"
+\include "sloka_lid.ily"
 
 \book {
-	\include "doprovod.ly"
+	\include "doprovod.ily"
 }
