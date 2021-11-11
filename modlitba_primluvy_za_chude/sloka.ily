@@ -155,7 +155,7 @@ modlitba_primluvy_chudi_slova_sloka_i = \lyricmode {
 	Po4 -- hleď4 "na naše utrpení a bídu,"\breve "odpusť všechny na"\breve -- še8 hří2 -- chy.2
 }
 
-modlitba_primluvy_chudi_slova_sloka_i = \lyricmode {
+modlitba_primluvy_chudi_slova_sloka_j = \lyricmode {
 	\set stanza = "10. "
 	\override LyricText.font-shape = #'italic
 	"Pospěš nám na pomoc"\breve "a bu"\breve -- de4 -- me8 -- spa8 -- se4 -- ni.2
@@ -179,4 +179,5 @@ modlitba_primluvy_chudi_sloka_doprovod = \new PianoStaff <<
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_g
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_h
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_i
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_j
 >>
