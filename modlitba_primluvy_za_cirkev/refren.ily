@@ -56,6 +56,25 @@ modlitba_primluvy_cirkev_melodie_ref_leva = \relative c {
 }
 
 
+modlitba_primluvy_cirkev_melodie_ref_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+		
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8[ e8] fis8[ g8] fis8[ e8] fis8[ d8] d2 \breathe \bbar %\break
+	fis8[ e8] fis8[ g8] a8[ h8] a8 fis8 \parenthesize fis8 e4 fis2
+	}
+	
+	\dbar
+	\cadenzaOff
+}
+
+
 modlitba_primluvy_cirkev_slova_ref_a = \lyricmode {
 	\set stanza = "1. "
 	\override LyricText.font-shape = #'italic
@@ -81,6 +100,13 @@ modlitba_primluvy_cirkev_slova_ref_c = \lyricmode {
 modlitba_primluvy_cirkev_ref_doprovod = \new PianoStaff <<
 	\new Staff \modlitba_primluvy_cirkev_melodie_ref_prava
 	\new Staff \modlitba_primluvy_cirkev_melodie_ref_leva
+	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_a
+	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_b
+	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_c
+>>
+
+modlitba_primluvy_cirkev_ref_lidi = \new PianoStaff <<
+	\new Staff \modlitba_primluvy_cirkev_melodie_ref_lidi
 	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_a
 	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_b
 	\new Lyrics \modlitba_primluvy_cirkev_slova_ref_c

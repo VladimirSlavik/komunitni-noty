@@ -64,6 +64,27 @@ modlitba_primluvy_cirkev_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_primluvy_cirkev_melodie_sloka_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis\breve e8 e2 \breathe \bbar
+	e\breve fis4 fis2 \breathe \bbar
+	fis\breve g4 g2 \breathe \bbar
+	g\breve fis8 fis2
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 modlitba_primluvy_cirkev_slova_sloka_a = \lyricmode {
 	\set stanza = "1. "
 	"Pane, přijmi naši mod"\breve -- lit8 -- bu,2
@@ -92,6 +113,13 @@ modlitba_primluvy_cirkev_slova_sloka_c = \lyricmode {
 modlitba_primluvy_cirkev_sloka_doprovod = \new PianoStaff <<
 	\new Staff \modlitba_primluvy_cirkev_melodie_sloka_prava
 	\new Staff \modlitba_primluvy_cirkev_melodie_sloka_leva
+	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_a
+	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_b
+	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_c
+>>
+
+modlitba_primluvy_cirkev_sloka_lidi = \new PianoStaff <<
+	\new Staff \modlitba_primluvy_cirkev_melodie_sloka_lidi
 	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_a
 	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_b
 	\new Lyrics \modlitba_primluvy_cirkev_slova_sloka_c
