@@ -40,6 +40,28 @@ vzkriseni_melodie_leva = \relative c {
 	\cadenzaOff
 }
 
+vzkriseni_melodie_lidi = \relative c' {
+	\key f \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\accidentalStyle forget
+	\cadenzaOn
+
+	f8 g8[ a8] \bbar
+	b4 b4 a8[ b8] \bbar
+	c4 c4 b8[ a8] \bbar
+	b4 b2 \breathe \break \bbar
+	
+	a\breve a8([ b8)] \bbar
+	a2( g2) \bbar
+	f1 \breathe \mark "3x" \bar ":|."
+	
+	\cadenzaOff
+}
+
+
 vzkriseni_slova = \lyricmode {
 	Kris8 -- tus8 byl8
 	vzkří4 -- šen,4 do8 -- o8 --
@@ -52,8 +74,14 @@ vzkriseni_slova = \lyricmode {
 	ji.1
 }
 
+
 vzkriseni_doprovod = \new PianoStaff <<
 	\new Staff \vzkriseni_melodie_prava
 	\new Staff \vzkriseni_melodie_leva
+	\new Lyrics \vzkriseni_slova
+>>
+
+vzkriseni_lidi = \new PianoStaff <<
+	\new Staff \vzkriseni_melodie_lidi
 	\new Lyrics \vzkriseni_slova
 >>
