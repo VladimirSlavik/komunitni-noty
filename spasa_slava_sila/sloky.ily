@@ -1,6 +1,6 @@
-spasa_slava_sila_melodie_sloka_prava = \relative c {
+spasa_slava_sila_melodie_sloka_prava = \relative c' {
 	\key c \major
-	\clef bass
+	\clef treble
 	\language "deutsch"
 	\noTime
 	\autoBeamOff
@@ -27,6 +27,22 @@ spasa_slava_sila_melodie_sloka_leva = \relative c {
 	
 	\cadenzaOff
 }
+
+spasa_slava_sila_melodie_sloka_lidi = \relative c' {
+	\key c \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\cadenzaOn
+	
+	c\breve d2 c2 \breathe \bbar
+	e\breve f2 e2 \breathe \bbar
+	h'4 c4 a2 g1 \breathe \bar ":|."
+	
+	\cadenzaOff
+}
+
 
 aleluja = \lyricmode {
 	A4 -- le4 -- lu2 -- ja!1
@@ -87,6 +103,18 @@ spasa_slava_sila_slova_sloka_db = \lyricmode {
 spasa_slava_sila_sloka_doprovod = \new PianoStaff <<
 	\new Staff \spasa_slava_sila_melodie_sloka_prava
 	\new Staff \spasa_slava_sila_melodie_sloka_leva
+	\new Lyrics \spasa_slava_sila_slova_sloka_aa
+	\new Lyrics \spasa_slava_sila_slova_sloka_ab
+	\new Lyrics \spasa_slava_sila_slova_sloka_ba
+	\new Lyrics \spasa_slava_sila_slova_sloka_bb
+	\new Lyrics \spasa_slava_sila_slova_sloka_ca
+	\new Lyrics \spasa_slava_sila_slova_sloka_cb
+	\new Lyrics \spasa_slava_sila_slova_sloka_da
+	\new Lyrics \spasa_slava_sila_slova_sloka_db
+>>
+
+spasa_slava_sila_sloka_lidi = \new PianoStaff <<
+	\new Staff \spasa_slava_sila_melodie_sloka_lidi
 	\new Lyrics \spasa_slava_sila_slova_sloka_aa
 	\new Lyrics \spasa_slava_sila_slova_sloka_ab
 	\new Lyrics \spasa_slava_sila_slova_sloka_ba

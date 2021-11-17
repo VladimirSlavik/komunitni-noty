@@ -8,12 +8,12 @@
 		\vspace #0.75
 	}
 	\score {
-		\spasa_slava_sila_ref_doprovod
+		\spasa_slava_sila_ref_lidi
 	}
 	\markup {
-		\vspace #3
+		\vspace #2
 	}
 	\score {
-		\spasa_slava_sila_sloka_doprovod
+		\spasa_slava_sila_sloka_lidi
 	}
 }

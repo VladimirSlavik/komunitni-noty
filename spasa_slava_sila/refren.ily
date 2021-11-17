@@ -34,6 +34,26 @@ spasa_slava_sila_melodie_ref_leva = \relative c {
 	\cadenzaOff
 }
 
+
+spasa_slava_sila_melodie_ref_lidi = \relative c' {
+	\key c \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\accidentalStyle forget
+	\cadenzaOn
+
+	c4 e4 g4 g8 g4. a2 g2 \breathe \bbar
+	c8[ h8] c4 a2 g2 \breathe \bbar
+	e1. f2 e2 \breathe \bbar
+	g4 g4 g4 g4 a4 a4 a4 a4 \bbar
+	c4 c4 h2 c1 \breathe \dbar
+	
+	\cadenzaOff
+}
+
+
 spasa_slava_sila_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
 	Náš4 Pán4 už4 není2
@@ -44,8 +64,14 @@ spasa_slava_sila_slova_ref = \lyricmode {
 	a4 -- le4 -- lu2 -- ja!1
 }
 
+
 spasa_slava_sila_ref_doprovod = \new PianoStaff <<
 	\new Staff \spasa_slava_sila_melodie_ref_prava
 	\new Staff \spasa_slava_sila_melodie_ref_leva
+	\new Lyrics \spasa_slava_sila_slova_ref
+>>
+
+spasa_slava_sila_ref_lidi = \new PianoStaff <<
+	\new Staff \spasa_slava_sila_melodie_ref_lidi
 	\new Lyrics \spasa_slava_sila_slova_ref
 >>
