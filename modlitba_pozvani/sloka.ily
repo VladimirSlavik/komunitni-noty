@@ -58,6 +58,30 @@ modlitba_pozvani_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_pozvani_melodie_sloka_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+		
+	\new Voice = "hlavni" {
+	\voiceOne
+	d8 d4. cis8[ h8] d4 d2. \breathe \dbar
+	fis8[ fis8] fis8[ fis8] g8[ g8] g4 fis2 \breathe \dbar \break
+	d8[ d8] d8[ cis8] h8[ d8] d4. \breathe \bbar
+	d8 d8[ d8] d8 e4 d2. \breathe \dbar \break
+	fis\breve \breathe \bbar
+	fis8 fis8[ fis8] fis8[ fis8] g8[ g8] g8[ g8] g4 fis2 \breathe \bbar \break
+	fis8[ g8] fis4( e4 d1) \breathe
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 modlitba_pozvani_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -91,5 +115,10 @@ modlitba_pozvani_sloka_doprovod = \new PianoStaff <<
 	\new ChordNames \modlitba_pozvani_akordy
 	\new Staff \modlitba_pozvani_melodie_sloka_prava
 	\new Staff \modlitba_pozvani_melodie_sloka_leva
+	\new Lyrics \modlitba_pozvani_slova_sloka
+>>
+
+modlitba_pozvani_sloka_lidi = \new PianoStaff <<
+	\new Staff \modlitba_pozvani_melodie_sloka_lidi
 	\new Lyrics \modlitba_pozvani_slova_sloka
 >>
