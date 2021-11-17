@@ -36,6 +36,25 @@ frantisek_melodie_ref_leva = \relative c {
 	\cadenzaOff
 }
 
+frantisek_melodie_ref_lidi = \relative c' {
+	\key c \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\accidentalStyle forget
+	\cadenzaOn
+
+	{ c8[ e f g c] } \bbar
+	d4 a8 g4 \breathe g8 \bbar
+	c4. a4 f8 \bbar
+	g4. e4 \breathe c8 \bbar
+	f8[( e8]) c4. \bbar
+	c2. \dbar
+	
+	\cadenzaOff
+}
+
 frantisek_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
 	 U8 -- čiň8 mě,8 Pa8 -- ne,8
@@ -48,5 +67,10 @@ frantisek_slova_ref = \lyricmode {
 frantisek_ref_doprovod = \new PianoStaff <<
 	\new Staff \frantisek_melodie_ref_prava
 	\new Staff \frantisek_melodie_ref_leva
+	\new Lyrics \frantisek_slova_ref
+>>
+
+frantisek_ref_lidi = \new PianoStaff <<
+	\new Staff \frantisek_melodie_ref_lidi
 	\new Lyrics \frantisek_slova_ref
 >>

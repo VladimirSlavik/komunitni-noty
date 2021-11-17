@@ -38,6 +38,26 @@ frantisek_melodie_sloka_leva = \relative c' {
 	\cadenzaOff
 }
 
+frantisek_melodie_sloka_lidi = \relative c' {
+	\key c \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\cadenzaOn
+
+	\repeat unfold 2 {
+		c8[ d8 c8] d8[ e8 e8] \bbar
+		g8[ a8 g8] a4 e4 \breathe \bbar
+	}
+	e8[ f8 e8] g8[ a8 a8] \bbar
+	c8[ h8 g8 a8] g4 \bbar
+	c,8[ d8 c8] e8[ g8 g8] \bbar
+	a8[ g8 e8 f8] e4 \breathe \bar "|."
+
+	\cadenzaOff
+}
+
 frantisek_slova_sloka_a = \lyricmode {
 	\set stanza = "1. "
 	Kde8 du8 -- sí8 ne8 -- ná8 -- vist,8
@@ -87,6 +107,14 @@ frantisek_slova_sloka_d = \lyricmode {
 frantisek_sloka_doprovod = \new PianoStaff <<
 	\new Staff \frantisek_melodie_sloka_prava
 	\new Staff \frantisek_melodie_sloka_leva
+	\new Lyrics \frantisek_slova_sloka_a
+	\new Lyrics \frantisek_slova_sloka_b
+	\new Lyrics \frantisek_slova_sloka_c
+	\new Lyrics \frantisek_slova_sloka_d
+>>
+
+frantisek_sloka_lidi = \new PianoStaff <<
+	\new Staff \frantisek_melodie_sloka_lidi
 	\new Lyrics \frantisek_slova_sloka_a
 	\new Lyrics \frantisek_slova_sloka_b
 	\new Lyrics \frantisek_slova_sloka_c
