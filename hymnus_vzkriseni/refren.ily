@@ -55,6 +55,23 @@ hymnus_vzkriseni_melodie_ref_leva = \absolute {
 	\bar "|."
 }
 
+hymnus_vzkriseni_melodie_ref_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\time 4/4
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8 g8 a2. | g8 a8 h4 a2 | \breathe
+	fis2 g4 g4 | e2 fis2 | \breathe
+	fis8 g8 a2. | g8 a8 h4 a2 | \breathe
+	}
+	
+	\bar "|."
+	
+}
+
 hymnus_vzkriseni_akordy_ref = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -79,5 +96,10 @@ hymnus_vzkriseni_ref_doprovod = \new PianoStaff <<
 	\new ChordNames \hymnus_vzkriseni_akordy_ref
 	\new Staff \hymnus_vzkriseni_melodie_ref_prava
 	\new Staff \hymnus_vzkriseni_melodie_ref_leva
+	\new Lyrics \hymnus_vzkriseni_slova_ref
+>>
+
+hymnus_vzkriseni_ref_lidi = \new PianoStaff <<
+	\new Staff \hymnus_vzkriseni_melodie_ref_lidi
 	\new Lyrics \hymnus_vzkriseni_slova_ref
 >>

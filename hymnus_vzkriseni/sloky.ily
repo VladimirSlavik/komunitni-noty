@@ -70,6 +70,28 @@ hymnus_vzkriseni_melodie_sloka_leva = \relative c {
 	\cadenzaOff
 }
 
+hymnus_vzkriseni_melodie_sloka_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis2 e4 d2 \breathe \bbar
+	d2 e2 \breathe \bbar
+	e2 fis2 \breathe \bbar
+	fis2 g8 g8 g8 g8 \bbar
+	fis1 \breathe
+	}
+	
+	\bar "|."
+	
+	\cadenzaOff
+}
+
 hymnus_vzkriseni_akordy_sloka = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -119,6 +141,14 @@ hymnus_vzkriseni_sloka_doprovod = \new PianoStaff <<
 	\new ChordNames \hymnus_vzkriseni_akordy_sloka
 	\new Staff \hymnus_vzkriseni_melodie_sloka_prava
 	\new Staff \hymnus_vzkriseni_melodie_sloka_leva
+	\new Lyrics \hymnus_vzkriseni_slova_sloka_a
+	\new Lyrics \hymnus_vzkriseni_slova_sloka_b
+	\new Lyrics \hymnus_vzkriseni_slova_sloka_c
+	\new Lyrics \hymnus_vzkriseni_slova_sloka_d
+>>
+
+hymnus_vzkriseni_sloka_lidi = \new PianoStaff <<
+	\new Staff \hymnus_vzkriseni_melodie_sloka_lidi
 	\new Lyrics \hymnus_vzkriseni_slova_sloka_a
 	\new Lyrics \hymnus_vzkriseni_slova_sloka_b
 	\new Lyrics \hymnus_vzkriseni_slova_sloka_c
