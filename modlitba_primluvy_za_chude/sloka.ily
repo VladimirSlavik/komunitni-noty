@@ -64,6 +64,27 @@ modlitba_primluvy_chudi_melodie_sloka_leva = \relative c {
 }
 
 
+modlitba_primluvy_chudi_melodie_sloka_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+		
+	\new Voice = "hlavni" {
+	\voiceOne
+	a'\breve \breathe \bbar
+	a\breve a4 g8[ fis8] g4 fis2 \breathe \dbar \break
+	d4 e4 fis\breve \breathe \bbar
+	e\breve e8 d4 cis4 h2 \breathe
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 modlitba_primluvy_chudi_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -169,6 +190,22 @@ modlitba_primluvy_chudi_sloka_doprovod = \new PianoStaff <<
 	\new ChordNames \modlitba_primluvy_chudi_akordy
 	\new Staff \modlitba_primluvy_chudi_melodie_sloka_prava
 	\new Staff \modlitba_primluvy_chudi_melodie_sloka_leva
+	
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_a
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_b
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_c
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_d
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_e
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_f
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_g
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_h
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_i
+	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_j
+>>
+
+
+modlitba_primluvy_chudi_sloka_lidi = \new PianoStaff <<
+	\new Staff \modlitba_primluvy_chudi_melodie_sloka_lidi
 	
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_a
 	\new Lyrics \modlitba_primluvy_chudi_slova_sloka_b
