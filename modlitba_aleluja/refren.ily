@@ -69,6 +69,27 @@ modlitba_aleluja_melodie_ref_leva = \absolute {
 }
 
 
+modlitba_aleluja_melodie_ref_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\time 2/4
+	\accidentalStyle forget
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8[ g8 a8 a8] |
+	g8[ a8] h4 |
+	a2 \breathe |
+	a8[ h8 g8 fis8] |
+	e2 |
+	fis2 \breathe
+	}
+	
+	\bar ":|."
+}
+
+
 modlitba_aleluja_ref_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -96,6 +117,12 @@ modlitba_aleluja_ref_doprovod = \new PianoStaff <<
 	\new ChordNames \modlitba_aleluja_ref_akordy
 	\new Staff \modlitba_aleluja_melodie_ref_prava
 	\new Staff \modlitba_aleluja_melodie_ref_leva
+	\new Lyrics \modlitba_aleluja_slova_ref_a
+	\new Lyrics \modlitba_aleluja_slova_ref_b
+>>
+
+modlitba_aleluja_ref_lidi = \new PianoStaff <<
+	\new Staff \modlitba_aleluja_melodie_ref_lidi
 	\new Lyrics \modlitba_aleluja_slova_ref_a
 	\new Lyrics \modlitba_aleluja_slova_ref_b
 >>

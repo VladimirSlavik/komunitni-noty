@@ -66,6 +66,26 @@ modlitba_aleluja_melodie_sloka_leva = \relative c {
 	\cadenzaOff
 }
 
+modlitba_aleluja_melodie_sloka_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis\breve \bbar
+	fis\breve e8[ fis8] g4 fis2 \breathe \bbar
+	a\breve \breathe a\breve \bbar
+	g8[ fis8] e4 e2 \breathe
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
 
 modlitba_aleluja_sloka_akordy = \relative c' \chordmode {
 	\germanChords
@@ -123,6 +143,17 @@ modlitba_aleluja_sloka_doprovod = \new PianoStaff <<
 	\new ChordNames \modlitba_aleluja_sloka_akordy
 	\new Staff \modlitba_aleluja_melodie_sloka_prava
 	\new Staff \modlitba_aleluja_melodie_sloka_leva
+	
+	\new Lyrics \modlitba_aleluja_slova_sloka_a
+	\new Lyrics \modlitba_aleluja_slova_sloka_b
+	\new Lyrics \modlitba_aleluja_slova_sloka_c
+	\new Lyrics \modlitba_aleluja_slova_sloka_d
+	\new Lyrics \modlitba_aleluja_slova_sloka_e
+>>
+
+
+modlitba_aleluja_sloka_lidi = \new PianoStaff <<
+	\new Staff \modlitba_aleluja_melodie_sloka_lidi
 	
 	\new Lyrics \modlitba_aleluja_slova_sloka_a
 	\new Lyrics \modlitba_aleluja_slova_sloka_b
