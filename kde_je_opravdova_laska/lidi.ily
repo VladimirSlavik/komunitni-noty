@@ -8,12 +8,12 @@
 		\vspace #1
 	}
 	\score {
-		\laska_ref_doprovod
+		\laska_ref_lidi
 	}
 	\markup {
 		\vspace #3
 	}
 	\score {
-		\laska_sloka_doprovod
+		\laska_sloka_lidi
 	}
 }

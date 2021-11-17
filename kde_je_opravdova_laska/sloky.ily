@@ -46,6 +46,31 @@ laska_melodie_sloka_leva = \relative c' {
 	\cadenzaOff
 }
 
+laska_melodie_sloka_lidi = \relative c' {
+	\key g \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\cadenzaOn
+	
+	h8[ h8 h8]
+	e8[ e8 \parenthesize e8 e8]
+	\parenthesize fis8[ fis8 fis8] g8 g4 r4 \breathe \bbar \break
+	
+	e8[ e8 \parenthesize e8]
+	\parenthesize g8[ g8 g8]
+	a8[ \parenthesize a8 \parenthesize a8 \parenthesize a8]
+	e8[ e8] r4 \breathe \bbar \break
+	
+	fis8[ fis8 fis8 \parenthesize fis8]
+	\parenthesize fis8[ \parenthesize fis8 \parenthesize fis8]
+	d8[ fis8] e4 e2 \breathe \bar "|."
+	
+	\cadenzaOff
+}
+
+
 laska_slova_sloka_a = \lyricmode {
 	\set stanza = "1. "
 	By8 -- li8 jsme8 jak8 o8 -- več8 -- ky8 \→8 roz8 -- ptý8 -- le8 -- né,4 _4
@@ -81,6 +106,15 @@ laska_slova_sloka_e = \lyricmode {
 laska_sloka_doprovod = \new PianoStaff <<
 	\new Staff \laska_melodie_sloka_prava
 	\new Staff \laska_melodie_sloka_leva
+	\new Lyrics \laska_slova_sloka_a
+	\new Lyrics \laska_slova_sloka_b
+	\new Lyrics \laska_slova_sloka_c
+	\new Lyrics \laska_slova_sloka_d
+	\new Lyrics \laska_slova_sloka_e
+>>
+
+laska_sloka_lidi = \new PianoStaff <<
+	\new Staff \laska_melodie_sloka_lidi
 	\new Lyrics \laska_slova_sloka_a
 	\new Lyrics \laska_slova_sloka_b
 	\new Lyrics \laska_slova_sloka_c

@@ -30,6 +30,22 @@ laska_melodie_ref_leva = \relative c {
 	\cadenzaOff
 }
 
+laska_melodie_ref_lidi = \relative c' {
+	\key g \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\autoBeamOff
+	\accidentalStyle forget
+	\cadenzaOn
+
+	h8[ e8] e8[ e8 e8 e8] \bbar
+	g4 g4 r4 \breathe \bbar
+	fis8[ d8] e4 e2 \dbar
+	
+	\cadenzaOff
+}
+
 laska_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
 	Kde8 je8 o8 -- prav8 -- do8 -- vá8 lás4 -- ka,4 _4
@@ -39,5 +55,10 @@ laska_slova_ref = \lyricmode {
 laska_ref_doprovod = \new PianoStaff <<
 	\new Staff \laska_melodie_ref_prava
 	\new Staff \laska_melodie_ref_leva
+	\new Lyrics \laska_slova_ref
+>>
+
+laska_ref_lidi = \new PianoStaff <<
+	\new Staff \laska_melodie_ref_lidi
 	\new Lyrics \laska_slova_ref
 >>
