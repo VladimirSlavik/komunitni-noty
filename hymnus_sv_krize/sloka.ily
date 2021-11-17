@@ -59,6 +59,24 @@ hymnus_sv_krize_melodie_leva = \relative c {
 }
 
 
+hymnus_sv_krize_melodie_lidi = \relative c' {
+	\key f \major
+	\clef treble
+	\language "deutsch"
+	\time 4/4
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	g'4 g4 f4 f4 \breathe |
+	f4 f4 g4 g4 \breathe |
+	g4 g4 a4 a4 \breathe |
+	b4 g4 a4 a4 \breathe
+	}
+		
+	\bar ":|."
+}
+
+
 hymnus_sv_krize_akordy = \relative c' \chordmode {
 	\semiGermanChords
 	\set chordNameLowercaseMinor = ##t
@@ -99,6 +117,13 @@ hymnus_sv_krize_doprovod = \new PianoStaff <<
 	\new ChordNames \hymnus_sv_krize_akordy
 	\new Staff \hymnus_sv_krize_melodie_prava
 	\new Staff \hymnus_sv_krize_melodie_leva
+	\new Lyrics \hymnus_sv_krize_slova_a
+	\new Lyrics \hymnus_sv_krize_slova_b
+	\new Lyrics \hymnus_sv_krize_slova_c
+>>
+
+hymnus_sv_krize_lidi = \new PianoStaff <<
+	\new Staff \hymnus_sv_krize_melodie_lidi
 	\new Lyrics \hymnus_sv_krize_slova_a
 	\new Lyrics \hymnus_sv_krize_slova_b
 	\new Lyrics \hymnus_sv_krize_slova_c
