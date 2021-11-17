@@ -58,6 +58,25 @@ postni_melodie_leva = \relative c {
 	\bar "|."
 }
 
+
+postni_melodie_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\time 4/4
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8[ fis8] fis8[ fis8 fis8 fis8] \parenthesize fis8 \parenthesize fis8 | g4 g2. \breathe | %\break
+	g8[ g8 g8 g8] g8[ g8 g8 g8] | fis4 fis2. \breathe | %\break
+	a8[ a8 a8 a8] fis8[ fis8 fis8 fis8] | g4 g2. \breathe | %\break
+	fis8[ fis8 fis8 fis8] fis8[ fis8 fis8 fis8] | e4 e2. %\breathe |
+	}
+	
+	\bar "|."
+}
+
+
 postni_akordy_ref = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -148,6 +167,16 @@ postni_doprovod = \new PianoStaff <<
 	\new ChordNames \postni_akordy_ref
 	\new Staff \postni_melodie_prava
 	\new Staff \postni_melodie_leva
+	
+	\new Lyrics \postni_slova_a
+	\new Lyrics \postni_slova_b
+	\new Lyrics \postni_slova_c
+	\new Lyrics \postni_slova_d
+	\new Lyrics \postni_slova_e
+>>
+
+postni_lidi = \new PianoStaff <<
+	\new Staff \postni_melodie_lidi
 	
 	\new Lyrics \postni_slova_a
 	\new Lyrics \postni_slova_b
