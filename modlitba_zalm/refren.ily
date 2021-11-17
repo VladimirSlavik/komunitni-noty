@@ -57,6 +57,25 @@ modlitba_zalm_melodie_ref_leva = \relative c {
 }
 
 
+modlitba_zalm_melodie_ref_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+		
+	\new Voice = "hlavni" {
+	\voiceOne
+	fis8 e8 fis8 a\breve \breathe \bbar
+	gis\breve fis8 e8 fis4 fis4
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 modlitba_zalm_ref_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -114,4 +133,8 @@ modlitba_zalm_ref_doprovod = \new PianoStaff <<
 	%\new Lyrics \modlitba_zalm_slova_ref_b
 	%\new Lyrics \modlitba_zalm_slova_ref_c
 	%\new Lyrics \modlitba_zalm_slova_ref_d
+>>
+
+modlitba_zalm_ref_lidi = \new PianoStaff <<
+	\new Staff \modlitba_zalm_melodie_ref_lidi
 >>

@@ -12,8 +12,8 @@ modlitba_zalm_melodie_sloka_lid_prava = \relative c' {
 	
 	\new Voice = "hlavni" {
 	\voiceOne
-	d8 fis8 a\breve h4 a2 \breathe \bbar
-	a\breve h8 gis8 a4 fis4
+	d8^1 fis8 a\breve h4 a2 \breathe \bbar
+	a\breve^2 h8 gis8 a4 fis4
 	}
 	
 	\new Voice {
@@ -57,6 +57,25 @@ modlitba_zalm_melodie_sloka_lid_leva = \relative c {
 }
 
 
+modlitba_zalm_melodie_sloka_lid_lidi = \relative c' {
+	\key d \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+		
+	\new Voice = "hlavni" {
+	\voiceOne
+	d8^1 fis8 a\breve h4 a2 \breathe \bbar
+	a\breve^2 h8 gis8 a4 fis4
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 modlitba_zalm_slova_sloka_lid = \lyricmode {
 	
 }
@@ -66,4 +85,8 @@ modlitba_zalm_sloka_lid_doprovod = \new PianoStaff <<
 	\new Staff \modlitba_zalm_melodie_sloka_lid_prava
 	\new Staff \modlitba_zalm_melodie_sloka_lid_leva
 	%\new Lyrics \modlitba_zalm_slova_sloka_lid
+>>
+
+modlitba_zalm_sloka_lid_lidi = \new PianoStaff <<
+	\new Staff \modlitba_zalm_melodie_sloka_lid_lidi
 >>

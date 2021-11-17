@@ -14,41 +14,25 @@
 			\justify { %{ Texty naznačují možné frázování na příkladech konkrétních žalmů dle žaltáře. %}
 				Podle konkrétního frázování je možné či nutné vynechat nebo upravit nádechy. }
 			\vspace #0.75
-			\justify { Čísla nad notami naznačují verše (řádky) sloky. }
+			\justify { Čísla nad notami naznačují řádky sloky. }
 			\vspace #1.5
 			\line { \large "Antifona" }
 		}
 	}
 	\score {
-		\modlitba_zalm_ref_doprovod
+		\modlitba_zalm_ref_lidi
 	}
 	\markup {
 		\vspace #1.5
-		\line { \large "Sbor" }
+		\line { \large "Sloka" }
 	}
 	\score {
-		\modlitba_zalm_sloka_sbor_doprovod
+		\modlitba_zalm_sloka_lid_lidi
 	}
 	\markup {
-		\vspace #1.5
-		\line { \large "Všichni" }
-	}
-	\score {
-		\modlitba_zalm_sloka_lid_doprovod
-	}
-	\markup { \column {
 		\vspace #1.5
 		\line { \large "Sloka na tři řádky s †" }
-		\vspace #0.75
-		%{ \justify {
-			Jeden takt sloky výše odpovídá jednomu verši, ovšem pouze pro běžné sloky o dvou verších.
-			Sloka o třech verších kde první je zakončen křížkem \large "†" se provede takto:
-			První verš užije první tři noty sloky (d-fis-a) a pak se „vrací zpět“ na fis;
-			druhý verš začíná na a a pokračuje dále. }
-		\vspace #0.75 %}
-		\justify { První verš (řádek) je rozložen do dvou. Po třetí notě se klesá zpět na druhou. Melodie pouze naznačena: }
-		\vspace #0.75
-	} }
+	}
 	\score {
 		\modlitba_zalm_melodie_sloka_na_tri
 	}
