@@ -78,6 +78,30 @@ zpev_marii_melodie_leva = \relative c {
 }
 
 
+zpev_marii_melodie_lidi = \relative c' {
+	\key g \major
+	\clef treble
+	\language "deutsch"
+	\noTime
+	\accidentalStyle forget
+	\cadenzaOn
+	
+	\new Voice = "hlavni" {
+	\voiceOne
+	r8 e8 g8[( a8]) h8[ g8] a8[( g8]) fis4 e2 \breathe \bbar
+	r8 e8 g8[ a8] h8[ g8] a8[( g8]) fis4 e2 \breathe \bbar
+	e8[ e8] fis8[( e8]) dis8[( e8]) g8[ a8] h8[ c8] h4 h2 \breathe \bbar
+	e,8[ e8] fis8[ e8] dis8[ e8] h4 h4 \breathe \bbar
+	r8 h8 a8[ h8] c4 c2 \breathe \bbar
+	c8[ e8] g8[( fis8]) e4 h2 \breathe \bbar
+	fis'8[( g8]) fis2. e1 \breathe
+	}
+	
+	\bar "|."
+	\cadenzaOff
+}
+
+
 zpev_marii_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
@@ -106,5 +130,10 @@ zpev_marii_doprovod = \new PianoStaff <<
 	\new ChordNames \zpev_marii_akordy
 	\new Staff \zpev_marii_melodie_prava
 	\new Staff \zpev_marii_melodie_leva
+	\new Lyrics \zpev_marii_slova
+>>
+
+zpev_marii_lidi = \new PianoStaff <<
+	\new Staff \zpev_marii_melodie_lidi
 	\new Lyrics \zpev_marii_slova
 >>
