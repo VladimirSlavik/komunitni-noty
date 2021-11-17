@@ -98,9 +98,9 @@ hymnus_sv_krize_slova_a = \lyricmode {
 hymnus_sv_krize_slova_b = \lyricmode {
 	\set stanza = "2. "
 	Tehdy4 "řekl své"4 mat4 -- ce:4
-	"\"Toto je"4 "tvůj syn,"4 že4 -- "no!\""4
+	"„Toto je"4 "tvůj syn,"4 že4 -- "no!“"4
 	"A tomu učed"4 -- níkovi4 ře4 -- kl:4
-	"\"Tato že"4 -- "na je tvá"4 mat4 -- "ka\"!"4
+	"„Tato že"4 -- "na je tvá"4 mat4 -- "ka!“"4
 	
 }
 
