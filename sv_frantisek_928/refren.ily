@@ -2,38 +2,66 @@ frantisek_melodie_ref_prava = \relative c' {
 	\key c \major
 	\clef treble
 	\language "deutsch"
-	\noTime
-	\autoBeamOff
+	\time 3/4
 	\accidentalStyle forget
-	\cadenzaOn
-
-	<< { c8[ e f g c] } \\ { c,8( c4 c4) } >> \bbar
-	<d' d,>4 <a d,>8 <g d>4 \breathe <g d>8 \bbar
-	<c a>4. <a f>4 <f d>8 \bbar
-	<g e>4. <e c>4 \breathe c8 \bbar
-	f8[( e8]) c4. \bbar
-	c2. \dbar
 	
-	\cadenzaOff
+	<<
+	  
+	\new Voice = "hlavni" {
+	\voiceOne
+
+	s8 c8[ e f] g[ c] |
+	d4 a8 g4 \breathe g8 |
+	c4. a4 f8 |
+	g4. e4 \breathe c8 |
+	\tuplet 2/3 { f8[( e8] } c4. |
+	c2.) \dbar
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s8 c8( c4 c4) |
+	d4 d8 d4 d8 |
+	a'4. f4 d8 |
+	e4. c4 c8 |
+	s2. |
+	s2.%\dbar
+	}
+	
+	>>
 }
 
 frantisek_melodie_ref_leva = \relative c {
 	\key c \major
 	\clef bass
 	\language "deutsch"
-	\noTime
+	\time 3/4
 	\autoBeamOff
 	\accidentalStyle forget
-	\cadenzaOn
-
-	<< { g'4.( g4) } \\ {c,4( d8 e4) } >> \bbar
-	<h' g>4.~ <h g>4 <h f>8 \bbar
-	<c f,>4.~ <c f,>4 <a d,>8 \bbar
-	<g c,>4.~ <g c,>4 <g e c>8 \bbar
-	<g d h>4~ <g d h>4. \bbar
-	<g e c>2. \dbar
 	
-	\cadenzaOff
+	<<
+	
+	\new Voice {
+	\voiceOne
+	s8 g'4.( g4) |
+	h4.~ h4 h8 |
+	c4.~ c4 a8 |
+	g4.~ g4 g8 |
+	g2. |
+	g2. |
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s8 c,4( d8 e4) |
+	g4.~ g4 f8 |
+	f4.~ f4 d8 |
+	c4.~ c4 <e c>8 |
+	<d h>2. |
+	<e c>2.	%dbar
+	}
+	
+	>>
 }
 
 frantisek_melodie_ref_lidi = \relative c' {
@@ -45,11 +73,11 @@ frantisek_melodie_ref_lidi = \relative c' {
 	\accidentalStyle forget
 	\cadenzaOn
 
-	{ c8[ e f g c] } \bbar
+	s8 c8[ e f g c] \bbar
 	d4 a8 g4 \breathe g8 \bbar
 	c4. a4 f8 \bbar
 	g4. e4 \breathe c8 \bbar
-	f8[( e8]) c4. \bbar
+	\tuplet 2/3 { f8[( e8]) } c4. \bbar
 	c2. \dbar
 	
 	\cadenzaOff
@@ -57,11 +85,11 @@ frantisek_melodie_ref_lidi = \relative c' {
 
 frantisek_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
-	 U8 -- čiň8 mě,8 Pa8 -- ne,8
+	 _8 U8 -- čiň8 mě,8 Pa8 -- ne,8
 	 nás4 -- tro8 -- jem,4 ať8
 	 zá4. -- řím,4 ať8
 	 zá4. -- řím4 tvým8
-	 po4 -- ko4. -- jem.2.
+	 po4. -- ko4. -- jem.2.
 }
 
 frantisek_ref_doprovod = \new PianoStaff <<

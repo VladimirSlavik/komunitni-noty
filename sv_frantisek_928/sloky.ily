@@ -2,40 +2,35 @@ frantisek_melodie_sloka_prava = \relative c' {
 	\key c \major
 	\clef treble
 	\language "deutsch"
-	\noTime
 	\autoBeamOff
-	\cadenzaOn
 
 	\repeat unfold 2 {
-		c8[ d8 c8] d8[ e8 e8] \bbar
-		g8[ a8 g8] a4 e4 \breathe \bbar
+		\time 3/4
+		c8[ d8 c8] d8[ e8 e8] |
+		\time 7/8
+		g8[ a8 g8] a4 e4 \breathe |
 	}
-	e8[ f8 e8] g8[ a8 a8] \bbar
-	<c a>8[ <h a>8 <g e>8 <a f>8] <g e>4 \bbar
-	c,8[ d8 c8] e8[ g8 g8] \bbar
+	\time 3/4
+	e8[ f8 e8] g8[ a8 a8] |
+	<c a>8[ <h a>8 <g e>8 <a f>8] <g e>4 |
+	c,8[ d8 c8] e8[ g8 g8] |
 	a8[ g8 e8 f8] e4 \breathe \bar "|."
-
-	\cadenzaOff
 }
 
 frantisek_melodie_sloka_leva = \relative c' {
 	\key c \major
 	\clef bass
 	\language "deutsch"
-	\noTime
 	\autoBeamOff
-	\cadenzaOn
 
 	\repeat unfold 2 {
-		<g c,>4.~ <a c,>4. \bbar
-		<e c>4. <h' g d>4~ <c g e>4 \bbar
+		<g c,>4.~ <a c,>4. |
+		<e c>4. <h' g d>4~ <c g e>4 |
 	}
-	<c g>4. <c e,>4. \bbar
-	<c f,>4~ <c e,>8[ <h d,>8] <g c,>4 \bbar
-	<g e>4. <g c,>8[ <e c>8 <e c>8] \bbar
+	<c g>4. <c e,>4. |
+	<c f,>4~ <c e,>8[ <h d,>8] <g c,>4 |
+	<g e>4. <g c,>8[ <e c>8 <e c>8] |
 	<f c>8[ <e c>8 <g c,>8 <a c,>8] <g c,>4 \bar "|."
-
-	\cadenzaOff
 }
 
 frantisek_melodie_sloka_lidi = \relative c' {
@@ -54,7 +49,7 @@ frantisek_melodie_sloka_lidi = \relative c' {
 	c8[ h8 g8 a8] g4 \bbar
 	c,8[ d8 c8] e8[ g8 g8] \bbar
 	a8[ g8 e8 f8] e4 \breathe \bar "|."
-
+	
 	\cadenzaOff
 }
 
