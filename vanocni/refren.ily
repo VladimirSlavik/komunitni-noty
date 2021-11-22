@@ -7,7 +7,8 @@ vanocni_melodie_ref_prava = \relative c' {
 	<<
 	
 	\new Voice = "hlavni" {
-	\oneVoice r4 \voiceOne fis8[( fis8] |
+	\voiceOne
+	\partial 4fis8[( fis8] |
 	fis4 fis4) |
 	g8[ fis8 g8 a8] |
 	fis4 fis4 |
@@ -18,7 +19,7 @@ vanocni_melodie_ref_prava = \relative c' {
 	
 	\new Voice {
 	\voiceTwo
-	s4 a,8[\staccato a8] |
+	\partial 4 a,8[\staccato a8] |
 	d4 d4 |
 	e8[ d8 e8 fis8] |
 	d4 d4 |
@@ -42,7 +43,8 @@ vanocni_melodie_ref_leva = \absolute {
 	<<
 	
 	\new Voice {
-	\oneVoice r4 \voiceOne a8[( a8] |
+	\voiceOne
+	\partial 4 a8[( a8] |
 	a4 a4) |
 	h4. a8~ |
 	a2 |
@@ -53,7 +55,7 @@ vanocni_melodie_ref_leva = \absolute {
 	
 	\new Voice {
 	\voiceTwo
-	s4 d8[ e8] |
+	\partial 4 d8[ e8] |
 	fis4 fis4 |
 	e8[ fis8 g8] cis8 |
 	d2 |
@@ -74,7 +76,7 @@ vanocni_melodie_ref_lidi = \relative c' {
 	\language "deutsch"
 	\time 2/4
 	
-	r4 a8[ a8] | d4 d4 |
+	\partial 4 a8[ a8] | d4 d4 |
 	e8[( d8 e8 fis8]) | d4 d4 \breathe |
 	a'4( a4) | g8[( fis8] g4) | fis2 \breathe
 	\bar ":|."
@@ -85,7 +87,7 @@ vanocni_melodie_ref_lidi = \relative c' {
 vanocni_akordy_ref = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
-	s4 f4 | s2 |
+	\partial 4 f4 | s2 |
 	c2 | d2:m |
 	f2 | b2 | a2:7
 }
@@ -93,7 +95,7 @@ vanocni_akordy_ref = \relative c' \chordmode {
 
 vanocni_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
-	_4 A8 -- le8 -- lu4 -- ja,4
+	A8 -- le8 -- lu4 -- ja,4
 	a4 -- le4 -- lu4 -- ja,4
 	a4 -- le4 -- lu2 -- ja.2
 }
