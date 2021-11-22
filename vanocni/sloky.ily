@@ -7,11 +7,12 @@ vanocni_melodie_sloka_prava = \relative c' {
 	
 	<<
 	\new Voice = "hlavni" {
-	\oneVoice r4 \voiceOne a'4 |
+	\voiceOne 
+	\partial 4 a'4 |
 	a4 a4 |
 	ais?2^\markup {\small "(Ais při opak.)"} |
-	fis4 \afterGrace fis4 fis16 \breathe | \break
-	\oneVoice r4 \voiceOne fis8[ e8] |
+	fis4 fis4~ \breathe | \break
+	\afterGrace fis4 fis16 fis8[ e8] |
 	fis4 g4 |
 	a4 fis8[ e8] |
 	fis4 fis4 \breathe
@@ -19,11 +20,11 @@ vanocni_melodie_sloka_prava = \relative c' {
 	
 	\new Voice {
 	\voiceTwo
-	s4 d8[ e8] |
+	\partial 4 d8[ e8] |
 	fis4 fis4 |
 	fis8[( e8] fis4) |
-	d4 \afterGrace d4 cis16 |
-	s4 h8[( a8] |
+	d4 d4~ |
+	\afterGrace d4 cis16 h8[( a8] |
 	cis4) d8[ e8] |
 	d8[ cis8] h8[ a8] |
 	h4 h4
@@ -45,11 +46,12 @@ vanocni_melodie_sloka_leva = \absolute {
 	<<
 	
 	\new Voice {
-	\oneVoice r4 \voiceOne a4 |
+	\voiceOne
+	\partial 4 a4 |
 	a2 |
 	fis2 |
-	#(define afterGraceFraction (cons 7 8)) \afterGrace h2 h16 |
-	\oneVoice r4 \voiceOne h8 a8 |
+	h2~
+	\afterGrace h4 h16 h8 a8 |
 	a4 h4 |
 	a4 h8[ a8] |
 	h4 h4
@@ -57,11 +59,11 @@ vanocni_melodie_sloka_leva = \absolute {
 	
 	\new Voice {
 	\voiceTwo
-	s4 d4 |
+	\partial 4 d4 |
 	d2 |
 	cis2 |
-	#(define afterGraceFraction (cons 7 8)) \afterGrace fis2 e16 |
-	s4 d8 cis8 |
+	fis2~ |
+	\afterGrace fis4 e16 d8 cis8 |
 	cis4 d4 |
 	fis8[ e8] fis8[ e8] |
 	fis4 fis4
@@ -80,8 +82,8 @@ vanocni_melodie_sloka_lidi = \relative c' {
 	\time 2/4
 	\accidentalStyle forget
 	
-	r4 d8[ e8] | fis4 a4 |
-	fis8[( e8] fis4) | d4 d4 \breathe |
+	\partial 4 d8[ e8] | fis4 a4 |
+	fis8[( e8] fis4) | d4 d4 \breathe | \break
 	r4 h8[( a8] | cis4) d8[ e8] |
 	d8[ cis8 h8 a8] |
 	h4 h4 \breathe \bar ":|."
@@ -91,7 +93,7 @@ vanocni_melodie_sloka_lidi = \relative c' {
 vanocni_akordy_sloka = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
-	c2 | f2 |
+	\partial 4 c4 | f2 |
 	c2 | d2:m |
 	s2 | b2 |
 	c2 | d2:m
@@ -100,52 +102,52 @@ vanocni_akordy_sloka = \relative c' \chordmode {
 
 vanocni_slova_sloka_aa = \lyricmode {
 	\set stanza = "1. "
-	_4 Skr8 -- ze8 Kris4 -- ta4
+	Skr8 -- ze8 Kris4 -- ta4
 	při4 -- šla4 spá4 -- sa4
 	_4 je8 -- di8 -- ný4 Syn4
 	zro8 -- ze8 -- ný8 je8 "z Ot"4 -- ce4
 }
 vanocni_slova_sloka_ab = \lyricmode {
-	_4 teh8 -- dy8 Slo4 -- vo4
+	teh8 -- dy8 Slo4 -- vo4
 	se8 -- sta8 -- lo4 tě4 -- lem4
 	_4 "v lů"8 -- ně8 sva4 -- té4
 	Ma4 -- ri8 -- e8 Pan4 -- ny.4
 }
 vanocni_slova_sloka_ba = \lyricmode {
 	\set stanza = "2. "
-	_4 Ty8 jsi8 pro4 nás4
+	Ty8 jsi8 pro4 nás4
 	věč8 -- ná8 na4 -- dě4 -- je4
 	_4 ty8 jsi8 svě4 -- tlo8 a8
 	slá8 -- va8 své8 -- ho8 Ot4 -- ce2
 }
 vanocni_slova_sloka_bb = \lyricmode {
-	_4 a8 při8 -- jí4 -- máš4
+	a8 při8 -- jí4 -- máš4
 	na8 -- ši8 mod4 -- lit4 -- bu4
 	_4 u8 -- bo8 -- hých4 svých4
 	dě8 -- tí8 "v tom"8 -- to8 svě4 -- tě.4
 }
 vanocni_slova_sloka_ca = \lyricmode {
 	\set stanza = "3. "
-	_4 "V ten"8 den8 ne4 -- be,4
+	"V ten"8 den8 ne4 -- be,4
 	ze8 -- mě8 i4 mo4 -- ře4
 	_4 pě8 -- jí8 chvá4 -- lu4
 	to8 -- mu8 kdo8 Tě8 pos4 -- lal4
 }
 vanocni_slova_sloka_cb = \lyricmode {
-	_4 vše8 -- chny8 vě4 -- ci4
+	vše8 -- chny8 vě4 -- ci4
 	kte8 -- ré8 jsou4 na4 nich4
 	_4 já8 -- sa8 -- jí,4 když4
 	vi8 -- dí8 Tvé8 zro8 -- ze4 -- ní.4
 }
 vanocni_slova_sloka_da = \lyricmode {
 	\set stanza = "4. "
-	_4 Ta8 -- ké8 my,4 ó4
+	Ta8 -- ké8 my,4 ó4
 	Pa8 -- ne,8 "v ten"4 -- to4 den4
 	_4 chce8 -- me8 o4 -- sla4 --
 	vo8 -- vat8 Tvůj4 pří4 -- chod4
 }
 vanocni_slova_sloka_db = \lyricmode {
-	_4 kr8 -- ví8 svou4 jsi4
+	kr8 -- ví8 svou4 jsi4
 	nás4 vy4 -- kou4 -- pil4
 	_4 pro8 -- to8 Ti4 zpí4 --
 	vá8 -- me8 pí8 -- seň8 no4 -- vou.4
