@@ -4,9 +4,31 @@ vanocni_melodie_ref_prava = \relative c' {
 	\language "deutsch"
 	\time 2/4
 	
-	r4 <fis a,\staccato>8[ <fis a,>8] | <fis d>4 <fis d>4 |
-	<g e>8[ <fis d>8 <g e>8 <a fis>8] | <fis d>4 <fis d>4 |
-	a4( a4) | << {h8[ ais8] h4} \\ {g8[( fis8] g4)} >> | <ais fis>2
+	<<
+	
+	\new Voice = "hlavni" {
+	\oneVoice r4 \voiceOne fis8[( fis8] |
+	fis4 fis4) |
+	g8[ fis8 g8 a8] |
+	fis4 fis4 |
+	a4 a4 |
+	h8[ ais8] h4 |
+	ais2
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s4 a,8[\staccato a8] |
+	d4 d4 |
+	e8[ d8 e8 fis8] |
+	d4 d4 |
+	a'4 a4 |
+	g8[( fis8] g4) |
+	fis2
+	}
+	  
+	>>
+	
 	\bar ":|."
 	
 }
@@ -17,9 +39,31 @@ vanocni_melodie_ref_leva = \absolute {
 	\language "deutsch"
 	\time 2/4
 	
-	r4 <a d>8[ <a e>8] | <a fis>4 <a fis>4 |
-	<< {h4.} \\ {e8[ fis8 g8]} >> <a cis>8 <a d>2 |
-	fis4( fis4) | << {h8[( ais8] h4)} \\ {e2} >> | <cis' fis>2
+	<<
+	
+	\new Voice {
+	\oneVoice r4 \voiceOne a8[( a8] |
+	a4 a4) |
+	h4. a8~ |
+	a2 |
+	fis4( fis4) |
+	h8[( ais8] h4) |
+	cis'2
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s4 d8[ e8] |
+	fis4 fis4 |
+	e8[ fis8 g8] cis8 |
+	d2 |
+	fis4 fis4 |
+	e2 |
+	fis2
+	}
+	
+	>>
+	
 	\bar ":|."
 	
 }
