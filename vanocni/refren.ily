@@ -17,7 +17,7 @@ vanocni_melodie_ref_leva = \absolute {
 	\language "deutsch"
 	\time 2/4
 	
-	r4 <a d>8[ <a d>8] | <a fis>4 <a fis>4 |
+	r4 <a d>8[ <a e>8] | <a fis>4 <a fis>4 |
 	<< {h4.} \\ {e8[ fis8 g8]} >> <a cis>8 <a d>2 |
 	fis4( fis4) | << {h8[( ais8] h4)} \\ {e2} >> | <cis' fis>2
 	\bar ":|."
