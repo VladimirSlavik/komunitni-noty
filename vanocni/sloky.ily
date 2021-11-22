@@ -5,12 +5,34 @@ vanocni_melodie_sloka_prava = \relative c' {
 	\time 2/4
 	\accidentalStyle forget
 	
-	r4 << {a'4} \\ {d,8[ e8]} >> | <a fis>4 <a fis>4 |
-	<< {ais?2^\markup {\small "(Ais při opak.)"}} \\ {fis8[( e8] fis4)} >> |
-	<fis d>4 \afterGrace <fis d>4 <fis cis>16 \breathe | \break
-	r4 <fis h,>8[( <e a,>8] | <cis fis>4) << {g'4} \\ {d8[ e8]} >> |
-	<< {a4} \\ {d,8[ cis8]} >> <fis h,>8[ <e a,>8] |
-	<fis h,>4 <fis h,>4 \breathe \bar ":|."
+	<<
+	\new Voice = "hlavni" {
+	\oneVoice r4 \voiceOne a'4 |
+	a4 a4 |
+	ais?2^\markup {\small "(Ais při opak.)"} |
+	fis4 \afterGrace fis4 fis16 \breathe | \break
+	\oneVoice r4 \voiceOne fis8[ e8] |
+	fis4 g4 |
+	a4 fis8[ e8] |
+	fis4 fis4 \breathe
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s4 d8[ e8] |
+	fis4 fis4 |
+	fis8[( e8] fis4) |
+	d4 \afterGrace d4 cis16 |
+	s4 h8[( a8] |
+	cis4) d8[ e8] |
+	d8[ cis8] h8[ a8] |
+	h4 h4
+	}
+
+	>>
+	
+	\bar ":|."
+	
 }
 
 vanocni_melodie_sloka_leva = \absolute {
@@ -20,13 +42,35 @@ vanocni_melodie_sloka_leva = \absolute {
 	\time 2/4
 	\accidentalStyle forget
 	
-	r4 <a d >4 | <a d>2 |
-	<fis cis>2 |
-	#(define afterGraceFraction (cons 7 8))
-	\afterGrace <h fis>2 <h e>16 \breathe |
-	r4 <h d>8 <a cis>8 | <a cis>4 <h d>4 |
-	<< {a4} \\ {fis8[ e8]} >> <h fis>8[ <a e>8] |
-	<h fis>4 <h fis>4 \bar ":|."
+	<<
+	
+	\new Voice {
+	\oneVoice r4 \voiceOne a4 |
+	a2 |
+	fis2 |
+	#(define afterGraceFraction (cons 7 8)) \afterGrace h2 h16 |
+	\oneVoice r4 \voiceOne h8 a8 |
+	a4 h4 |
+	a4 h8[ a8] |
+	h4 h4
+	}
+	
+	\new Voice {
+	\voiceTwo
+	s4 d4 |
+	d2 |
+	cis2 |
+	#(define afterGraceFraction (cons 7 8)) \afterGrace fis2 e16 |
+	s4 d8 cis8 |
+	cis4 d4 |
+	fis8[ e8] fis8[ e8] |
+	fis4 fis4
+	}
+	
+	>>
+	
+	\bar ":|."
+	
 }
 
 vanocni_melodie_sloka_lidi = \relative c' {
