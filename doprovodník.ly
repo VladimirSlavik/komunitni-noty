@@ -61,8 +61,8 @@ book_name = "Doprovodník"
 
 \book {
 	\include "common-includes/frontpage.ily"
-	\markuplist \table-of-contents
-	\pageBreak
+	\markuplist \table-of-contents \pageBreak
+	\include "common-includes/vysvetlivky.ily"
 	
 	\include "modlitba_pozvani/doprovod.ily"
 	\include "modlitba_zalm/doprovod.ily"
