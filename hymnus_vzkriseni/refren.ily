@@ -46,7 +46,7 @@ hymnus_vzkriseni_melodie_ref_leva = \absolute {
 	\new Voice {
 	\voiceTwo
 	d8 d8 d2. | d8 d8 d4 d2 |
-	h,2 e4 e4 | h,2 d2 |
+	h,2 e4 e4 | a,2 d2 |
 	d8 d8 d2. | d8 d8 d4 d2 |
 	}
 	
