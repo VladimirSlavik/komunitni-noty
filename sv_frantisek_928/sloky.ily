@@ -12,8 +12,8 @@ frantisek_melodie_sloka_prava = \relative c' {
 	}
 	\time 3/4
 	e8[ f8 e8] g8[ a8 a8] |
-	<c a>8[ <h a>8 <g e>8 <a f>8] <g e>4 |
-	c,8[ d8 c8] e8[ g8 g8] |
+	<< { c8[ h8 g8 a8] g4 } \\ { a8[ a8 e8 f8] e4 } >> |
+	c8[ d8 c8] e8[ g8 g8] |
 	a8[ g8 e8 f8] e4 \breathe \bar "|."
 }
 
