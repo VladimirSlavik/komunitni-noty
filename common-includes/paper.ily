@@ -1,5 +1,7 @@
 %\version "2.18.2"
 
+#(set-default-paper-size "a4")
+
 \paper {
 	#(set-paper-size "a4")
 	indent = 0\mm
