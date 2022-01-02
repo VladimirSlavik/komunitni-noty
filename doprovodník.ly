@@ -17,6 +17,8 @@
 \include "modlitba_aleluja/refren.ily"
 \include "modlitba_aleluja/sloky.ily"
 
+\include "otevira/sloka.ily"
+
 \include "modlitba_primluvy_za_chude/sloka.ily"
 
 \include "modlitba_primluvy_za_cirkev/refren.ily"
@@ -67,6 +69,7 @@ book_name = "Doprovodník"
 	\include "modlitba_pozvani/doprovod.ily"
 	\include "modlitba_zalm/doprovod.ily"
 	\include "modlitba_aleluja/doprovod.ily"
+	\include "otevira/doprovod.ily"
 	\include "modlitba_primluvy_za_chude/doprovod.ily"
 	\include "modlitba_primluvy_za_cirkev/doprovod.ily"
 	

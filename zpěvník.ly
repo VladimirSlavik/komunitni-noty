@@ -17,6 +17,8 @@
 \include "modlitba_aleluja/refren.ily"
 \include "modlitba_aleluja/sloky.ily"
 
+\include "otevira/sloka.ily"
+
 \include "modlitba_primluvy_za_chude/sloka.ily"
 
 \include "modlitba_primluvy_za_cirkev/refren.ily"
@@ -67,6 +69,7 @@ book_name = "Zpěvník"
 	\include "modlitba_pozvani/lidi.ily"
 	\include "modlitba_zalm/lidi.ily"
 	\include "modlitba_aleluja/lidi.ily"
+	\include "otevira/lidi.ily"
 	\include "modlitba_primluvy_za_chude/lidi.ily"
 	\include "modlitba_primluvy_za_cirkev/lidi.ily"
 	
