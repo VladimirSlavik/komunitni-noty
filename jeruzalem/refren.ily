@@ -26,10 +26,8 @@ jeruzalem_melodie_ref_leva = \absolute {
 
 jeruzalem_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
-	_4 Ne8 -- ní8 dob8 -- ré8 a8 -- by8
-	pro4 -- rok2.
-	zem8 -- řel8 mi8 -- mo8 Je8 -- ru8 -- za4 --
-	lém.2. _4
+	_4 Ne8 -- ní8 dob8 -- ré8 když8 u8 -- mí4 -- rá2.
+	pro8 -- rok8 mi8 -- mo8 Je8 -- ru8 -- za4 -- lém.2. _4
 }
 
 jeruzalem_ref_doprovod = \new PianoStaff <<
