@@ -50,6 +50,9 @@
 \include "spasa_slava_sila/refren.ily"
 \include "spasa_slava_sila/sloky.ily"
 
+\include "place_marie/refren.ily"
+\include "place_marie/sloky.ily"
+
 \include "hymnus_vzkriseni/refren.ily"
 \include "hymnus_vzkriseni/sloky.ily"
 
@@ -83,6 +86,7 @@ book_name = "Doprovodník"
 	\include "zpev_marii/doprovod.ily"
 	\include "zpev_vzkriseni/doprovod.ily"
 	\include "spasa_slava_sila/doprovod.ily"
+	\include "place_marie/doprovod.ily"
 	\include "hymnus_vzkriseni/doprovod.ily"
 	\include "sv_frantisek_928/doprovod.ily"
 }
