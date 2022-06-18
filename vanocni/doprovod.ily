@@ -3,11 +3,22 @@
 		title = "Vánoční píseň"
 	}
 	\tocItem \markup { "Vánoční píseň" }
+	\markup {
+		\column {
+			\vspace #0.75
+			\justify { Stav:
+			           pravá ruka složená z italského originálu, levá domyšlená;
+			}
+			\vspace #0.75
+			\line { "Pozor, zpěv se nedrží nejvyšší noty v pravé ruce." }
+			\vspace #0.75
+		}
+	}
 	\score {
 		\vanocni_ref_doprovod
 	}
 	\markup {
-		\vspace #2
+		\vspace #1
 	}
 	\score {
 		\vanocni_sloka_doprovod
