@@ -110,16 +110,16 @@ modlitba_primluvy_chudi_slova_sloka_b = \lyricmode {
 	"Vyslyšel jsi, Pane,"\breve nářek\breve svého4 li8 -- du8 v_E8 -- gyp8 -- tě.2
 	\set stanza = "2. "
 	\override LyricText.font-shape = #'revert
-	Vy4 -- slyš4 "pláč utlačova"\breve -- "ných / a"\breve vy8 hna4 -- an4 -- ců.2
+	Vy4 -- slyš4 "pláč utlačova"\breve -- "ných / a"\breve vy8 hnan2 -- ců.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_c = \lyricmode {
 	\set stanza = "3. "
 	\override LyricText.font-shape = #'italic
-	"Pospěš jim na pomoc"\breve "a bu"\breve -- do4 -- ou8 spa8 se4 -- ni.2
+	"Pospěš jim na pomoc"\breve "a bu"\breve -- dou4. spa8 se4 -- ni.2
 	\set stanza = "3. "
 	\override LyricText.font-shape = #'revert
-	U4 -- zdra4 -- "voval jsi malomocné,"\breve "jež Ti při"\breve -- ná8 -- še2 -- li.2
+	U4 -- zdra4 -- "voval jsi malomocné, /"\breve "jež Ti při"\breve -- ná8 -- še2 -- li.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_d = \lyricmode {
@@ -128,7 +128,7 @@ modlitba_primluvy_chudi_slova_sloka_d = \lyricmode {
 	"Uzdrav toho kdo je nemocný,"\breve "buď blízko tomu"\breve kdo4 po8 -- tře8 -- bu4 -- je.2
 	\set stanza = "4. "
 	\override LyricText.font-shape = #'revert
-	Pa4 -- ne,4 "pospěš jim na pomoc"\breve "a budou"\breve spa8 -- se2 -- ni.2
+	Pa4 -- ne,4 "pospěš jim na pomoc /"\breve "a budou"\breve spa8 -- se2 -- ni.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_e = \lyricmode {
@@ -137,7 +137,7 @@ modlitba_primluvy_chudi_slova_sloka_e = \lyricmode {
 	"Osvobozoval jsi posedlé,"\breve "osvoboď toho kdo"\breve sebe4 ne8 -- o8 -- vlá4 -- dá.2
 	\set stanza = "5. "
 	\override LyricText.font-shape = #'revert
-	Pa4 -- ne,4 "pospěš jim na pomoc"\breve "a budou"\breve spa8 -- se2 -- ni.2
+	Pa4 -- ne,4 "pospěš jim na pomoc /"\breve "a budou"\breve spa8 -- se2 -- ni.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_f = \lyricmode {
@@ -146,7 +146,7 @@ modlitba_primluvy_chudi_slova_sloka_f = \lyricmode {
 	"Navrátil jsi zrak slepým,"\breve "znovu dal"\breve sílu4 o8 -- chro8 -- me4 -- ným.2
 	\set stanza = "6. "
 	\override LyricText.font-shape = #'revert
-	U4 -- čiň4 "všechny schopnými"\breve "vidět a komu"\breve -- ni8 -- ko2 -- vat.2
+	U4 -- čiň4 "všechny schopnými"\breve "vidět / a komu"\breve -- ni8 -- ko2 -- vat.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_g = \lyricmode {
@@ -155,7 +155,7 @@ modlitba_primluvy_chudi_slova_sloka_g = \lyricmode {
 	"Pospěš jim na pomoc"\breve "a bu"\breve -- do4 -- ou8 spa8 -- se4 -- ni.2
 	\set stanza = "7. "
 	\override LyricText.font-shape = #'revert
-	Po4 -- vo4 -- "lal jsi k životu mrtvé"\breve "a navrátil"\breve je_k8 svě2 -- tlu.2
+	Po4 -- vo4 -- "lal jsi k životu mrtvé /"\breve "a navrátil"\breve je_k8 svě2 -- tlu.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_h = \lyricmode {
@@ -164,7 +164,7 @@ modlitba_primluvy_chudi_slova_sloka_h = \lyricmode {
 	"Nedovol vládnout smrti,"\breve "navrať život"\breve svým4 slu8 -- žeb8 -- ní4 -- kům.2
 	\set stanza = "8. "
 	\override LyricText.font-shape = #'revert
-	Pa4 -- ne,4 "pospěš jim na pomoc"\breve "a budou"\breve spa8 -- se2 -- ni.2
+	Pa4 -- ne,4 "pospěš jim na pomoc /"\breve "a budou"\breve spa8 -- se2 -- ni.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_i = \lyricmode {
@@ -173,7 +173,7 @@ modlitba_primluvy_chudi_slova_sloka_i = \lyricmode {
 	"Jedl jsi s hříšníky,"\breve "odpustil"\breve jsi4 všech8 -- ny8 hří4 -- chy.2
 	\set stanza = "9. "
 	\override LyricText.font-shape = #'revert
-	Po4 -- hleď4 "na naše utrpení a bídu,"\breve "odpusť všechny na"\breve -- še8 hří2 -- chy.2
+	Po4 -- hleď4 "na naše utrpení a bídu, /"\breve "odpusť všechny na"\breve -- še8 hří2 -- chy.2
 }
 
 modlitba_primluvy_chudi_slova_sloka_j = \lyricmode {
