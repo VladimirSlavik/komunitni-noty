@@ -11,7 +11,14 @@
 	}
 	\tocItem \markup { "Otevírá strážný pastýři" }
 	\markup {
-	  \vspace #0.5
+		\vspace #0.5
+		\justify { Stav:
+		           noty správně,
+		           frázování podle Brna,
+		           konec prvního taktu je moc rychle.
+		           Je potřeba rozhodnout zda zápis chceme takto podrobný nebo použít něco volnějšího.
+		}
+		\vspace #1.5
 	}
 	\score {
 		\otevira_doprovod
