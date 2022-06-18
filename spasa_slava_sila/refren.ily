@@ -7,12 +7,29 @@ spasa_slava_sila_melodie_ref_prava = \relative c' {
 	\accidentalStyle forget
 	\cadenzaOn
 
-	<< {c4 e4 g4 g8 g4.} \\ {c,4 c4 e4 e8 e4.} >> << {a2 g2} \\ {f2 e2} >> \breathe \bbar
-	<< {c'8[ h8] c4 a2 g2} \\ {a8[ a8] a4 f2 e2} >> \breathe \bbar
-	<< {e1. f2 e2} \\ {c1. c2 c2} >> \breathe \bbar
-	<< {g'4 g4 g4 g4 a4 a4 a4 a4} \\ {e4 e4 e4 e4 f4 f4 f4 f4} >> \bbar
-	<< {c'4 c4 h2 c1} \\ {g4 g4 g2 g1} >> \breathe \dbar
+	<<
+	  
+	\new Voice = "hlavni" {
+	\voiceOne
+	c8[ e8 g8] g16[ g8.] a4 f4 \breathe \bbar
+	c'16[ h16 c8] a4 g4 \breathe \bbar
+	e8[ e8] e16[ e16 e8] e8[ e8] f4 e4 \breathe \bbar
+	g8[ g8 g8 g8] a8[ a8 a8 a8] \bbar
+	c8[ c8] h4 c2 \breathe
+	}
 	
+	\new Voice {
+	\voiceTwo
+	c,8[ c8 e8] e16[ e8.] f4 e4
+	a16[ a16 a8] f4 e4
+	c8[ c8] c16[ c16 c8] c8[ c8] c4 c4
+	e8[ e8 e8 e8] f8[ f8 f8 f8]
+	g8[ g8] g4 g2
+	}
+	
+	>>
+	
+	\dbar
 	\cadenzaOff
 }
 
@@ -25,11 +42,27 @@ spasa_slava_sila_melodie_ref_leva = \relative c {
 	\accidentalStyle forget
 	\cadenzaOn
 
-	<< {e4 g4 c4 c8 c4.} \\ {c,4 c4 c4 c8 c4.} >> << {c'2 c2} \\ {c,2 c2} >> \bbar
-	<< {c'8[ h8] c4 c2 c2} \\ {e,8[ e8] e4 f2 c2} >> \bbar
-	<< {a'1. a2 g2} \\ {a,1. a2 c2} >> \bbar
-	<< {c'4 \repeat unfold 7 c4} \\ {c,4 c4 c4 c4 f4 f4 f4 f4} >> \bbar
-	<< {c'4 c4 d2 e1} \\ {e,4 e4 g2 c,1} >> \dbar
+	<<
+	
+	\new Voice {
+	\voiceOne
+	e8[ g8 c8] c16[ c8.] c4 c4
+	c16[ h16 c8] c4 c4
+	a8[ a8] a16[ a16 a8] a8[ a8] a4 g4
+	c8[ c8 c8 c8] c8[ c8 c8 c8]
+	c8[ c8] d4 e2
+	}
+	
+	\new Voice {
+	\voiceTwo
+	c,8[ c8 c8] c16[ c8.] c4 c4
+	e16[ e16 e8] f4 c4
+	a8[ a8] a16[ a16 a8] a8[ a8] a4 c4
+	c8[ c8 c8 c8] f8[ f8 f8 f8]
+	e8[ e8] g4 c,2
+	}
+	
+	>>
 	
 	\cadenzaOff
 }
@@ -43,12 +76,13 @@ spasa_slava_sila_melodie_ref_lidi = \relative c' {
 	\autoBeamOff
 	\accidentalStyle forget
 	\cadenzaOn
+	\stemUp
 
-	c4 e4 g4 g8 g4. a2 g2 \breathe \bbar
-	c8[ h8] c4 a2 g2 \breathe \bbar
-	e1. f2 e2 \breathe \bbar
-	g4 g4 g4 g4 a4 a4 a4 a4 \bbar
-	c4 c4 h2 c1 \breathe \dbar
+	c8[ e8 g8] g16[ g8.] a4 g4 \breathe \bbar
+	c16[ h16 c8] a4 g4 \breathe \bbar
+	e8[ e8] e16[ e16 e8] e8[ e8] f4 e4 \breathe \bbar
+	g8[ g8 g8 g8] a8[ a8 a8 a8] \bbar
+	c8[ c8] h4 c2 \breathe \dbar
 	
 	\cadenzaOff
 }
@@ -56,12 +90,12 @@ spasa_slava_sila_melodie_ref_lidi = \relative c' {
 
 spasa_slava_sila_slova_ref = \lyricmode {
 	\set stanza = "Ref. "
-	Náš4 Pán4 už4 není2
-	"v hro"2 -- bě,2
-	on4 byl4 vzkří2 -- šen,2
-	pojď4 -- te,4 čeká4 nás4 "v Ga"4 -- li4 -- le2 -- ji,2
-	a4 -- le4 -- lu4 -- ja,4 a4 -- le4 -- lu4 -- ja,4
-	a4 -- le4 -- lu2 -- ja!1
+	Náš8 Pán8 už8 není4
+	"v hro"4 -- bě,4
+	on8 byl8 vzkří4 -- šen,4
+	pojď8 -- te,8 če16 -- ká16 nás8 "v Ga"8 -- li8 -- le4 -- ji,4
+	a8 -- le8 -- lu8 -- ja,8 a8 -- le8 -- lu8 -- ja,8
+	a8 -- le8 -- lu4 -- ja!2
 }
 
 

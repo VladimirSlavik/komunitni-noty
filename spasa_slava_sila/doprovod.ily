@@ -5,7 +5,15 @@
 	}
 	\tocItem \markup { "Hymnus Velikonoc" }
 	\markup {
-		\vspace #0.75
+		\column {
+			\vspace #1
+			\justify { Stav:
+			           melodie podle originálu;
+			           pro sloky vše mimo základní melodii přidáno;
+			           rytmus je 2x pro konzistenci;
+			}
+			\vspace #1
+		}
 	}
 	\score {
 		\spasa_slava_sila_ref_doprovod

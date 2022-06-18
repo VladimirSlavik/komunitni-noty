@@ -6,10 +6,25 @@ spasa_slava_sila_melodie_sloka_prava = \relative c' {
 	\autoBeamOff
 	\cadenzaOn
 	
-	<< {c\breve d2 c2} \\ {g\breve h2 g2} >> \breathe \bbar
-	<< {e'\breve f2 e2} \\ {c\breve a2 c2} >> \breathe \bbar
-	<h' a>4 <c a>4 <a f>2 <g e>1 \breathe \bar ":|."
+	<<
+	  
+	\new Voice = "hlavni" {
+	\voiceOne
+	c\breve d4 c4 \breathe \bbar
+	e\breve f4 e4 \bbar
+	h'8[ c8] a4 g2 \breathe
+	}
 	
+	\new Voice {
+	\voiceTwo
+	g,\breve h4 g4
+	c\breve a4 c4
+	a'8[ a8] f4 e2
+	}
+	
+	>>
+	
+	\bar ":|."
 	\cadenzaOff
 }
 
@@ -21,9 +36,23 @@ spasa_slava_sila_melodie_sloka_leva = \relative c {
 	\autoBeamOff
 	\cadenzaOn
 	
-	<< {c\breve d2 c2} \\ {e,\breve g2 e2} >> \bbar
-	<< {e'\breve f2 e2} \\ {a,\breve a2 g2} >> \bbar
-	<< {h'4 c4 c2 c1} \\ {e,4 e4 f2 c1} >> \bar ":|."
+	<<
+	  
+	\new Voice {
+	\voiceOne
+	c\breve d4 c4
+	e\breve f4 e4
+	h'8[ c8] c4 c2
+	}
+	
+	\new Voice {
+	\voiceTwo
+	e,,\breve g4 e4
+	a\breve a4 g4
+	e'8[ e8] f4 c2
+	}
+	
+	>>
 	
 	\cadenzaOff
 }
@@ -35,68 +64,69 @@ spasa_slava_sila_melodie_sloka_lidi = \relative c' {
 	\noTime
 	\autoBeamOff
 	\cadenzaOn
+	\stemUp
 	
-	c\breve d2 c2 \breathe \bbar
-	e\breve f2 e2 \breathe \bbar
-	h'4 c4 a2 g1 \breathe \bar ":|."
+	c\breve d4 c4 \breathe \bbar
+	e\breve f4 e4 \breathe \bbar
+	h'8 c8 a4 g2 \breathe \bar ":|."
 	
 	\cadenzaOff
 }
 
 
 aleluja = \lyricmode {
-	A4 -- le4 -- lu2 -- ja!1
+	A8 -- le8 -- lu4 -- ja!2
 }
 
 spasa_slava_sila_slova_sloka_aa = \lyricmode {
 	\set stanza = "1. "
-	"Spása, sláva a"\breve sí2 -- la2
-	"náleží našemu"\breve Bo2 -- hu:2
+	"Spása, sláva a"\breve sí4 -- la4
+	"náleží našemu"\breve Bo4 -- hu:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_ab = \lyricmode {
-	"Jsou pravdivá a"\breve správ2 -- ná2
-	"všechna jeho naří"\breve ze2 -- ní:2
+	"Jsou pravdivá a"\breve správ4 -- ná4
+	"všechna jeho naří"\breve -- ze4 -- ní:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_ba = \lyricmode {
 	\set stanza = "2. "
-	"Chvalte našeho"\breve Bo2 -- ha2
-	"všichni jeho služeb"\breve -- ní2 ci:2
+	"Chvalte našeho"\breve Bo4 -- ha4
+	"všichni jeho služeb"\breve -- ní4 ci:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_bb = \lyricmode {
-	"Vy všichni kdo se ho bo"\breve -- jí2 -- te2
-	"malí i"\breve -- vel2 -- cí:2
+	"Vy všichni kdo se ho bo"\breve -- jí4 -- te4
+	"malí i"\breve -- vel4 -- cí:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_ca = \lyricmode {
 	\set stanza = "3. "
-	"Pán všemo"\breve -- hou2 -- cí2
-	"vstoupil do krá"\breve -- lov2 -- ství:2
+	"Pán všemo"\breve -- hou4 -- cí4
+	"vstoupil do krá"\breve -- lov4 -- ství:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_cb = \lyricmode {
-	"Radujme se, já"\breve -- sej2 -- me2
-	"vzdávejme mu"\breve slá2 -- vu:2
+	"Radujme se, já"\breve -- sej4 -- me4
+	"vzdávejme mu"\breve slá4 -- vu:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_da = \lyricmode {
 	\set stanza = "4. "
-	"Přišel"\breve již2 den2
-	"svatby berán"\breve -- ko2 -- vy:2
+	"Přišel"\breve již4 den4
+	"svatby berán"\breve -- ko4 -- vy:4
 	\aleluja
 }
 
 spasa_slava_sila_slova_sloka_db = \lyricmode {
-	"Jeho ne"\breve --  věs2 -- ta2
-	"je připra"\breve -- ve2 -- na:2
+	"Jeho ne"\breve --  věs4 -- ta4
+	"je připra"\breve -- ve4 -- na:4
 	\aleluja
 }
 
