@@ -4,58 +4,62 @@ hymnus_sv_krize_melodie_prava = \relative c' {
 	\key f \major
 	\clef treble
 	\language "deutsch"
-	\time 4/4
+	\noTime
+	\cadenzaOn
 	
 	<<
 	  
 	\new Voice = "hlavni" {
 	\voiceOne
-	g'4 g4 f4 f4 \breathe |
-	f4 f4 g4 g4 \breathe |
-	g4 g4 a4 a4 \breathe |
-	b4 g4 a4 a4 \breathe
+	g'\breve f4 f2 \breathe \bbar
+	f\breve g4 g2 \breathe \bbar
+	g\breve a4 a2 \breathe \bbar
+	b\breve g\breve a4 a2 \breathe
 	}
 	
 	\new Voice {
 	\voiceTwo
-	e4 e4 d4 d4 \breathe |
-	d4 d4 e4 e4 \breathe |
-	e4 e4 f4 f4 \breathe |
-	g4 e4 c4 c4 \breathe
+	e\breve d4 d2 \breathe
+	d\breve e4 e2 \breathe
+	e\breve f4 f2 \breathe
+	g\breve e\breve c4 c2 \breathe
 	}
 	
 	>>
 		
 	\bar ":|."
+	\cadenzaOff
 }
 
 hymnus_sv_krize_melodie_leva = \relative c {
 	\key f \major
 	\clef bass
 	\language "deutsch"
-	\time 4/4
+	\noTime
+	\cadenzaOn
 	
 	<<
 	  
 	\new Voice = "hlavni" {
 	\voiceOne
-	g'4 g4 g4 f4 |
-	f4 f4 g4 g4 |
-	a4 a4 a4 a4 |
-	g4 g4 f4 f4
+	g'\breve g4 f2
+	f\breve g4 g2
+	a\breve a4 a2
+	g\breve g\breve f4 f2
 	}
 	
 	\new Voice {
 	\voiceTwo
-	c4 c4 c4 b4 |
-	b4 b4 c4 c4 |
-	cis4 cis4 d4 d4 |
-	d4 c4 f,4 f4
+	c\breve c4 b2
+	b\breve c4 c2
+	cis\breve d4 d2
+	d\breve c\breve f,4 f2
 	}
 	
 	>>
 	
 	\bar ":|."
+	\cadenzaOff
 }
 
 
@@ -63,53 +67,55 @@ hymnus_sv_krize_melodie_lidi = \relative c' {
 	\key f \major
 	\clef treble
 	\language "deutsch"
-	\time 4/4
+	\noTime
+	\cadenzaOn
 	
 	\new Voice = "hlavni" {
 	\voiceOne
-	g'4 g4 f4 f4 \breathe |
-	f4 f4 g4 g4 \breathe |
-	g4 g4 a4 a4 \breathe |
-	b4 g4 a4 a4 \breathe
+	g'\breve f4 f2 \breathe \bbar
+	f\breve g4 g2 \breathe \bbar
+	g\breve a4 a2 \breathe \bbar
+	b\breve g\breve a4 a2 \breathe
 	}
 		
 	\bar ":|."
+	\cadenzaOff
 }
 
 
 hymnus_sv_krize_akordy = \relative c' \chordmode {
 	\semiGermanChords
 	\set chordNameLowercaseMinor = ##t
-	c2 c4:7sus4 b4 |
-	s2 c2 |
-	a2 d2:m |
-	g4:m c4 f2
+	c\breve c4:7sus4 b2
+	s\breve c2.
+	a\breve d2.:m
+	g\breve:m c\breve f2.
 }
 
 
 hymnus_sv_krize_slova_a = \lyricmode {
 	\set stanza = "1. "
-	Stály4 "u kříže"4 Pá4 -- na,4
-	"Marie jeho"4 "matka a její"4 se4 -- stra,4
-	"Marie Kleofá"4 -- "šova a Marie Mag"4 -- dal4 -- ská,4
-	"Ježíš je vidí"4 "s milovaným učed"4 -- ní4 -- kem.4
+	"Stály u kříže"\breve Pá4 -- na,2
+	"Marie jeho matka a její"\breve se4 -- stra,2
+	"Marie Kleofášova a Marie Mag"\breve -- dal4 -- ská,2
+	"Ježíš je vidí"\breve "s milovaným učed"\breve -- ní4 -- kem.2
 }
 
 hymnus_sv_krize_slova_b = \lyricmode {
 	\set stanza = "2. "
-	Tehdy4 "řekl své"4 mat4 -- ce:4
-	"„Toto je"4 "tvůj syn,"4 že4 -- "no!“"4
-	"A tomu učed"4 -- níkovi4 ře4 -- kl:4
-	"„Tato že"4 -- "na je tvá"4 mat4 -- "ka!“"4
+	"Tehdy řekl své"\breve mat4 -- ce:2
+	"„Toto je tvůj syn,"\breve že4 -- "no!“"2
+	"A tomu učedníkovi"\breve ře4 -- kl:2
+	"„Tato že"\breve -- "na je tvá"\breve mat4 -- "ka!“"2
 	
 }
 
 hymnus_sv_krize_slova_c = \lyricmode {
 	\set stanza = "3. "
-	"Požehnaný je Pán,"4 "sám na"4 kří4 -- ži,4
-	"On nezapo"4 -- "míná na"4 li4 -- di4
-	"a ve své lás"4 -- "ce a milosr"4 -- den4 -- ství4
-	"nám dává"4 domov_a4 mat4 -- ku.4
+	"Požehnaný je Pán, sám na"\breve kří4 -- ži,2
+	"On nezapo míná na"\breve li4 -- di2
+	"a ve své lásce a milosr"\breve -- den4 -- ství2
+	"nám dává"\breve "domov a"\breve mat4 -- ku.2
 }
 
 
