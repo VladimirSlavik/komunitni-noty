@@ -23,11 +23,11 @@ modlitba_pozvani_melodie_sloka_prava = \relative c' {
 	
 	\new Voice {
 	\voiceTwo
-	s8  s2. s4
-	d8[ d8] d8[ d8] d8[ d8] cis4 d2
-	s2. s4.
-	s1 s2
-	d\breve
+	\tiny d8( d1)
+	\normalsize d8[ d8] d8[ d8] d8[ d8] cis4 d2
+	\tiny d2.( d4.)
+	<< { \tiny s2 \stemDown cis4 s2. } \\ { \tiny d2.~ d2. } >>
+	\normalsize d\breve
 	d8 d8[ d8] d8[ d8] d8[ d8] d8[ d8] cis4 d2
 	d8[ d8] d4( cis4 g1)
 	}
@@ -46,11 +46,11 @@ modlitba_pozvani_melodie_sloka_leva = \relative c {
 	\accidentalStyle forget
 	\cadenzaOn
 	
-	<a' fis d>8( <a fis d>1)
-	<< { a8[ a8] a8[ a8] h8[ h8] a4 a2 } \\ { d,8[ d8] d8[ d8] g,8[ g8] a4 d2 } >>
-	<a' fis d>2( <a fis d>8 <h fis h,>2)
-	<h g g,>2 <cis a a,>4 <a fis d>2.
-	<a d,>\breve
+	\tiny { <a' fis d>8( <a fis d>1) }
+	\normalsize << { a8[ a8] a8[ a8] h8[ h8] a4 a2 } \\ { d,8[ d8] d8[ d8] g,8[ g8] a4 d2 } >>
+	\tiny <a' fis d>2( <a fis d>8 <h fis h,>2)
+	<h g g,>2 <a g a,>4 << { \tiny g4 fis2 } \\ { \tiny <a d,>2. } >>
+	\normalsize <a d,>\breve
 	<< { a8 a8[ a8] a8[ a8] h8[ h8] h8[ h8] a4 a2 } \\ { d,8 d8[ d8] d8[ d8] g,8[ g8] g8[ g8] a4 d2 } >>
 	<< { a'8[ h8] a4( g4 fis1) } \\ { d8[ g,8] a2 d1 } >>
 	
