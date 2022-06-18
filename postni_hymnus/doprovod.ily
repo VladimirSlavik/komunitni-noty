@@ -5,7 +5,12 @@
 	}
 	\tocItem \markup { "Postní hymnus" }
 	\markup {
-		\vspace #2
+		\column {
+			\vspace #1
+			\justify { Stav:
+			           přesně podle originálu, vyjma přeskočených not na začátku }
+			\vspace #1
+		}
 	}
 	\score {
 		\postni_doprovod

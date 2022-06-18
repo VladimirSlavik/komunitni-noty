@@ -89,7 +89,7 @@ postni_akordy_ref = \relative c' \chordmode {
 
 postni_slova_a = \lyricmode {
 	\set stanza = "1. "
-	Na8 -- de8 -- šel8 čas8 o8 -- brá4. --
+	Na8 -- de8 -- šel8 čas8 o8 -- brá8 -- \→8 \→8 --
 	ce4 -- ní,2.
 	
 	na8 -- vrať8 -- te8 se8 ke8 mně8 ce8 -- lým8
@@ -104,7 +104,7 @@ postni_slova_a = \lyricmode {
 
 postni_slova_b = \lyricmode {
 	\set stanza = "2. "
-	Syn8 se8 vra8 -- cí8 do8 do8 -- mu8 _8
+	Syn8 se8 vra8 -- cí8 do8 do8 -- mu8 \→8
 	Ot4 -- ce:2.
 	
 	Ot8 -- če8 můj,8 zhře8 -- šil8 jsem8 pro8 -- ti8
@@ -113,13 +113,13 @@ postni_slova_b = \lyricmode {
 	nej8 -- sem8 hod8 -- ný8 už8 tvým8 sy8 -- nem8
 	bý4 -- ti,2.
 	
-	na8 -- šel8 však8 Ot8 -- ce8 mi8 -- lo8 srd8 --
+	na8 -- šel8 však8 Ot8 -- ce8 mi8 -- lo8 -- srd8 --
 	né4 -- ho.2.
 }
 
 postni_slova_c = \lyricmode {
 	\set stanza = "3. "
-	Na8 -- de8 -- šel8 čas8 o8 -- brá4. --
+	Na8 -- de8 -- šel8 čas8 o8 -- brá8 -- \→8 \→8 --
 	ce4 -- ní,2.
 	
 	mi8 -- lo8 -- srd8 -- ný,8 do8 -- bro8 -- ti8 -- vý8
