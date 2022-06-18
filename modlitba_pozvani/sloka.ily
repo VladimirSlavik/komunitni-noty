@@ -12,7 +12,7 @@ modlitba_pozvani_melodie_sloka_prava = \relative c' {
 	
 	\new Voice = "hlavni" {
 	\voiceOne
-	d8 d4. cis8[ h8] d4 d2. \breathe \dbar
+	d8 d4 cis8[ h8] d8 d4. \breathe \dbar
 	fis8[ fis8] fis8[ fis8] g8[ g8] g4 fis2 \breathe \dbar \break
 	d8[ d8] d8[ cis8] h8[ d8] d4. \breathe \bbar
 	d8 d8[ d8] d8 e4 d2. \breathe \dbar \break
@@ -23,7 +23,7 @@ modlitba_pozvani_melodie_sloka_prava = \relative c' {
 	
 	\new Voice {
 	\voiceTwo
-	s1 s2. \dbar
+	s8  s2. s4 \dbar
 	d8[ d8] d8[ d8] d8[ d8] cis4 d2 \dbar
 	s2. s4. \bbar
 	s1 s2 \dbar
@@ -46,7 +46,7 @@ modlitba_pozvani_melodie_sloka_leva = \relative c {
 	\accidentalStyle forget
 	\cadenzaOn
 	
-	<a' fis d>1( <a fis d>2.) \dbar
+	<a' fis d>8( <a fis d>1) \dbar
 	<< { a8[ a8] a8[ a8] h8[ h8] a4 a2 } \\ { d,8[ d8] d8[ d8] g,8[ g8] a4 d2 } >> \dbar
 	<a' fis d>2( <a fis d>8 <h fis h,>2) \bbar
 	<h g g,>2 <cis a a,>4 <a fis d>2. \dbar
@@ -68,7 +68,7 @@ modlitba_pozvani_melodie_sloka_lidi = \relative c' {
 		
 	\new Voice = "hlavni" {
 	\voiceOne
-	d8 d4. cis8[ h8] d4 d2. \breathe \dbar
+	d8 d4 cis8[ h8] d8 d4. \breathe \dbar
 	fis8[ fis8] fis8[ fis8] g8[ g8] g4 fis2 \breathe \dbar \break
 	d8[ d8] d8[ cis8] h8[ d8] d4. \breathe \bbar
 	d8 d8[ d8] d8 e4 d2. \breathe \dbar \break
@@ -85,7 +85,7 @@ modlitba_pozvani_melodie_sloka_lidi = \relative c' {
 modlitba_pozvani_akordy = \relative c' \chordmode {
 	\germanChords
 	\set chordNameLowercaseMinor = ##t
-	d1 s2.
+	d8 s1
 	d2 g4 a4 d2
 	d2 s8 h2:m
 	g2 a4 d2.
@@ -97,7 +97,7 @@ modlitba_pozvani_akordy = \relative c' \chordmode {
 
 modlitba_pozvani_slova_sloka = \lyricmode {
 	\override LyricText.font-shape = #'italic
-	Bo8 -- že,4. přijď8 a8 spas4 nás.2.
+	Bo8 -- že,4 přijď8 a8 spas8 nás.4.
 	\override LyricText.font-shape = #'revert
 	Pa8 -- ne8 po8 -- spěš8 nám8 po8 -- má4 -- hat.2
 	\override LyricText.font-shape = #'italic
