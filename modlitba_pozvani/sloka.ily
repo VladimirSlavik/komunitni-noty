@@ -23,12 +23,12 @@ modlitba_pozvani_melodie_sloka_prava = \relative c' {
 	
 	\new Voice {
 	\voiceTwo
-	s8  s2. s4 \dbar
-	d8[ d8] d8[ d8] d8[ d8] cis4 d2 \dbar
-	s2. s4. \bbar
-	s1 s2 \dbar
-	d\breve \bbar
-	d8 d8[ d8] d8[ d8] d8[ d8] d8[ d8] cis4 d2 \bbar
+	s8  s2. s4
+	d8[ d8] d8[ d8] d8[ d8] cis4 d2
+	s2. s4.
+	s1 s2
+	d\breve
+	d8 d8[ d8] d8[ d8] d8[ d8] d8[ d8] cis4 d2
 	d8[ d8] d4( cis4 g1)
 	}
 	
@@ -46,13 +46,13 @@ modlitba_pozvani_melodie_sloka_leva = \relative c {
 	\accidentalStyle forget
 	\cadenzaOn
 	
-	<a' fis d>8( <a fis d>1) \dbar
-	<< { a8[ a8] a8[ a8] h8[ h8] a4 a2 } \\ { d,8[ d8] d8[ d8] g,8[ g8] a4 d2 } >> \dbar
-	<a' fis d>2( <a fis d>8 <h fis h,>2) \bbar
-	<h g g,>2 <cis a a,>4 <a fis d>2. \dbar
-	<a d,>\breve \bbar
-	<< { a8 a8[ a8] a8[ a8] h8[ h8] h8[ h8] a4 a2 } \\ { d,8 d8[ d8] d8[ d8] g,8[ g8] g8[ g8] a4 d2 } >> \bbar
-	<< { a'8[ h8] a4( g4 fis1) } \\ { d8[ g,8] a2 d1 } >> \bar "|."
+	<a' fis d>8( <a fis d>1)
+	<< { a8[ a8] a8[ a8] h8[ h8] a4 a2 } \\ { d,8[ d8] d8[ d8] g,8[ g8] a4 d2 } >>
+	<a' fis d>2( <a fis d>8 <h fis h,>2)
+	<h g g,>2 <cis a a,>4 <a fis d>2.
+	<a d,>\breve
+	<< { a8 a8[ a8] a8[ a8] h8[ h8] h8[ h8] a4 a2 } \\ { d,8 d8[ d8] d8[ d8] g,8[ g8] g8[ g8] a4 d2 } >>
+	<< { a'8[ h8] a4( g4 fis1) } \\ { d8[ g,8] a2 d1 } >>
 	
 	\cadenzaOff
 }
