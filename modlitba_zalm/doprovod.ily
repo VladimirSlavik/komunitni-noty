@@ -6,6 +6,14 @@
 	\markup {
 		\column {
 			\vspace #1.5
+			\justify { Stav:
+			           noty podle starší italské verze,
+			           rytmus proporčně zrychlený aby platilo slabika = osmina,
+			           rytmus antifony podle zvyku,
+			           první nota antifony není v originále,
+			           společná sloka potřebuje závorky na začátku,
+			           je potřeba vyřešit zalomení stránky před vysvětlením křížku }
+			\vspace #0.75
 			\justify { Antifonu zpívá na začátku jednou předzpěvák či sbor, poté ji zopakuje celé shromáždění.
 				Na konci ji již zpívají jen jednou všichni spolu. Ve zpěvu jednotlivých slok žalmu se střídají
 				předzpěvák či sbor a celé shromáždění.
@@ -13,7 +21,6 @@
 			\vspace #0.75
 			\justify { %{ Texty naznačují možné frázování na příkladech konkrétních žalmů dle žaltáře. %}
 				Podle konkrétního frázování je možné či nutné vynechat nebo upravit nádechy. }
-			\vspace #0.75
 			\justify { Čísla nad notami naznačují verše (řádky) sloky. }
 			\vspace #1.5
 			\line { \large "Antifona" }
@@ -23,21 +30,21 @@
 		\modlitba_zalm_ref_doprovod
 	}
 	\markup {
-		\vspace #1.5
+		\vspace #0.75
 		\line { \large "Sbor" }
 	}
 	\score {
 		\modlitba_zalm_sloka_sbor_doprovod
 	}
 	\markup {
-		\vspace #1.5
+		\vspace #0.75
 		\line { \large "Všichni" }
 	}
 	\score {
 		\modlitba_zalm_sloka_lid_doprovod
 	}
 	\markup { \column {
-		\vspace #1.5
+		\vspace #0.75
 		\line { \large "Sloka na tři řádky s †" }
 		\vspace #0.75
 		%{ \justify {
