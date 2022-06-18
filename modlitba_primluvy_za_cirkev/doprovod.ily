@@ -6,6 +6,12 @@
 	\tocItem \markup { "Přímluvy (za církev)" }
 	\markup { \column {
 		\vspace #2
+		\justify { Stav:
+		           tóny správně;
+		           konce upravené na slabika=osmina,
+		           to však není konzistentní a tak zvažme konce 8+4 místo 4+2;
+		           je otázka jak vhodně naznačit poslední dvojsloku }
+		\vspace #0.75
 		\line { Ve zpěvu se střídají \italic { předzpěvák či sbor } a celé shromáždění. }
 		\vspace #2
 	} }
