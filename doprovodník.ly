@@ -65,28 +65,28 @@
 book_name = "Doprovodník"
 
 \book {
-	\include "common-includes/frontpage.ily"
-	\markuplist \table-of-contents \pageBreak
-	\include "common-includes/vysvetlivky.ily"
-	
-	\include "modlitba_pozvani/doprovod.ily"
-	\include "modlitba_zalm/doprovod.ily"
-	\include "modlitba_aleluja/doprovod.ily"
-	\include "otevira/doprovod.ily"
-	\include "modlitba_primluvy_za_chude/doprovod.ily"
-	\include "modlitba_primluvy_za_cirkev/doprovod.ily"
-	
-	\include "primluvy_kadidlo/doprovod.ily"
-	\include "kde_je_opravdova_laska/doprovod.ily"
-	\include "jan_krtitel/doprovod.ily"
-	\include "vanocni/doprovod.ily"
-	\include "postni_hymnus/doprovod.ily"
-	\include "jeruzalem/doprovod.ily"
-	\include "hymnus_sv_krize/doprovod.ily"
-	\include "zpev_marii/doprovod.ily"
-	\include "zpev_vzkriseni/doprovod.ily"
-	\include "spasa_slava_sila/doprovod.ily"
-	\include "place_marie/doprovod.ily"
-	\include "hymnus_vzkriseni/doprovod.ily"
-	\include "sv_frantisek_928/doprovod.ily"
+    \include "common-includes/frontpage.ily"
+    \markuplist \table-of-contents \pageBreak
+    \include "common-includes/vysvetlivky.ily"
+    
+    \include "modlitba_pozvani/doprovod.ily"
+    \include "modlitba_zalm/doprovod.ily"
+    \include "modlitba_aleluja/doprovod.ily"
+    \include "otevira/doprovod.ily"
+    \include "modlitba_primluvy_za_chude/doprovod.ily"
+    \include "modlitba_primluvy_za_cirkev/doprovod.ily"
+    
+    \include "primluvy_kadidlo/doprovod.ily"
+    \include "kde_je_opravdova_laska/doprovod.ily"
+    \include "jan_krtitel/doprovod.ily"
+    \include "vanocni/doprovod.ily"
+    \include "postni_hymnus/doprovod.ily"
+    \include "jeruzalem/doprovod.ily"
+    \include "hymnus_sv_krize/doprovod.ily"
+    \include "zpev_marii/doprovod.ily"
+    \include "zpev_vzkriseni/doprovod.ily"
+    \include "spasa_slava_sila/doprovod.ily"
+    \include "place_marie/doprovod.ily"
+    \include "hymnus_vzkriseni/doprovod.ily"
+    \include "sv_frantisek_928/doprovod.ily"
 }

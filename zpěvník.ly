@@ -62,27 +62,27 @@
 book_name = "Zpěvník"
 
 \book {
-	\include "common-includes/frontpage.ily"
-	\markuplist \table-of-contents
-	\pageBreak
-	
-	\include "modlitba_pozvani/lidi.ily"
-	\include "modlitba_zalm/lidi.ily"
-	\include "modlitba_aleluja/lidi.ily"
-	\include "otevira/lidi.ily"
-	\include "modlitba_primluvy_za_chude/lidi.ily"
-	\include "modlitba_primluvy_za_cirkev/lidi.ily"
-	
-	%\include "primluvy_kadidlo/doprovod.ily"
-	\include "kde_je_opravdova_laska/lidi.ily"
-	\include "jan_krtitel/lidi.ily"
-	\include "vanocni/lidi.ily"
-	\include "postni_hymnus/lidi.ily"
-	%\include "jeruzalem/doprovod.ily"
-	\include "hymnus_sv_krize/lidi.ily"
-	\include "zpev_marii/lidi.ily"
-	\include "zpev_vzkriseni/lidi.ily"
-	\include "spasa_slava_sila/lidi.ily"
-	\include "hymnus_vzkriseni/lidi.ily"
-	\include "sv_frantisek_928/lidi.ily"
+    \include "common-includes/frontpage.ily"
+    \markuplist \table-of-contents
+    \pageBreak
+    
+    \include "modlitba_pozvani/lidi.ily"
+    \include "modlitba_zalm/lidi.ily"
+    \include "modlitba_aleluja/lidi.ily"
+    \include "otevira/lidi.ily"
+    \include "modlitba_primluvy_za_chude/lidi.ily"
+    \include "modlitba_primluvy_za_cirkev/lidi.ily"
+    
+    %\include "primluvy_kadidlo/doprovod.ily"
+    \include "kde_je_opravdova_laska/lidi.ily"
+    \include "jan_krtitel/lidi.ily"
+    \include "vanocni/lidi.ily"
+    \include "postni_hymnus/lidi.ily"
+    %\include "jeruzalem/doprovod.ily"
+    \include "hymnus_sv_krize/lidi.ily"
+    \include "zpev_marii/lidi.ily"
+    \include "zpev_vzkriseni/lidi.ily"
+    \include "spasa_slava_sila/lidi.ily"
+    \include "hymnus_vzkriseni/lidi.ily"
+    \include "sv_frantisek_928/lidi.ily"
 }

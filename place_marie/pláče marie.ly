@@ -8,6 +8,6 @@
 \include "sloky.ily"
 
 \book {
-	\include "doprovod.ily"
-	\include "lidi.ily"
+    \include "doprovod.ily"
+    \include "lidi.ily"
 }

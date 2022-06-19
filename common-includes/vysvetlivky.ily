@@ -2,20 +2,20 @@
 \bookpart {
   
 \header {
-	title = "Vysvětlivky"
+    title = "Vysvětlivky"
 }
 \tocItem \markup { "Vysvětlivky" }
 
 \paper {
-	ragged-right = ##t
+    ragged-right = ##t
 }
 
 \markup { \column {
-	\vspace #2
-	\justify { \italic Kurzíva obvykle značí část pouze pro předzpěváky, shodně s textovými zpěvníky. Ve zpěvu se tedy střídají \italic { "předzpěvák či sbor" } a celé shromáždění. }
-	\vspace #2
-	\justify { Dvoucelé noty (brevis) %{\musicglyph "noteheads.SM1"%} mají být interpretovány podle délky textu ke zpěvu, tedy stejně jako při zpěvu žalmů. Jedna slabika obvykle odpovídá osminové notě. }
-	\vspace #2
+    \vspace #2
+    \justify { \italic Kurzíva obvykle značí část pouze pro předzpěváky, shodně s textovými zpěvníky. Ve zpěvu se tedy střídají \italic { "předzpěvák či sbor" } a celé shromáždění. }
+    \vspace #2
+    \justify { Dvoucelé noty (brevis) %{\musicglyph "noteheads.SM1"%} mají být interpretovány podle délky textu ke zpěvu, tedy stejně jako při zpěvu žalmů. Jedna slabika obvykle odpovídá osminové notě. }
+    \vspace #2
 } }
 
 \score {
@@ -27,9 +27,9 @@
 }
 
 \markup { \column {
-	\vspace #2
-	\justify { Šipky → v textech a závorky kolem noty naznačují že odpovídající nota je v dané sloce zcela přeskočena: }
-	\vspace #2
+    \vspace #2
+    \justify { Šipky → v textech a závorky kolem noty naznačují že odpovídající nota je v dané sloce zcela přeskočena: }
+    \vspace #2
 } }
 
 \score {
