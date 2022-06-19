@@ -24,6 +24,8 @@
 \include "modlitba_primluvy_za_cirkev/refren.ily"
 \include "modlitba_primluvy_za_cirkev/sloka.ily"
 
+\include "modlitba_otcenas/sloka.ily"
+
 \include "primluvy_kadidlo/sloka_a.ily"
 \include "primluvy_kadidlo/sloka_b.ily"
 
@@ -72,6 +74,7 @@ book_name = "Zpěvník"
     \include "otevira/lidi.ily"
     \include "modlitba_primluvy_za_chude/lidi.ily"
     \include "modlitba_primluvy_za_cirkev/lidi.ily"
+    \include "modlitba_otcenas/lidi.ily"
     
     %\include "primluvy_kadidlo/doprovod.ily"
     \include "kde_je_opravdova_laska/lidi.ily"
