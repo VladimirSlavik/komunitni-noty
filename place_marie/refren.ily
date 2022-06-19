@@ -12,13 +12,13 @@ place_marie_melodie_ref_prava = \relative c' {
 	\voiceOne
 	\partial 4*3 c8[ e8] g4 g4 |
 	h4 h4 c4 c4 |
-	c4 c4 d4.( e8 |
+	c4 c4 \afterGrace d2( \parenthesize e8 |
 	e1) \breathe |
 	r4 c,8[ e8] g4 g4 |
 	h4 h4 c4 c4 |
-	c4 c4 d4.( c8 |
+	c4 c4 \afterGrace d2( \parenthesize c8 |
 	c1)
-	\dbar
+	\dbar % musí být tady, na konci za hlasy nefunguje
 	}
 	
 	\new Voice {
@@ -69,7 +69,6 @@ place_marie_melodie_ref_leva = \relative c {
 	}
 	
 	>>
-	\dbar
 }
 
 place_marie_melodie_ref_lidi = \relative c' {

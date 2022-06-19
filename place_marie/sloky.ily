@@ -17,7 +17,7 @@ place_marie_melodie_sloka_prava = \relative c' {
 	a'8[ a8 a8] g4 e4 \parenthesize e8 |
 	f8[ e8 d8] c4 a4. \breathe |
 	\cadenzaOn % předposlední takt je velmi divoký
-	\parenthesize a8 a'8[ a8 a8 a8] a4 a4 \parenthesize a8[ \parenthesize a8]
+	\parenthesize a8 \parenthesize a'8[ a8 a8 a8] a4 a4 \parenthesize a8[ \parenthesize a8]
 	\cadenzaOff \bbar |
 	h8[ h8 h8] h2
 	}
@@ -31,7 +31,7 @@ place_marie_melodie_sloka_prava = \relative c' {
 	f'8[ f8 f8] e4 c4 \parenthesize c8 |
 	d8[ d8 d8] c4 c4. |
 	\cadenzaOn % předposlední takt
-	\parenthesize c8 f8[ f8 f8 f8] f4 f4 \parenthesize f8[ \parenthesize f8]
+	\parenthesize c8 \parenthesize f8[ f8 f8 f8] f4 f4 \parenthesize f8[ \parenthesize f8]
 	\cadenzaOff |
 	g8[ g8 g8] g2
 	}
@@ -58,7 +58,7 @@ place_marie_melodie_sloka_leva = \relative c {
 	c8[ c8 c8] c4 g4 \parenthesize g8 |
 	a8[ a8 a8] e4 e4. |
 	\cadenzaOn % předposlední takt
-	\parenthesize e8 c'8[ c8 c8 c8] c4 c4 \parenthesize c8[ \parenthesize c8]
+	\parenthesize e8 \parenthesize c'8[ c8 c8 c8] c4 c4 \parenthesize c8[ \parenthesize c8]
 	\cadenzaOff |
 	h8[ h8 h8] h2
 	}
@@ -72,7 +72,7 @@ place_marie_melodie_sloka_leva = \relative c {
 	f8[ f8 f8] c4 c4 \parenthesize c8 |
 	d8[ d8 d8] a4 a4. |
 	\cadenzaOn % předposlední takt
-	\parenthesize a8 f'8[ f8 f8 f8] f4 f4 \parenthesize f8[ \parenthesize f8]
+	\parenthesize a8 \parenthesize f'8[ f8 f8 f8] f4 f4 \parenthesize f8[ \parenthesize f8]
 	\cadenzaOff |
 	g8[ g8 g8] g2
 	}
@@ -130,7 +130,7 @@ place_marie_slova_sloka_c = \lyricmode {
 	to8 -- ho,8 jenž8 ži4 -- je?4.
 	Pov8 -- staň8 a8 po4 -- běž,4 vždyť8
 	ta8 -- dy8 jsem8 já,4 _4.
-	by8 -- las8 pos8 led4 -- ní4 \→8
+	by8 -- las8 pos8 -- led4 -- ní4 \→8
 	v_o8 -- čích8 všech8 li4 -- dí,4.
 	teď8 \→8 prv8 -- ní8 nes8 zprá4 -- vu,4 vo8 -- lej:8
 	Je8 -- žíš8 ži8 -- je!2
