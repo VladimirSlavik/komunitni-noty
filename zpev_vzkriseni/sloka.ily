@@ -102,6 +102,17 @@ vzkriseni_melodie_lidi = \relative c' {
 }
 
 
+vzkriseni_akordy = \relative c' \chordmode {
+    \germanChords
+    \set chordNameLowercaseMinor = ##t
+    f2
+    b2.
+    f2.:7
+    b2.
+    f1   f4 b4
+    f2 c2:7 f1
+}
+
 vzkriseni_slova = \lyricmode {
     Kris8 -- tus8 byl4
     vzkří4 -- šen,4 do8 -- o8 --
@@ -116,6 +127,7 @@ vzkriseni_slova = \lyricmode {
 
 
 vzkriseni_doprovod = \new PianoStaff <<
+    \new ChordNames \vzkriseni_akordy
     \new Staff \vzkriseni_melodie_prava
     \new Staff \vzkriseni_melodie_leva
     \new Lyrics \vzkriseni_slova
