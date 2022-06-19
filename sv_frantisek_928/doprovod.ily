@@ -4,11 +4,18 @@
 		subtitle = "(Kancionál č. 928)"
 	}
 	\tocItem \markup { "Učiň mě Pane nástrojem" }
+	\markup { \column {
+		\vspace #1.0
+		\justify { Stav:
+		           noty podle kancionálu, doprovod vymyšlený
+		}
+		\vspace #1.0
+	} }
 	\score {
 		\frantisek_ref_doprovod
 	}
 	\markup {
-	  \vspace #3
+	  \vspace #2
 	}
 	\score {
 		\frantisek_sloka_doprovod

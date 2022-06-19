@@ -3,9 +3,14 @@
 		title = "Hymnus vzkříšení"
 	}
 	\tocItem \markup { "Hymnus vzkříšení" }
-	\markup {
-	  \vspace #2
-	}
+	\markup { \column {
+		\vspace #1
+		\justify { Stav:
+		           melodie ok;
+		           je potřeba zjistit správné frázování
+		}
+		\vspace #1
+	} }
 	\score {
 		\hymnus_vzkriseni_ref_doprovod
 	}
