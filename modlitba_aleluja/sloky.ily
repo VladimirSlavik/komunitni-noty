@@ -91,7 +91,7 @@ modlitba_aleluja_sloka_akordy = \relative c' \chordmode {
     \germanChords
     \set chordNameLowercaseMinor = ##t
     d\breve
-    h\breve s4 e4:m h2:m
+    h\breve:m s4 e4:m h2:m
     fis\breve:m fis\breve:m
     s4 a2.
 }
