@@ -100,6 +100,19 @@ place_marie_melodie_sloka_lidi = \relative c' {
     \bar "|."
 }
 
+place_marie_sloka_akordy = \relative c' \chordmode {
+    \germanChords
+    \set chordNameLowercaseMinor = ##t
+    f4. c2 s8
+    d4.:m a8*5:m
+    f4. c2 s8
+    d4.:m g8*5
+    f4. c2 s8
+    d4.:m a8*5:m
+    s8 f1 s4
+    g4. s4. g16:sus4 g16
+}
+
 place_marie_slova_sloka_a = \lyricmode {
     \set stanza = "1. "
     Plá8 -- če8 Ma8 -- ri4 -- e4 u8
@@ -137,6 +150,7 @@ place_marie_slova_sloka_c = \lyricmode {
 }
 
 place_marie_sloka_doprovod = \new PianoStaff <<
+    \new ChordNames \place_marie_sloka_akordy
     \new Staff \place_marie_melodie_sloka_prava
     \new Staff \place_marie_melodie_sloka_leva
     \new Lyrics \place_marie_slova_sloka_a

@@ -10,7 +10,7 @@ place_marie_melodie_ref_prava = \relative c' {
     
     \new Voice = "hlavni" {
     \voiceOne
-    \partial 4*3 c8[ e8] g4 g4 |
+    r4 c8[ e8] g4 g4 |
     h4 h4 c4 c4 |
     c4 c4 \afterGrace d2( \parenthesize e8 |
     e1) \breathe |
@@ -23,7 +23,7 @@ place_marie_melodie_ref_prava = \relative c' {
     
     \new Voice {
     \voiceTwo
-    \partial 4*3 c,8[ c8] e4 e4 |
+    r4 c,8[ c8] e4 e4 |
     d4 d4 e4 e4 |
     f4 f4 g2 |
     g1 |
@@ -46,7 +46,7 @@ place_marie_melodie_ref_leva = \relative c {
     
     \new Voice {
     \voiceOne
-    \partial 4*3 e8[ f8] g4 g4 |
+    r4 e8[ f8] g4 g4 |
     g4 g4 a4 a4 |
     a4 a4 h2 |
     c1 |
@@ -58,7 +58,7 @@ place_marie_melodie_ref_leva = \relative c {
     
     \new Voice {
     \voiceTwo
-    \partial 4*3 c,8[ c8] c4 c4 |
+    r4 c,8[ c8] c4 c4 |
     h4 h4 c4 c4 |
     f4 f4 g2 |
     c,1 |
@@ -76,7 +76,7 @@ place_marie_melodie_ref_lidi = \relative c' {
     \clef treble
     \language "deutsch"
     \time 4/4
-    \partial 4*3 c8[ e8] g4 g4 |
+    r4 c8[ e8] g4 g4 |
     h4 h4 c4 c4 |
     c4 c4 d4.( e8 |
     e1) \breathe |
@@ -87,9 +87,22 @@ place_marie_melodie_ref_lidi = \relative c' {
     \dbar
 }
 
+place_marie_ref_akordy = \relative c' \chordmode {
+    \germanChords
+    \set chordNameLowercaseMinor = ##t
+    c2 a2
+    g2 a2:m
+    f2 g2
+    c1
+    g2 c2
+    g2 a2:m
+    f2 g2
+    c1
+}
+
 place_marie_slova_ref = \lyricmode {
     \set stanza = "Ref. "
-    A8 -- le8 -- lu4 -- ja,4
+    _4 A8 -- le8 -- lu4 -- ja,4
     a4 -- le4 -- lu4 -- ja,4
     a4 -- le4 -- lu2 --
     ja.1
@@ -100,6 +113,7 @@ place_marie_slova_ref = \lyricmode {
 }
 
 place_marie_ref_doprovod = \new PianoStaff <<
+    \new ChordNames \place_marie_ref_akordy
     \new Staff \place_marie_melodie_ref_prava
     \new Staff \place_marie_melodie_ref_leva
     \new Lyrics \place_marie_slova_ref
