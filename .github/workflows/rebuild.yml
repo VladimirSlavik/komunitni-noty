@@ -7,20 +7,29 @@ on:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
-    container:
-      image: docker://registry.fedoraproject.org/fedora:33
+    env:
+      CONTAINER: 'docker://registry.fedoraproject.org/fedora:36'
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Install Lilypond
+      - name: Write script
         run: |
+          #touch build.sh
+          << EOF > build.sh
+          set -eu
           sudo dnf -y install lilypond
-      - name: Build main files
+          cd /komunitni-noty
+          for file in ./**/*.ly ; do
+            lilypond "$file" || echo "Failed to build $file"
+          done
+          EOF
+          chmod +x build.sh
+      - name: Run script in the container
         run: |
-          lilypond *.ly
+          podman run -v `pwd`:/komunitni-noty ${{ env.CONTAINER }} bash /komunitni-noty/build.sh
       - name: Upload main files (1)
         uses: actions/upload-artifact@v2
         with:
@@ -31,11 +40,6 @@ jobs:
         with:
           name: 'Zpěvník'
           path: zpěvník.pdf
-      - name: Build all partial files
-        run: |
-          for file in ./**/*.ly ; do
-            lilypond "$file" || echo "Failed to build $file"
-          done
       - name: Upload partial files
         uses: actions/upload-artifact@v2
         with:
