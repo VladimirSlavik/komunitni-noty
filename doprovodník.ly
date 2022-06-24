@@ -40,8 +40,8 @@
 
 \include "postni_hymnus/sloka.ily"
 
-\include "jeruzalem/refren.ily"
-\include "jeruzalem/sloky.ily"
+\include "prorok/refren.ily"
+\include "prorok/sloky.ily"
 
 \include "hymnus_sv_krize/sloka.ily"
 
@@ -84,7 +84,7 @@ book_name = "Doprovodník"
     \include "jan_krtitel/doprovod.ily"
     \include "vanocni/doprovod.ily"
     \include "postni_hymnus/doprovod.ily"
-    \include "jeruzalem/doprovod.ily"
+    \include "prorok/doprovod.ily"
     \include "hymnus_sv_krize/doprovod.ily"
     \include "zpev_marii/doprovod.ily"
     \include "zpev_vzkriseni/doprovod.ily"

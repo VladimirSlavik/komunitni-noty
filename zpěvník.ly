@@ -40,8 +40,8 @@
 
 \include "postni_hymnus/sloka.ily"
 
-\include "jeruzalem/refren.ily"
-\include "jeruzalem/sloky.ily"
+\include "prorok/refren.ily"
+\include "prorok/sloky.ily"
 
 \include "hymnus_sv_krize/sloka.ily"
 
@@ -81,7 +81,7 @@ book_name = "Zpěvník"
     \include "jan_krtitel/lidi.ily"
     \include "vanocni/lidi.ily"
     \include "postni_hymnus/lidi.ily"
-    %\include "jeruzalem/doprovod.ily"
+    %\include "prorok/doprovod.ily"
     \include "hymnus_sv_krize/lidi.ily"
     \include "zpev_marii/lidi.ily"
     \include "zpev_vzkriseni/lidi.ily"
