@@ -24,6 +24,15 @@ jeruzalem_melodie_ref_leva = \absolute {
     <h e>2. r4 \bar "|."
 }
 
+jeruzalem_akordy_ref = \relative c' \chordmode {
+    \semiGermanChords
+    \set chordNameLowercaseMinor = ##t
+    s2 a2
+    e4 fis2.
+    d2 e8 d4.
+    e2. s4
+}
+
 jeruzalem_slova_ref = \lyricmode {
     \set stanza = "Ref. "
     _4 Ne8 -- ní8 dob8 -- ré8 když8 u8 -- mí4 -- rá2.
@@ -31,6 +40,7 @@ jeruzalem_slova_ref = \lyricmode {
 }
 
 jeruzalem_ref_doprovod = \new PianoStaff <<
+    \new ChordNames \jeruzalem_akordy_ref
     \new Staff \jeruzalem_melodie_ref_prava
     \new Staff \jeruzalem_melodie_ref_leva
     \new Lyrics \jeruzalem_slova_ref

@@ -44,6 +44,20 @@ jeruzalem_melodie_sloka_leva = \relative c {
     << {a'4 a2} \\ {fis4 fis2} >> r4 \bar "|."
 }
 
+jeruzalem_akordy_sloka = \relative c' \chordmode {
+    \semiGermanChords
+    \set chordNameLowercaseMinor = ##t
+    a2 e2
+    d1
+    h2:m a8 e8 fis4
+    fis2. s4
+    
+    a2 e2
+    d1
+    h2:m e2
+    fis2. s4
+}
+
 jeruzalem_slova_sloka_a = \lyricmode {
     \set stanza = "1. "
     Když4 Je8 -- žíš8 už8 byl8 vel8 -- mi8
@@ -120,6 +134,7 @@ jeruzalem_slova_sloka_e = \lyricmode {
 }
 
 jeruzalem_sloka_doprovod = \new PianoStaff <<
+    \new ChordNames \jeruzalem_akordy_sloka
     \new Staff \jeruzalem_melodie_sloka_prava
     \new Staff \jeruzalem_melodie_sloka_leva
     \new Lyrics \jeruzalem_slova_sloka_a
