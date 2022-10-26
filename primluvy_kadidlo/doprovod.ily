@@ -11,7 +11,6 @@
             \justify { Stav:
                        tóny ok;
                        není jasné který text patří ke kterým notám, zejm. 'se všemi jeho služebníky...';
-                       je potřeba změnit délky not aby byly konzistentní s ostatními písněmi (breve a slabika=osmina);
                        méně zmatená prezentace pořadí slok
             }
             \vspace #1.5
