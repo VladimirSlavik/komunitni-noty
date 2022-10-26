@@ -59,8 +59,8 @@ kadidlo_slova_b_g = \lyricmode {
     kadid8 -- lo4.
     
     "a mé ruce"\breve
-    "jako mi"\breve -- lo8 -- dar8
-    večera.\breve
+    "jako ve"\breve -- čer8 -- ní8
+    oběť.\breve
 }
 
 kadidlo_slova_b_i = \lyricmode {
