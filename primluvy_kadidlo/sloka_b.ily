@@ -8,11 +8,11 @@ kadidlo_melodie_b_prava = \relative c' {
     
     <a' fis>\breve \bbar
     <a fis>8 <a fis>8 <g e>8 <a fis>8 \bbar
-    <h g>8 <a fis>4. \breathe \bbar
+    <h g>8[ <h g>8] <a fis>4 \breathe \bbar
     
     <fis dis>\breve \bbar
     <g e>\breve <fis d!>8 <g e>8 \bbar
-    <e cis>\breve \breathe \bar "|."
+    <e cis>4 <e cis>4 \breathe \bar "|."
     
     \cadenzaOff
 }
@@ -27,11 +27,11 @@ kadidlo_melodie_b_leva = \relative c' {
     
     <a d,>\breve \bbar
     \repeat unfold 4 {<a d,>8} \bbar
-    <h d,>8 <a d,>4. \bbar
+    <h d,>8[ <h d,>8] <a d,>4 \bbar
     
     <h h,>\breve \bbar
     <h e,>\breve <h e,>8 <h e,>8 \bbar
-    <a a,>\breve \bar "|."
+    <a a,>4 <a a,>4 \bar "|."
     
     \cadenzaOff
 }
@@ -40,11 +40,11 @@ kadidlo_slova_b_b = \lyricmode {
     \set stanza = "2. "
     "K Tobě, Pane,"\breve
     ob8 -- ra8 -- cím8 svůj8
-    po8 -- hled,4.
+    po4 -- hled,4
     
     "dnes věřím,"\breve
     "pomoz mé"\breve ma8 -- lé8
-    víře.\breve
+    ví4 -- ře.4
 }
 
 kadidlo_slova_b_d = \lyricmode {
@@ -56,11 +56,11 @@ kadidlo_slova_b_g = \lyricmode {
     \set stanza = "7. "
     "Naše modlitba ať stoupá k Tobě,"\breve
     Pa8 -- ne,8 ja8 -- ko8
-    kadid8 -- lo4.
+    ka8 -- did8 -- lo4
     
     "a mé ruce"\breve
     "jako ve"\breve -- čer8 -- ní8
-    oběť.\breve
+    o4 -- běť.4
 }
 
 kadidlo_slova_b_i = \lyricmode {
