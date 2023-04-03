@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Žalm"
+        tagline = \info_footer
     }
     \tocItem \markup { "Žalm" }
     \markup {

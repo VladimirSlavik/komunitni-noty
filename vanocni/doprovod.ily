@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Vánoční píseň"
+        tagline = \info_footer
     }
     \tocItem \markup { "Vánoční píseň" }
     \markup {

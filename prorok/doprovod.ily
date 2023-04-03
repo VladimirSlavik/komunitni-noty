@@ -2,6 +2,7 @@
     \header {
         title = "Hymnus vjezdu do Jeruzaléma"
         subtitle = "„Prorok“"
+        tagline = \info_footer
     }
     \tocItem \markup { "Hymnus vjezdu do Jeruzaléma" }
     \markup {

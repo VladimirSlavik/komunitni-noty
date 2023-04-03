@@ -1,7 +1,7 @@
 \bookpart {
     \header {
         title = "Aleluja při čtení z Písma"
-        tagline = ##f
+        tagline = \info_footer
     }
     \tocItem \markup { "Aleluja při čtení z Písma" }
     \markup {

@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Kde je opravdová láska"
+        tagline = \info_footer
     }
     \tocItem \markup { "Kde je opravdová láska" }
     \markup {

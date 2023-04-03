@@ -2,6 +2,7 @@
     \header {
         title = "Učiň mě Pane nástrojem"
         subtitle = "(Kancionál č. 928)"
+        tagline = \info_footer
     }
     \tocItem \markup { "Učiň mě Pane nástrojem" }
     \markup { \column {

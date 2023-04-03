@@ -2,6 +2,7 @@
     \header {
         title = "Hymnus Velikonoc"
         subtitle = "Spása, sláva a síla"
+        tagline = \info_footer
     }
     \tocItem \markup { "Hymnus Velikonoc" }
     \markup {

@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Otče náš"
+        tagline = \info_footer
     }
     \tocItem \markup { "Otče náš" }
     \markup {

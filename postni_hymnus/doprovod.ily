@@ -2,6 +2,7 @@
     \header {
         title = "Postní hymnus"
         subtitle = "Nadešel čas obrácení"
+        tagline = \info_footer
     }
     \tocItem \markup { "Postní hymnus" }
     \markup {

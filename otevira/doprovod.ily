@@ -8,6 +8,7 @@
     \header {
         title = "Otevírá strážný pastýři"
         subtitle = "Zpěv z modlitby za církev"
+        tagline = \info_footer
     }
     \tocItem \markup { "Otevírá strážný pastýři" }
     \markup {

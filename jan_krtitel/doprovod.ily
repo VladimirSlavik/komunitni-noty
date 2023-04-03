@@ -2,6 +2,7 @@
     \header {
         title = "Jan Křtitel"
         subtitle = "Adventní píseň"
+        tagline = \info_footer
     }
     \tocItem \markup { "Jan Křtitel" }
     \markup {

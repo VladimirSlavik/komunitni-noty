@@ -2,6 +2,7 @@
     \header {
         title = "Zpěv vzkříšení"
         %subtitle = "Závěr modlitby Velikonoc"
+        tagline = \info_footer
     }
     \tocItem \markup "Zpěv vzkříšení"
     \markup {

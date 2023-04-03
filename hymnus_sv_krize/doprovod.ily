@@ -1,7 +1,7 @@
 \bookpart {
     \header {
         title = "Hymnus svatého kříže"
-        %subtitle = ""
+        tagline = \info_footer
     }
     \tocItem \markup { "Hymnus svatého kříže" }
     \markup {

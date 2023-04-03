@@ -1,7 +1,7 @@
 \bookpart {
     \header {
         title = "Trisalion"
-        %subtitle = ""
+        tagline = \info_footer
     }
     \tocItem \markup { "Trisalion" }
     \markup {

@@ -2,6 +2,7 @@
     \header {
         title = "Naše modlitba ať stoupá jako kadidlo"
         subtitle = "Responsoriální zpěv z modlitby dne Páně"
+        tagline = \info_footer
     }
     \tocItem \markup { "Naše modlitba ať stoupá jako kadidlo" }
     \markup {

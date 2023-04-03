@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Hymnus vzkříšení"
+        tagline = \info_footer
     }
     \tocItem \markup { "Hymnus vzkříšení" }
     \markup { \column {

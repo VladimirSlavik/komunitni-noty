@@ -1,7 +1,7 @@
 \bookpart {
     \header {
         title = "Přímluvy (za církev)"
-        tagline = ##f
+        tagline = \info_footer
     }
     \tocItem \markup { "Přímluvy (za církev)" }
     \markup { \column {

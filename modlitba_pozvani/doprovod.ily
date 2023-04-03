@@ -1,6 +1,7 @@
 \bookpart {
     \header {
         title = "Pozvání"
+        tagline = \info_footer
     }
     \tocItem \markup { "Pozvání" }
     \markup {

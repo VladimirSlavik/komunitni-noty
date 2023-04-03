@@ -2,6 +2,7 @@
     \header {
         title = "Pláče Marie"
         subtitle = "Zpěv vzkříšení"
+        tagline = \info_footer
     }
     \tocItem \markup { "Pláče Marie" }
     \markup {
