@@ -7,6 +7,7 @@
     \fill-line { \line { \fontsize #2 "Komunita Sant'Egidio" } }
     \vspace #5
     \fill-line { \epsfile #Y #70 #"common-includes/ikona.eps" }
-    \vspace #2
+    \vspace #10
+    \fill-line { \info_footer }
 } }
 \pageBreak
