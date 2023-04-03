@@ -8,39 +8,40 @@ jobs:
   rebuild:
     runs-on: ubuntu-latest
     env:
-      CONTAINER: 'docker://registry.fedoraproject.org/fedora:36'
+      CONTAINER: 'docker://registry.fedoraproject.org/fedora:38'
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Write script
         run: |
-          #touch build.sh
-          << EOF > build.sh
-          set -eu
-          sudo dnf -y install lilypond
-          cd /komunitni-noty
-          for file in ./**/*.ly ; do
-            lilypond "$file" || echo "Failed to build $file"
-          done
+          cat <<EOF > build.sh
+          set -eux
+          dnf -y install lilypond
+          pushd /repo
+          find . -name '*.ly' -type f -print0 | xargs -0 lilypond
+          popd
           EOF
-          chmod +x build.sh
+          chmod a+rx build.sh
       - name: Run script in the container
         run: |
-          podman run -v `pwd`:/komunitni-noty ${{ env.CONTAINER }} bash /komunitni-noty/build.sh
+          podman run --rm -v `pwd`:/repo:z ${{ env.CONTAINER }} bash /repo/build.sh
       - name: Upload main files (1)
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: 'Doprovodník'
           path: doprovodník.pdf
       - name: Upload main files (2)
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: 'Zpěvník'
           path: zpěvník.pdf
       - name: Upload partial files
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: 'Jednotlivé písně'
