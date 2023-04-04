@@ -6,17 +6,17 @@
     }
     \tocItem \markup { "Učiň mě Pane nástrojem" }
     \markup { \column {
-        \vspace #1.0
+        \vspace #0.75
         \justify { Stav:
-                   noty podle kancionálu, doprovod vymyšlený
+                   melodie podle kancionálu, doprovod vymyšlený
         }
-        \vspace #1.0
+        \vspace #0.75
     } }
     \score {
         \frantisek_ref_doprovod
     }
     \markup {
-      \vspace #2
+      \vspace #1
     }
     \score {
         \frantisek_sloka_doprovod

@@ -22,15 +22,45 @@ frantisek_melodie_sloka_leva = \relative c' {
     \clef bass
     \language "deutsch"
     \autoBeamOff
-
+    
+    <<
+    
+    \new Voice {
+    \voiceOne
     \repeat unfold 2 {
-        <g c,>4.~ <a c,>4. |
-        <e c>4. <h' g d>4~ <c g e>4 |
+      g4.( a4.) |
+      e4. h'4 c4 |
     }
-    <c g>4. <c e,>4. |
-    <c f,>4~ <c e,>8[ <h d,>8] <g c,>4 |
-    <g e>4. <g c,>8[ <e c>8 <e c>8] |
-    <f c>8[ <e c>8 <g c,>8 <a c,>8] <g c,>4 \bar "|."
+    c4. c4. |
+    c4~ c8[ h8]  g4 |
+    g4. g8[ e8 e8] |
+    f8[ e8 g8 a8] g4 |
+    }
+    
+    \new Voice {
+    \voiceTwo
+    \repeat unfold 2 {
+      c,4.( c4.) |
+      c4. d4 e4 |
+    }
+    g4. e4. |
+    f4 e8[ d8] c4 |
+    e4. c8[ c8 c8] |
+    c8[ c8 c8 c8] c4 |
+    }
+    
+    \new Voice {
+    \voiceThree
+    \shiftOff
+    \repeat unfold 2 {
+      s2. |
+      s4. g'4( g4) |
+    }
+    \repeat unfold 4 { s2. | } % zbytek stačí přeskočit
+    }
+    
+    >>
+    
 }
 
 frantisek_melodie_sloka_lidi = \relative c' {
