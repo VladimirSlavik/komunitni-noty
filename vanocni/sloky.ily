@@ -104,6 +104,7 @@ vanocni_slova_sloka_aa = \lyricmode {
     \set stanza = "1. "
     Skr8 -- ze8 Kris4 -- ta4
     při4 -- šla4 spá4 -- sa4
+    \set stanza = "1. "
     _4 je8 -- di8 -- ný4 Syn4
     zro8 -- ze8 -- ný8 je8 "z Ot"4 -- ce4
 }
@@ -117,6 +118,7 @@ vanocni_slova_sloka_ba = \lyricmode {
     \set stanza = "2. "
     Ty8 jsi8 pro4 nás4
     věč8 -- ná8 na4 -- dě4 -- je4
+    \set stanza = "2. "
     _4 ty8 jsi8 svě4 -- tlo8 a8
     slá8 -- va8 své8 -- ho8 Ot4 -- ce2
 }
@@ -130,6 +132,7 @@ vanocni_slova_sloka_ca = \lyricmode {
     \set stanza = "3. "
     "V ten"8 den8 ne4 -- be,4
     ze8 -- mě8 i4 mo4 -- ře4
+    \set stanza = "3. "
     _4 pě8 -- jí8 chvá4 -- lu4
     to8 -- mu8 kdo8 Tě8 pos4 -- lal4
 }
@@ -143,6 +146,7 @@ vanocni_slova_sloka_da = \lyricmode {
     \set stanza = "4. "
     Ta8 -- ké8 my,4 ó4
     Pa8 -- ne,8 "v ten"4 -- to4 den4
+    \set stanza = "4. "
     _4 chce8 -- me8 o4 -- sla4 --
     vo8 -- vat8 Tvůj4 pří4 -- chod4
 }

@@ -89,6 +89,7 @@ modlitba_primluvy_cirkev_slova_sloka_a = \lyricmode {
     \set stanza = "1. "
     "Pane, přijmi naši mod"\breve -- lit8 -- bu,2
     "dej nám odpuštění"\breve hří4 -- chů,2
+    \set stanza = "1. "
     "neboť Ty jsi světu u"\breve -- ká4 -- zal2
     "své slavné vzkří"\breve -- še8 -- ní.2
 }
@@ -97,6 +98,7 @@ modlitba_primluvy_cirkev_slova_sloka_b = \lyricmode {
     \set stanza = "2., 3a. "
     "Pojďte, národy, zpí"\breve -- vej8 -- me,2
     "skloňme se před"\breve Pá4 -- nem,2
+    \set stanza = "2., 3a. "
     "radostně osla"\breve -- vuj4 -- me2
     "jeho vzkříšení"\breve z_mrt8 -- vých,2
 }
@@ -105,6 +107,7 @@ modlitba_primluvy_cirkev_slova_sloka_c = \lyricmode {
     \set stanza = "3b. "
     "neboť on je"\breve náš8 -- Bůh,2
     "který svět osvobo"\breve -- zu4 -- je2
+    \set stanza = "3b. "
     "od samoty a"\breve nář4 -- ku,2
     "od lhaní nepří"\breve -- te8 -- le.2
 }
