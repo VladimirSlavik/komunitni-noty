@@ -105,7 +105,7 @@ modlitba_otcenas_melodie_sloka_leva = \relative c {
     e8[ e8] e8[ e8 e8 e8] d4 d4
     
     d8[ d8 d8 d8] d8[ d8 d8] d4.
-    d8[ d8 d8 d8] d8[ d8 d8 d8] d8[ cis8 c8] a4 a4
+    d8[ d8 d8 d8] d8[ d8 d8 d8] d8[ cis8 h8] a4 a4
     
     a8 a8[ a8 a8 a8] a8[ a8] d4 a4 h4
     h8[ cis8 d8] e4
