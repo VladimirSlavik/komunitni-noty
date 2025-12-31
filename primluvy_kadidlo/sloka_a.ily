@@ -9,7 +9,7 @@ kadidlo_melodie_a_prava = \relative c' {
 
     <d a>\breve \bbar
     <e cis>8 <e cis>8 <d h>8 <e cis>8
-    <fis d>\breve \breathe \bbar
+    <fis d>8 <fis d>4 \breathe \bbar
 
     <fis d>\breve \bbar
     <g e>8 <g e>8 <g e>8 <fis d>8 <g e>8
@@ -29,7 +29,7 @@ kadidlo_melodie_a_leva = \relative c {
 
     <fis d>\breve
     \repeat unfold 4 { <a a,>8 }
-    <a d,>\breve
+    <a d,>8 <a d,>4
 
     <h h,>\breve
     \repeat unfold 5 { <h e,>8 }
@@ -42,7 +42,7 @@ kadidlo_slova_a_a = \lyricmode {
     \set stanza = "1. "
     "Naše modlitba ať stoupá k Tobě,"\breve
     Pa8 -- ne8 ja8 -- ko8
-    kadidlo\breve
+    ka8 -- "didlo,"4
 
     \set stanza = "1. "
     "a mé ruce"\breve
@@ -54,7 +54,7 @@ kadidlo_slova_a_c = \lyricmode {
     \set stanza = "3. "
     "Člověk který se nazývá"\breve
     Je8 -- žíš,8 mě8 uz8 --
-    dravil,\breve
+    dra8 -- "vil,"4
     
     \set stanza = "3. "
     "byl jsem"\breve
@@ -66,7 +66,7 @@ kadidlo_slova_a_e = \lyricmode {
     \set stanza = "5. "
     "Naše modlitba ať stoupá k Tobě,"\breve
     Pa8 -- ne8 ja8 -- ko8
-    kadidlo\breve
+    ka8 -- "didlo,"4
 
     \set stanza = "5. "
     "a mé ruce"\breve
@@ -78,7 +78,7 @@ kadidlo_slova_a_f = \lyricmode {
     \set stanza = "6. "
     "Modleme se k Pánu ve světle jeho vzkříšení,"\breve
     se8 vše8 -- mi8 sva8 --
-    tými,\breve
+    tý8 -- "mi,"4
     
     \set stanza = "6. "
     "kteří ho dnes a ve stoletích"\breve
@@ -90,7 +90,7 @@ kadidlo_slova_a_h = \lyricmode {
     \set stanza = "8. "
     "Modleme se k Pánu ve spole"\breve --
     čen8 ství8 je8 -- ho8
-    Ducha,\breve
+    Du8 -- "cha,"4
     
     \set stanza = "8. "
     "se všemi jeho služebníky, kteří tě kdekoliv"\breve
