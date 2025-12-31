@@ -10,11 +10,14 @@
         \column {
             \vspace #1
             \justify { Stav:
-                       melodie ok;
-                       není zcela jasný konec druhého taktu, čekáme 8...4+4 ale je 8...8+4;
-                       není jasné který text patří ke kterým notám, zejm. 'o-slavo-vali',
-                         bylo by logické i -va-li kde 'osla-' bude ještě na předchozí notě;
+                       konce řádků volné k diskusi - originál nepředepisuje nic než poslední notu slok;
                        nutná méně zmatená prezentace pořadí slok = rozdělit zpěv před a zpěv po.
+            }
+            \vspace #1
+            \justify {
+                Tento zpěv je použit při přímluvách, kdy nejprve se zpívají sloky 1-5,
+                poté proběhnou přímluvy se zpívanou odpovědí Kyrie Eleison,
+                a na konec se zpívají sloky 6-9.
             }
             \vspace #1.5
         }
