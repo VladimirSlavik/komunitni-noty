@@ -6,6 +6,7 @@
 
 \include "sloka_a.ily"
 \include "sloka_b.ily"
+\include "kyrie_amen_c.ily"
 
 \book {
     \include "doprovod.ily"

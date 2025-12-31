@@ -12,7 +12,7 @@ kadidlo_melodie_b_prava = \relative c' {
     \voiceOne
     a'\breve \bbar
     a8 a8 g8 a8 \bbar
-    h8[ h8] a4 \breathe \bbar
+    h8[ h8] a4 \breathe \bbar \break
     
     fis\breve \bbar
     \repeat unfold 3 { g8 } fis8 g8 \bbar
@@ -120,11 +120,17 @@ kadidlo_slova_b_i = \lyricmode {
     o4 -- běť.4
 }
 
-kadidlo_sloka_doprovod = \new PianoStaff <<
+
+kadidlo_sloka_pred_doprovod = \new PianoStaff <<
     \new Staff \kadidlo_melodie_b_prava
     \new Staff \kadidlo_melodie_b_leva
     \new Lyrics \kadidlo_slova_b_b
     \new Lyrics \kadidlo_slova_b_d
+>>
+
+kadidlo_sloka_za_doprovod = \new PianoStaff <<
+    \new Staff \kadidlo_melodie_b_prava
+    \new Staff \kadidlo_melodie_b_leva
     \new Lyrics \kadidlo_slova_b_g
     \new Lyrics \kadidlo_slova_b_i
 >>

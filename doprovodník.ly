@@ -28,6 +28,7 @@
 
 \include "primluvy_kadidlo/sloka_a.ily"
 \include "primluvy_kadidlo/sloka_b.ily"
+\include "primluvy_kadidlo/kyrie_amen_c.ily"
 
 \include "kde_je_opravdova_laska/refren.ily"
 \include "kde_je_opravdova_laska/sloky.ily"

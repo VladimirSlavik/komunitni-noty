@@ -134,12 +134,18 @@ kadidlo_slova_a_h = \lyricmode {
     vzdá4 -- "ním."4
 }
 
-kadidlo_ref_doprovod = \new PianoStaff <<
+
+kadidlo_ref_pred_doprovod = \new PianoStaff <<
     \new Staff \kadidlo_melodie_a_prava
     \new Staff \kadidlo_melodie_a_leva
     \new Lyrics \kadidlo_slova_a_a
     \new Lyrics \kadidlo_slova_a_c
     \new Lyrics \kadidlo_slova_a_e
+>>
+
+kadidlo_ref_za_doprovod = \new PianoStaff <<
+    \new Staff \kadidlo_melodie_a_prava
+    \new Staff \kadidlo_melodie_a_leva
     \new Lyrics \kadidlo_slova_a_f
     \new Lyrics \kadidlo_slova_a_h
 >>
