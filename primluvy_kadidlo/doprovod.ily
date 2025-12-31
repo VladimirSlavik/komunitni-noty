@@ -10,9 +10,9 @@
         \column {
             \vspace #1
             \justify { Stav:
-                       tóny ok;
+                       melodie ok;
                        není jasné který text patří ke kterým notám, zejm. 'se všemi jeho služebníky...';
-                       méně zmatená prezentace pořadí slok
+                       nutná méně zmatená prezentace pořadí slok = rozdělit zpěv před a zpěv po.
             }
             \vspace #1.5
         }
