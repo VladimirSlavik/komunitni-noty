@@ -6,13 +6,31 @@ kadidlo_melodie_b_prava = \relative c' {
     \autoBeamOff
     \cadenzaOn
     
-    <a' fis>\breve \bbar
-    <a fis>8 <a fis>8 <g e>8 <a fis>8 \bbar
-    <h g>8[ <h g>8] <a fis>4 \breathe \bbar
+    <<
+
+    \new Voice = "hlavni" {
+    \voiceOne
+    a'\breve \bbar
+    a8 a8 g8 a8 \bbar
+    h8[ h8] a4 \breathe \bbar
     
-    <fis dis>\breve \bbar
-    \repeat unfold 3 {<g e>8} <fis d!>8 <g e>8 \bbar
-    <e cis>4 <e cis>4 \breathe \bar "|."
+    fis\breve \bbar
+    \repeat unfold 3 { g8 } fis8 g8 \bbar
+    e4 e4 \breathe \bar "|."
+    }
+    
+    \new Voice {
+    \voiceTwo
+    fis\breve
+    fis8 fis8 e8 fis8
+    g8[ g8] fis4
+    
+    dis\breve
+    \repeat unfold 3 { e8 } d!8 e8
+    cis4 cis4
+    }
+    
+    >>
     
     \cadenzaOff
 }
@@ -25,13 +43,31 @@ kadidlo_melodie_b_leva = \relative c' {
     \autoBeamOff
     \cadenzaOn
     
-    <a d,>\breve
-    \repeat unfold 4 {<a d,>8}
-    <h d,>8[ <h d,>8] <a d,>4
+    <<
+
+    \new Voice {
+    \voiceOne
+    a\breve
+    \repeat unfold 4 { a8 }
+    h8[ h8] a4
     
-    <h h,>\breve
-    \repeat unfold 5 {<h e,>8}
-    <a a,>4 <a a,>4
+    h\breve
+    \repeat unfold 5 {h8}
+    a4 a4
+    }
+    
+    \new Voice {
+    \voiceTwo
+    d,\breve
+    \repeat unfold 4 { d8 }
+    d8[ d8] d4
+    
+    h\breve
+    \repeat unfold 5 { e8 }
+    a4 a4
+    }
+    
+    >>
     
     \cadenzaOff
 }
