@@ -36,10 +36,12 @@ vanocni_melodie_ref_prava = \relative c' {
 
 vanocni_melodie_ref_leva = \absolute {
     \key d \major
-    \clef bass
+    \clef "bass_8"
     \language "deutsch"
     \time 2/4
     
+    \transpose c c, {
+
     <<
     
     \new Voice {
@@ -68,6 +70,7 @@ vanocni_melodie_ref_leva = \absolute {
     
     \bar ":|."
     
+    }
 }
 
 vanocni_melodie_ref_lidi = \relative c' {

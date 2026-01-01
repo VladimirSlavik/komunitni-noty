@@ -10,7 +10,7 @@ vanocni_melodie_sloka_prava = \relative c' {
     \voiceOne 
     \partial 4 a'4 |
     a4 a4 |
-    ais?2^\markup {\small "(Ais při opak.)"} |
+    ais?2^\markup {\teeny "(Ais při opak.)"} |
     fis4 fis4~ \breathe | \break
     \afterGrace fis4 fis16 fis8[ e8] |
     fis4 g4 |
@@ -38,11 +38,12 @@ vanocni_melodie_sloka_prava = \relative c' {
 
 vanocni_melodie_sloka_leva = \absolute {
     \key d \major
-    \clef bass
+    \clef "bass_8"
     \language "deutsch"
     \time 2/4
     \accidentalStyle forget
-    
+    \transpose c c, {
+
     <<
     
     \new Voice {
@@ -73,6 +74,7 @@ vanocni_melodie_sloka_leva = \absolute {
     
     \bar ":|."
     
+    }
 }
 
 vanocni_melodie_sloka_lidi = \relative c' {
