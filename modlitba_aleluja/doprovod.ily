@@ -4,6 +4,9 @@
         tagline = \info_footer
     }
     \tocItem \markup { "Aleluja při čtení z Písma" }
+    \paper {
+        system-system-spacing.padding = #3
+    }
     \markup {
         \column {
             \vspace #1.5
@@ -26,7 +29,7 @@
         \modlitba_aleluja_ref_doprovod
     }
     \markup {
-        \vspace #2
+        \vspace #1
     }
     \score {
         \modlitba_aleluja_sloka_doprovod

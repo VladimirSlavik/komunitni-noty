@@ -28,7 +28,7 @@
     % jen schéma
     \markup { \column {
         \vspace #2
-        \line { Schéma slok: }
+        \line { Schéma sledu slok: }
         \vspace #0.75
         \line { \bold 1. \italic { Vysvoboď... } Pane, přijmi... }
         \line { \bold 2. \italic { Spravedliví... } Pojďte, národy... }
