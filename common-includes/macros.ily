@@ -20,3 +20,22 @@ forceHyphen =
   #{
     \once \override LyricHyphen.minimum-distance = #dist
   #})
+
+grayStaffCustomColor = "gray"
+
+grayStaff = {
+    \override Staff.StaffSymbol.color = \grayStaffCustomColor
+    \override Staff.TimeSignature.color = \grayStaffCustomColor
+    \override Staff.Clef.color = \grayStaffCustomColor
+    \override Staff.KeySignature.color = \grayStaffCustomColor
+    \override Staff.BarLine.color = \grayStaffCustomColor
+    \override Staff.Accidental.color = \grayStaffCustomColor
+    \override Staff.NoteHead.color = \grayStaffCustomColor
+    \override Staff.Stem.color = \grayStaffCustomColor
+    \override Staff.Beam.color = \grayStaffCustomColor
+    \override Staff.Slur.color = \grayStaffCustomColor
+    \override Staff.Tie.color = \grayStaffCustomColor
+    \override Staff.LedgerLineSpanner.color = \grayStaffCustomColor
+    \override Staff.AccidentalCautionary.color = \grayStaffCustomColor
+    \override Staff.Dots.color = \grayStaffCustomColor
+}
