@@ -14,3 +14,9 @@ info_footer = \markup \pad-to-box #'(0 . 0) #'(0 . 3) { \line { #(ly:format
     (strftime "%d.%m.%Y %H:%M" (localtime (current-time)))
     (lilypond-version)
 ) } }
+
+forceHyphen =
+#(define-music-function (dist) (number?)
+  #{
+    \once \override LyricHyphen.minimum-distance = #dist
+  #})

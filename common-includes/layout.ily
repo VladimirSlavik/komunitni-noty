@@ -5,5 +5,6 @@
         \consists "Separating_line_group_engraver"
         \hide BarLine 
         \override LyricText.self-alignment-X = #LEFT
+        \override LyricHyphen.minimum-distance = #0.5
     }
 }
