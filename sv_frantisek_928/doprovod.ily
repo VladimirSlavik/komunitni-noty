@@ -7,8 +7,9 @@
     \tocItem \markup { "Učiň mě Pane nástrojem" }
     \markup { \column {
         \vspace #0.75
-        \justify { Stav:
-                   melodie podle kancionálu, doprovod vymyšlený
+        \justify \italic {
+            Stav:
+            melodie podle kancionálu, doprovod vymyšlený
         }
         \vspace #0.75
     } }

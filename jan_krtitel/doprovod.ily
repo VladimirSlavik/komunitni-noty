@@ -8,8 +8,9 @@
     \markup {
         \column {
             \vspace #1
-            \justify { Stav:
-                       domyšleno k nápěvu, potřeba nahradit je-li jakýkoliv podklad;
+            \justify \italic {
+                Stav:
+                domyšleno k nápěvu, potřeba nahradit je-li jakýkoliv podklad;
             }
             \vspace #1
         }

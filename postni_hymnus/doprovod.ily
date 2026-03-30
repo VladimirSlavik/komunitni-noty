@@ -8,8 +8,10 @@
     \markup {
         \column {
             \vspace #1
-            \justify { Stav:
-                       přesně podle originálu, vyjma přeskočených not na začátku }
+            \justify \italic {
+                Stav:
+                přesně podle originálu, vyjma přeskočených not na začátku
+            }
             \vspace #1
         }
     }

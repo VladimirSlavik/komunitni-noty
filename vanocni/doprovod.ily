@@ -7,7 +7,7 @@
     \markup {
         \column {
             \vspace #0.75
-            \justify {
+            \justify \italic {
                 Stav:
                 Pravá ruka ze dvou hlasů italského originálu, levá domyšlená.
                 Nutná revize akordů.

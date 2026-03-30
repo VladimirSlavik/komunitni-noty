@@ -7,8 +7,11 @@
     \markup {
         \column {
             \vspace #2
-            \justify { Stav:
-                       v originále drobné odchylky mezi více verzemi, revidovat
+            \justify \italic {
+                Stav:
+                podle Prahy;
+                revidovat akordy zda souhlasí s notami;
+                revidovat drobné odchylky v originále mezi více verzemi
             }
             \vspace #2        
         }

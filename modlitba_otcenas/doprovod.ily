@@ -7,9 +7,10 @@
     \markup {
       \column {
             \vspace #2
-            \justify { Stav:
-                       podle Prahy;
-                       rytmus upravený na slabiky po osmině
+            \justify \italic {
+                Stav:
+                podle Prahy;
+                rytmus upravený na slabiky po osmině
             }
             \vspace #2
         }

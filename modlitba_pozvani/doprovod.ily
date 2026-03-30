@@ -7,11 +7,13 @@
     \markup {
       \column {
             \vspace #2
-            \justify { Stav:
-                       noty podle italštiny,
-                       konce 1. a 4. taktu jsou pro češtinu zkrácené,
-                       chybí zapsat vazby v levé ruce,
-                       levou je potřeba přepsat do hlasů }
+            \justify \italic {
+                Stav:
+                noty podle italštiny,
+                konce 1. a 4. taktu jsou pro češtinu zkrácené,
+                chybí zapsat vazby v levé ruce,
+                levou je potřeba přepsat do hlasů
+            }
             \vspace #0.75
             \justify { "V postní době je pozvání nahrazeno zpěvem postního hymnu." }
             \line { "Ve zpěvu se střídají" \italic { "předzpěvák či sbor" } "a celé shromáždění." }

@@ -8,9 +8,11 @@
         %\fill-line { \center-column { "Brněnská verze frázování" } }
         \column {
             \vspace #1
-            \justify { Stav:
-                       tóny ok;
-                       brněnská verze frázování rozepsaná do podrobna }
+            \justify \italic {
+                Stav:
+                melodie ok;
+                brněnská verze frázování rozepsaná do podrobna
+            }
             \vspace #1
         }    
     }

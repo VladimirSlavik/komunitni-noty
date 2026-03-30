@@ -8,10 +8,11 @@
     \markup {
         \column {
             \vspace #2
-            \justify { Stav:
-                       refrén hotový, ostatní sloky potřebují dopracovat;
-                       bylo by vhodné dosáhnout rytmu podle originálu;
-                       není shoda na textu
+            \justify \italic {
+                Stav:
+                refrén hotový, ostatní sloky potřebují dopracovat;
+                bylo by vhodné dosáhnout rytmu podle originálu;
+                není shoda na textu
             }
             \vspace #2
         }

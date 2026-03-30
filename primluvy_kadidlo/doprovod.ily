@@ -12,7 +12,7 @@
         %\fill-line { \center-column { "Responsoriální zpěv z modlitby dne Páně" } }
         \column {
             \vspace #1
-            \justify {
+            \justify \italic {
                 Stav:
                 konce řádků volné k diskusi - originál nepředepisuje nic než poslední notu slok.
             }

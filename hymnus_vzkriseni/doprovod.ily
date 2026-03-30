@@ -6,9 +6,10 @@
     \tocItem \markup { "Hymnus vzkříšení" }
     \markup { \column {
         \vspace #1
-        \justify { Stav:
-                   melodie ok;
-                   je potřeba zjistit správné frázování
+        \justify \italic {
+            Stav:
+            melodie ok;
+            je potřeba zjistit správné frázování
         }
         \vspace #1
     } }

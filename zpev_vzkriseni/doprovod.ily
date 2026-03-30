@@ -9,10 +9,11 @@
         %\fill-line { \center-column { "Nějaký text..." } }
         \column {
             \vspace #2
-            \justify { Stav:
-                       melodie 1:1 s originálem;
-                       rytmus na začátku upraven - delší 'byl';
-                       rytmus 'Očekává...' rozepsaný podrobně
+            \justify \italic {
+                Stav:
+                melodie 1:1 s originálem;
+                rytmus na začátku upraven - delší 'byl';
+                rytmus 'Očekává...' rozepsaný podrobně
             }
             \vspace #2
             \line { Zpěv na konci modlitby Velikonoc. }

@@ -4,9 +4,14 @@
         tagline = \info_footer
     }
     \tocItem \markup { "Trisalion" }
-    \markup {
-        \vspace #2
-    }
+    \markup { \column {
+        \vspace #0.75
+        \justify \italic {
+            Stav:
+            první kontakt, přepsáno nahrubo
+        }
+        \vspace #0.75
+    } }
     \score {
         \trisalion_ref_doprovod
     }

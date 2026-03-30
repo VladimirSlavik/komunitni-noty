@@ -7,9 +7,10 @@
     \markup {
         \column {
             \vspace #2
-            \justify { Stav:
-                       melodie a text ok;
-                       rytmus podle originálu
+            \justify \italic {
+                Stav:
+                melodie a text ok;
+                rytmus podle originálu
             }
             \vspace #2
         }

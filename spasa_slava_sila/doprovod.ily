@@ -8,10 +8,11 @@
     \markup {
         \column {
             \vspace #1
-            \justify { Stav:
-                       melodie podle originálu;
-                       pro sloky vše mimo základní melodii přidáno;
-                       rytmus je 2x pro konzistenci;
+            \justify \italic {
+                Stav:
+                melodie podle originálu;
+                pro sloky vše mimo základní melodii přidáno;
+                rytmus je 2x pro konzistenci;
             }
             \vspace #1
         }

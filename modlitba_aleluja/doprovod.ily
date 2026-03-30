@@ -10,9 +10,11 @@
     \markup {
         \column {
             \vspace #1.5
-            \justify { Stav: noty podle italštiny,
-                       úprava rytmu posledního taktu podle zvyku aby se vešla čeština,
-                       aleluja je napsané ve 2/4 což může vadit oproti zbytku }
+            \justify \italic {
+                Stav: noty podle italštiny,
+                úprava rytmu posledního taktu podle zvyku aby se vešla čeština,
+                aleluja je napsané ve 2/4 což může vadit oproti zbytku
+            }
             \vspace #0.75
             \line { Před a po čtení Písma se opakuje stejné schéma: }
             \vspace #0.25
