@@ -9,5 +9,5 @@
 
 \book {
     \include "doprovod.ily"
-    \include "lidi.ily"
+    %\include "lidi.ily"
 }

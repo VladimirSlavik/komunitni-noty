@@ -15,10 +15,9 @@
         \vspace #0.5
         \justify \italic {
             Stav:
-            noty správně,
-            frázování podle Brna,
-            konec prvního taktu je moc rychle.
+            noty správně, frázování podle Brna, konec prvního taktu je moc rychle.
             Je potřeba rozhodnout zda zápis chceme takto podrobný nebo použít něco volnějšího.
+            Po dořešení upravit formátování, rozdělit lépe na stránky.
         }
         \vspace #1.5
     }

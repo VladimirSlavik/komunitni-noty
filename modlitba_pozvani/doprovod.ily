@@ -6,7 +6,7 @@
     \tocItem \markup { "Pozvání" }
     \markup {
       \column {
-            \vspace #2
+            \vspace #1
             \justify \italic {
                 Stav:
                 noty podle italštiny,
@@ -14,11 +14,11 @@
                 chybí zapsat vazby v levé ruce,
                 levou je potřeba přepsat do hlasů
             }
-            \vspace #0.75
+            \vspace #0.5
             \justify { "V postní době je pozvání nahrazeno zpěvem postního hymnu." }
             \line { "Ve zpěvu se střídají" \italic { "předzpěvák či sbor" } "a celé shromáždění." }
             \line { "Menší noty" \italic d "v pravé ruce je možné ignorovat, ale ne" \italic cis "ve čtvrtém taktu (" \italic -té- ")." }
-            \vspace #1
+            \vspace #0.5
         }
     }
     \score {

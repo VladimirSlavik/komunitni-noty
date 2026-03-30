@@ -12,7 +12,7 @@
                 Pravá ruka ze dvou hlasů italského originálu, levá domyšlená.
                 Nutná revize akordů.
             }
-            \vspace #0.75
+            \vspace #0.25
             \line { Pozor, zpěv se nedrží nejvyšší noty v pravé ruce, pro doprovod je druhým hlasem. }
             \line { Ve druhém taktu sloky je poprvé A, při opakování ve druhé půlce Ais. }
             \vspace #0.75
